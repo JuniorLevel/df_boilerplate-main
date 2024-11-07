@@ -63,9 +63,7 @@ const memoryHistory = createMemoryHistory({
 const router = createRouter({ routeTree, history: memoryHistory });
 
 <RouterWrapper router={router} />;
-```
-
-```jsx noeditor
+``````jsx noeditor
 import Image1 from './OrdersFilterOpenedWithDialogPage.png';
 <img src={Image1} />;
-```
+```;

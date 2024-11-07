@@ -1,7 +1,9 @@
 import React, { FC } from 'react';
 import { useStyles, screenSMMax } from './PersonRoleMdCnstr.styles';
 import MediaQuery from 'react-responsive';
-import { Avatar, Flex, Typography } from 'antd';
+import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
+import { AvatarPrmt } from '@/primitives/AvatarPrmt/AvatarPrmt';
+import { TextTypographyPrmt } from '@/primitives/TextTypographyPrmt/TextTypographyPrmt';
 
 interface IPersonRoleMdCnstrProps {
 	userRole: string;
@@ -9,22 +11,20 @@ interface IPersonRoleMdCnstrProps {
 }
 
 export const PersonRoleMdCnstr: FC<IPersonRoleMdCnstrProps> = ({ userRole, fio }) => {
-	const { Text } = Typography;
-
 	const { styles } = useStyles();
 
 	return (
 		<MediaQuery maxWidth={screenSMMax}>
-			<Flex vertical align="center" gap={10} className={styles.container}>
-				<Flex className={styles.content}>
-					<Text>{userRole}</Text>
-					<Text className={styles.role}>role</Text>
-				</Flex>
-				<Flex className={styles.avatar} align="center" gap={10}>
-					<Avatar className={styles.avatarItem}>FIO</Avatar>
-					<Text>{fio}</Text>
-				</Flex>
-			</Flex>
+			<FlexPrmt vertical align="center" gap={10} className={styles.container}>
+				<FlexPrmt className={styles.content}>
+					<TextTypographyPrmt>{userRole}</TextTypographyPrmt>
+					<TextTypographyPrmt className={styles.role}>role</TextTypographyPrmt>
+				</FlexPrmt>
+				<FlexPrmt className={styles.avatar} align="center" gap={10}>
+					<AvatarPrmt className={styles.avatarItem}>FIO</AvatarPrmt>
+					<TextTypographyPrmt>{fio}</TextTypographyPrmt>
+				</FlexPrmt>
+			</FlexPrmt>
 		</MediaQuery>
 	);
 };

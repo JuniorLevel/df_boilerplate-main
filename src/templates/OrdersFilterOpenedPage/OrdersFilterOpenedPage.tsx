@@ -1,13 +1,13 @@
 import React, { FC } from 'react';
 import { filters, sidebarButtons } from './data';
-import { Layout } from '@/primitives/Layout/Layout';
-import { OrdersFilterProvider } from '@/tmp/OrdersFilter/OrdersFilterContext';
-import { OrdersFilterOpened } from '@/tmp/OrdersFilter/OrdersFilterOpened/OrdersFilterOpened';
+import { LayoutPrmt } from '@/primitives/LayoutPrmt/LayoutPrmt';
+import { OrdersFilterProviderPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterContextPrmt';
+import { OrdersFilterOpenedPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedPrmt';
 
 export const OrdersFilterOpenedPage: FC = () => (
-	<OrdersFilterProvider>
-		<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
-			<OrdersFilterOpened open dialog={false} filters={filters} />
-		</Layout>
-	</OrdersFilterProvider>
+	<OrdersFilterProviderPrmt>
+		<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
+			<OrdersFilterOpenedPrmt open dialog={false} filters={filters} />
+		</LayoutPrmt>
+	</OrdersFilterProviderPrmt>
 );

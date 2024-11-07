@@ -1,8 +1,6 @@
 ```jsx { "file": "./OrdersFilterOpenedPage.jsx" }
 
-```
-
-```jsx noeditor
+``````jsx noeditor
 import Image1 from './ordersFilter-opened1.png';
 import Image2 from './ordersFilter-opened2.png';
 <div>
@@ -13,4 +11,4 @@ import Image2 from './ordersFilter-opened2.png';
 		<img src={Image2} />
 	</div>
 </div>;
-```
+```;

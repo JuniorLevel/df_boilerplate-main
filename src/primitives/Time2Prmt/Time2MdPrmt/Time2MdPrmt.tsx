@@ -2,9 +2,9 @@ import { Flex, Progress } from 'antd';
 import React, { FC, useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { useStyles, screenMDMax } from './Time2MdPrmt.styles';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import { TimeWidgetsWeeksAndYearsPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import { TimeWidgetsCustomClock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
+import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
 
 interface ITime2MdPrmtProps {
 	fullDate: { date: string; time: string };
@@ -19,14 +19,14 @@ export const Time2MdPrmt: FC<ITime2MdPrmtProps> = ({ fullDate }) => {
 		<MediaQuery maxWidth={screenMDMax}>
 			<Flex className={styles.container} wrap align="start" justify="center" gap={5}>
 				<div>
-					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+					<DateWithTimeBlockPrmt fullDate={fullDate} />
 				</div>
 				<Flex>
 					<Flex vertical align="center" gap={10}>
 						<div className={styles.panel}>
-							{isShowWeeksPanel ? <TimeWidgetsWeeksAndYearsPanel /> : <Progress size={{ width: 6, height: 50 }} percent={100} steps={31} showInfo={false} />}
+							{isShowWeeksPanel ? <WeeksAndYearsPanelPrmt /> : <Progress size={{ width: 6, height: 50 }} percent={100} steps={31} showInfo={false} />}
 						</div>
-						<TimeWidgetsCustomClock />
+						<CustomClockPrmt />
 					</Flex>
 				</Flex>
 			</Flex>

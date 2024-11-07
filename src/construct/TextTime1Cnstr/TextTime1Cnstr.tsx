@@ -1,13 +1,13 @@
 import React, { FC } from 'react';
-import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { TextTime1LgCnstr } from './TextTime1LgCnstr/TextTime1LgCnstr';
 import { TextTime1SmCnstr } from './TextTime1SmCnstr/TextTime1SmCnstr';
 import { useStyles, screenXLMin } from './TextTime1Cnstr.styles';
 import { TextPrmt } from '@/primitives/TextPrmt/TextPrmt';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import { TimeWidgetsWeeksAndYearsPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import { TimeWidgetsCustomClock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
+import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
+import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITextTime1CnstrProps {
 	text: string;
@@ -20,16 +20,16 @@ export const TextTime1Cnstr: FC<ITextTime1CnstrProps> = ({ text, fullDate }) => 
 	return (
 		<>
 			<MediaQuery minWidth={screenXLMin}>
-				<Flex gap={10} align="center" className={styles.container}>
+				<FlexPrmt gap={10} align="center" className={styles.container}>
 					<div className={styles.content}>
 						<TextPrmt text={text} />
 					</div>
-					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-					<Flex wrap gap={10} justify="center" align="center">
-						<TimeWidgetsWeeksAndYearsPanel />
-						<TimeWidgetsCustomClock />
-					</Flex>
-				</Flex>
+					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<FlexPrmt wrap gap={10} justify="center" align="center">
+						<WeeksAndYearsPanelPrmt />
+						<CustomClockPrmt />
+					</FlexPrmt>
+				</FlexPrmt>
 			</MediaQuery>
 			<TextTime1LgCnstr text={text} fullDate={fullDate} />
 			<TextTime1SmCnstr text={text} fullDate={fullDate} />

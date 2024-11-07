@@ -3,7 +3,7 @@ import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { RangeTime3LgPrmt } from './RangeTime3LgPrmt/RangeTime3LgPrmt';
 import { useStyles, screenLGMin } from './RangeTime3Prmt.styles';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { DateWithTimeBlockPrmt } from '../DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface IRangeTime3PrmtProps {
 	fullDate: { date: string; time: string };
@@ -18,7 +18,7 @@ export const RangeTime3Prmt: FC<IRangeTime3PrmtProps> = ({ fullDate }) => {
 				<Flex wrap justify="space-between" align="center" className={styles.container}>
 					<Flex wrap align="center">
 						<Flex wrap gap={10}>
-							<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+							<DateWithTimeBlockPrmt fullDate={fullDate} />
 						</Flex>
 					</Flex>
 					<Flex className={styles.panel}>
@@ -30,7 +30,7 @@ export const RangeTime3Prmt: FC<IRangeTime3PrmtProps> = ({ fullDate }) => {
 					</Flex>
 					<Flex wrap align="center">
 						<Flex wrap gap={10}>
-							<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+							<DateWithTimeBlockPrmt fullDate={fullDate} />
 						</Flex>
 					</Flex>
 				</Flex>

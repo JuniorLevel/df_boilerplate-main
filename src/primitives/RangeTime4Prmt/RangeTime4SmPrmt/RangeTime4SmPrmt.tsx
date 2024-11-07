@@ -2,9 +2,9 @@ import React, { FC } from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { useStyles, screenSMMax } from './RangeTime4SmPrmt.styles';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import { TimeWidgetsCustomClock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import { TimeWidgetsWeeksAndYearsPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
+import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface IRangeTime4SmPrmtProps {
 	fullDate: { date: string; time: string };
@@ -17,15 +17,15 @@ export const RangeTime4SmPrmt: FC<IRangeTime4SmPrmtProps> = ({ fullDate }) => {
 		<MediaQuery maxWidth={screenSMMax}>
 			<Flex vertical gap={10} className={styles.container}>
 				<Flex vertical align="center" gap={10}>
-					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-					<TimeWidgetsCustomClock />
+					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<CustomClockPrmt />
 				</Flex>
 				<Flex vertical align="center" gap={10}>
-					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-					<TimeWidgetsCustomClock />
+					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<CustomClockPrmt />
 				</Flex>
 				<Flex justify="center">
-					<TimeWidgetsWeeksAndYearsPanel />
+					<WeeksAndYearsPanelPrmt />
 				</Flex>
 			</Flex>
 		</MediaQuery>

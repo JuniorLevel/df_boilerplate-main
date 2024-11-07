@@ -1,11 +1,11 @@
 import MediaQuery from 'react-responsive';
 import React, { FC } from 'react';
-import { Flex } from 'antd';
-import { TimeWidgetsCustomClock } from '../../../primitives/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import { TimeWidgetsWeeksAndYearsPanel } from '../../../primitives/TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import { TimeWidgetsDateWithTimeBlock } from '../../../primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { CustomClockPrmt } from '../../../primitives/CustomClockPrmt/CustomClockPrmt';
+import { WeeksAndYearsPanelPrmt } from '../../../primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
+import { DateWithTimeBlockPrmt } from '../../../primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 import { useStyles, screenMDMin, screenXLMax } from './PersonRoleTimeMdCnstr.styles';
 import { PersonRoleCnstr } from '@/construct/PersonRoleCnstr/PersonRoleCnstr';
+import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface IPersonRoleTimeMdCnstrProps {
 	fullDate: { date: string; time: string };
@@ -18,28 +18,16 @@ export const PersonRoleTimeMdCnstr: FC<IPersonRoleTimeMdCnstrProps> = ({ fullDat
 
 	return (
 		<MediaQuery minWidth={screenMDMin} maxWidth={screenXLMax}>
-			{/* <Flex vertical wrap align="center" gap={10} className={styles.container} justify="center">
+			<FlexPrmt wrap gap={10} align="center" justify="center" className={styles.container}>
 				<div className={styles.selectAndPerson}>
 					<PersonRoleCnstr userRole={userRole} fio={fio} />
 				</div>
-				<Flex align="center" gap={10}>
-					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-					<Flex gap={10} align="center">
-						<TimeWidgetsWeeksAndYearsPanel />
-						<TimeWidgetsCustomClock />
-					</Flex>
-				</Flex>
-			</Flex> */}
-			<Flex wrap gap={10} align="center" justify="center" className={styles.container}>
-				<div className={styles.selectAndPerson}>
-					<PersonRoleCnstr userRole={userRole} fio={fio} />
-				</div>
-				<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-				<Flex gap={10} align="center">
-					<TimeWidgetsWeeksAndYearsPanel />
-					<TimeWidgetsCustomClock />
-				</Flex>
-			</Flex>
+				<DateWithTimeBlockPrmt fullDate={fullDate} />
+				<FlexPrmt gap={10} align="center">
+					<WeeksAndYearsPanelPrmt />
+					<CustomClockPrmt />
+				</FlexPrmt>
+			</FlexPrmt>
 		</MediaQuery>
 	);
 };

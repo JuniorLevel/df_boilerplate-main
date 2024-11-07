@@ -6,16 +6,18 @@ import eslintReactHooks from 'eslint-plugin-react-hooks';
 import eslintReactRefresh from 'eslint-plugin-react-refresh';
 import prettierPlugin from 'eslint-plugin-prettier';
 import eslintConfigPrettier from 'eslint-config-prettier';
-import eslintConfigAirbnb from 'eslint-config-airbnb';
+import eslintConfigAirbnb from 'eslint-config-airbnb-typescript';
 import eslintPluginImport from 'eslint-plugin-import';
 import eslintPluginNoInlineStyles from 'eslint-plugin-no-inline-styles';
 import eslintPluginRestrictImports from 'eslint-plugin-restrict-imports';
-
+import * as eslintImportResolverTypescript from 'eslint-import-resolver-typescript';
 /** @type {import('eslint').Linter.Config} */
 
 export default tseslint.config(
 	js.configs.recommended,
 	...tseslint.configs.recommended,
+	eslintConfigPrettier,
+	tseslint.configs.eslintRecommended,
 	{
 		plugins: {
 			react: eslintReact,
@@ -28,6 +30,7 @@ export default tseslint.config(
 			'eslint-import': eslintPluginImport,
 			'eslint-no-inline-styles': eslintPluginNoInlineStyles,
 			'eslint-restrict-imports': eslintPluginRestrictImports,
+			'eslint-resolver-typescript': eslintImportResolverTypescript,
 		},
 	},
 	{ ignores: ['node_modules', 'dist', '__mocks__', '.husky'] },
@@ -35,7 +38,7 @@ export default tseslint.config(
 		languageOptions: {
 			globals: { ...globals.node, ...globals.browser, ...globals.es2021 },
 			parserOptions: {
-				project: ['tsconfig.json'],
+				project: ['./tsconfig.json'],
 			},
 		},
 	},
@@ -44,6 +47,7 @@ export default tseslint.config(
 		rules: {
 			...prettierPlugin.configs.recommended.rules,
 			...eslintConfigPrettier.rules,
+			'eslint-import/no-unused-modules': 'error',
 			'prefer-const': 'error',
 			'react/jsx-uses-react': 'error',
 			'react/jsx-uses-vars': 'error',
@@ -61,14 +65,31 @@ export default tseslint.config(
 			'eslint-restrict-imports/restrict-imports': [
 				'error',
 				{
-					// antd: {
-					// 	locations: ['./src/construct/*', './src/templates/*', './src/pages/*', './src/routes/*'],
-					// 	message: 'Только primitives может импортировать компоненты antD',
-					// },
-					// 'primitives/*': {
-					// 	locations: ['./src/templates/*', './src/pages/*', './src/routes/*'],
-					// 	message: 'Только construct может импортировать компоненты primitives',
-					// },
+					antd: {
+						locations: ['./src/construct/*', './src/templates/*', './src/pages/*', './src/routes/*'],
+						message: 'Компоненты Ant Design могут быть импортированы лишь в папку primitives',
+					},
+					'@ant-design/*': {
+						locations: ['./src/construct/*', './src/templates/*', './src/pages/*', './src/routes/*'],
+						message: 'Компоненты Ant Design могут быть импортированы лишь в папку primitives',
+					},
+					'primitives/*': {
+						locations: ['./src/pages/*', './src/routes/*'],
+						message: 'Компоненты primitives могут быть импортированы в папки construct и templates',
+					},
+					'templates/*': {
+						locations: ['./src/pages/*'],
+						message: 'В папке templates могут быть импортированы компоненты primitives и construct',
+					},
+					'pages/*': { locations: ['./src/primitives/*', './src/routes/*'], message: 'В папке pages могут быть импортированы лишь компоненты templates и construct' },
+					formik: {
+						locations: ['./src/primitives/*', './src/construct/*', './src/templates/*', './src/routes/*'],
+						message: 'Только компоненты pages может импортировать пакет formik',
+					},
+					'routes/*': {
+						locations: ['./src/primitives/*', './src/construct/*', './src/templates/*', './src/routes/*'],
+						message: 'Компоненты routes могут импортировать лишь компоненты pages',
+					},
 				},
 			],
 		},

@@ -1,8 +1,6 @@
 ```jsx { "file": "./CardPrmt.tsx" }
 
-```
-
-```jsx
+``````jsx
 // import { CardPrmt } from './CardPrmt';
 
 // <CardElement title={<CardTitle />}>
@@ -42,9 +40,7 @@
 // 		</Col>
 // 	</Row>
 // </CardElement>;
-```
-
-```jsx noeditor
+``````jsx noeditor
 import Image1 from './image.png';
 <img src={Image1} />;
-```
+```;

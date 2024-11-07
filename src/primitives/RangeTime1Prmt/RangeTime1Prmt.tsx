@@ -2,9 +2,9 @@ import React, { FC } from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { useStyles, screenLGMin } from './RangeTime1Prmt.styles';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import { TimeWidgetsWeeksAndYearsPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import { RangeTime1LgPrmt } from './RangeTime1LgPrmt/RangeTime1LgPrmt';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
 
 interface IRangeTime1PrmtProps {
 	fullDate: { date: string; time: string };
@@ -19,14 +19,14 @@ export const RangeTime1Prmt: FC<IRangeTime1PrmtProps> = ({ fullDate }) => {
 				<Flex className={styles.container}>
 					<Flex gap={10} align="center" justify="space-between" className={styles.item}>
 						<Flex gap={10}>
-							<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+							<DateWithTimeBlockPrmt fullDate={fullDate} />
 						</Flex>
-						<TimeWidgetsWeeksAndYearsPanel />
+						<WeeksAndYearsPanelPrmt />
 					</Flex>
 					<Flex gap={10} align="center" justify="space-between" className={styles.item}>
-						<TimeWidgetsWeeksAndYearsPanel />
+						<WeeksAndYearsPanelPrmt />
 						<Flex gap={10}>
-							<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+							<DateWithTimeBlockPrmt fullDate={fullDate} />
 						</Flex>
 					</Flex>
 				</Flex>

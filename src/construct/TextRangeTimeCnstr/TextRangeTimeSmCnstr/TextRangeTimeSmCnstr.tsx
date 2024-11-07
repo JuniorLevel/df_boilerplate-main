@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
-import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { TextPrmt } from '../../../primitives/TextPrmt/TextPrmt';
 import { useStyles, screenMDMax } from './TextRangeTimeSmCnstr.styles';
 import { RangeTime5Prmt } from '@/primitives/RangeTime5Prmt/RangeTime5Prmt';
+import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITextRangeTimeSmCnstrProps {
 	text: string;
@@ -15,10 +15,10 @@ export const TextRangeTimeSmCnstr: FC<ITextRangeTimeSmCnstrProps> = ({ text, ful
 
 	return (
 		<MediaQuery maxWidth={screenMDMax}>
-			<Flex vertical gap={10} className={styles.container}>
+			<FlexPrmt vertical gap={10} className={styles.container}>
 				<TextPrmt text={text} />
 				<RangeTime5Prmt fullDate={fullDate} />
-			</Flex>
+			</FlexPrmt>
 		</MediaQuery>
 	);
 };

@@ -2,7 +2,7 @@
 import React, { FC, ReactNode } from 'react';
 import { RouterProvider, Outlet } from '@tanstack/react-router';
 import { useErrorBoundary, ErrorBoundary } from 'react-error-boundary';
-import { ThemeWrapper } from './primitives/ThemeWrapper/ThemeWrapper';
+import { ThemeWrapperPrmt } from './primitives/ThemeWrapperPrmt/ThemeWrapperPrmt';
 
 export const Fallback: FC = () => {
 	const { resetBoundary } = useErrorBoundary();
@@ -28,7 +28,7 @@ const StyleguidistWrapper: FC<IStyleguidistWrapperProps> = ({ children }) => (
 			window.location.reload();
 		}}
 	>
-		<ThemeWrapper>{children}</ThemeWrapper>
+		<ThemeWrapperPrmt>{children}</ThemeWrapperPrmt>
 	</ErrorBoundary>
 );
 

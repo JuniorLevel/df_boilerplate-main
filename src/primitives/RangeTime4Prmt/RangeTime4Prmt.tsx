@@ -6,9 +6,9 @@ import { RangeTime4LgPrmt } from './RangeTime4LgPrmt/RangeTime4LgPrmt';
 import { RangeTime4MdPrmt } from './RangeTime4MdPrmt/RangeTime4MdPrmt';
 import { RangeTime4SmPrmt } from './RangeTime4SmPrmt/RangeTime4SmPrmt';
 import { useStyles, screenXLMin } from './RangeTime4Prmt.styles';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import { TimeWidgetsCustomClock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import { TimeWidgetsDaysPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
+import { DateWithTimeBlockPrmt } from '../DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+import { CustomClockPrmt } from '../CustomClockPrmt/CustomClockPrmt';
+import { DaysPanelPrmt } from '../DaysPanelPrmt/DaysPanelPrmt';
 
 interface IRangeTime4PrmtProps {
 	fullDate: { date: string; time: string };
@@ -22,15 +22,15 @@ export const RangeTime4Prmt: FC<IRangeTime4PrmtProps> = ({ fullDate }) => {
 			<MediaQuery minWidth={screenXLMin}>
 				<Flex justify="space-between" align="center" className={styles.container}>
 					<Flex align="center" gap={35}>
-						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-						<TimeWidgetsCustomClock />
+						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<CustomClockPrmt />
 					</Flex>
 					<Flex className={styles.progress}>
-						<TimeWidgetsDaysPanel />
+						<DaysPanelPrmt />
 					</Flex>
 					<Flex align="center" gap={35} className={styles.dateWithTimeBlock}>
-						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-						<TimeWidgetsCustomClock />
+						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<CustomClockPrmt />
 					</Flex>
 				</Flex>
 			</MediaQuery>

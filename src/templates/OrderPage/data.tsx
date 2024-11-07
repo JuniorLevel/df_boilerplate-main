@@ -1,5 +1,6 @@
-import React from 'react';
-import { Flex, Badge } from 'antd';
+import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
+import React, { ReactNode } from 'react';
+import { BagdePrmt } from '@/primitives/BagdePrmt/BagdePrmt';
 
 export const sidebarButtons = [
 	{
@@ -50,41 +51,41 @@ export const items = [
 	{
 		key: 1,
 		label: (
-			<Flex gap={10} align="center">
+			<FlexPrmt gap={10} align="center">
 				<div>Main info</div>
-				<Badge count={3} />
-			</Flex>
+				<BagdePrmt count={3} />
+			</FlexPrmt>
 		) as React.ReactNode,
-		children: (<div>Content of Tab Pane 1</div>) as React.ReactNode,
+		children: (<div>Content of Tab Pane 1</div>) as ReactNode,
 	},
 	{
 		key: 2,
 		label: (
-			<Flex gap={10} align="center">
+			<FlexPrmt gap={10} align="center">
 				<div>Chat</div>
-				<Badge count={3} />
-			</Flex>
+				<BagdePrmt count={3} />
+			</FlexPrmt>
 		) as React.ReactNode,
-		children: (<div>Content of Tab Pane 2</div>) as React.ReactNode,
+		children: (<div>Content of Tab Pane 2</div>) as ReactNode,
 	},
 	{
 		key: 3,
 		label: (
-			<Flex gap={10} align="center">
+			<FlexPrmt gap={10} align="center">
 				<div>Dashboard</div>
-				<Badge count={3} />
-			</Flex>
+				<BagdePrmt count={3} />
+			</FlexPrmt>
 		) as React.ReactNode,
-		children: (<div>Content of Tab Pane 3</div>) as React.ReactNode,
+		children: (<div>Content of Tab Pane 3</div>) as ReactNode,
 	},
 	{
 		key: 4,
 		label: (
-			<Flex gap={10} align="center">
+			<FlexPrmt gap={10} align="center">
 				<div>Documents</div>
-				<Badge count={3} />
-			</Flex>
+				<BagdePrmt count={3} />
+			</FlexPrmt>
 		) as React.ReactNode,
-		children: (<div>Content of Tab Pane 4</div>) as React.ReactNode,
+		children: (<div>Content of Tab Pane 4</div>) as ReactNode,
 	},
 ];

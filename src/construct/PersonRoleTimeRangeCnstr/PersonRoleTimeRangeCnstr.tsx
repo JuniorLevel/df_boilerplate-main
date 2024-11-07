@@ -1,4 +1,4 @@
-import { TimeRangeWidget } from '@/primitives/TimeWidgetsPanel/TimeRangeWidget/TimeRangeWidget';
+import { TimeRangeWidgetCnstr } from '@/construct/TimeRangeWidgetCnstr/TimeRangeWidgetCnstr';
 import React, { FC } from 'react';
 import { PersonRoleCnstr } from '../PersonRoleCnstr/PersonRoleCnstr';
 
@@ -10,8 +10,8 @@ interface IPersonRoleTimeRangeCnstrProps {
 
 export const PersonRoleTimeRangeCnstr: FC<IPersonRoleTimeRangeCnstrProps> = ({ fullDate, userRole, fio }) => {
 	return (
-		<TimeRangeWidget fullDate={fullDate}>
+		<TimeRangeWidgetCnstr fullDate={fullDate}>
 			<PersonRoleCnstr userRole={userRole} fio={fio} />
-		</TimeRangeWidget>
+		</TimeRangeWidgetCnstr>
 	);
 };

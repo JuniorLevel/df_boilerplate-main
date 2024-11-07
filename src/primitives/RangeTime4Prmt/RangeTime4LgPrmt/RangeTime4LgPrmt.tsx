@@ -2,9 +2,9 @@ import { Flex } from 'antd';
 import React, { FC } from 'react';
 import MediaQuery from 'react-responsive';
 import { useStyles, screenMDMin, screenLGMax } from './RangeTime4LgPrmt.styles';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import { TimeWidgetsCustomClock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import { TimeWidgetsDaysPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
+import { DaysPanelPrmt } from '@/primitives/DaysPanelPrmt/DaysPanelPrmt';
 
 interface IRangeTime4LgPrmtProps {
 	fullDate: { date: string; time: string };
@@ -18,20 +18,20 @@ export const RangeTime4LgPrmt: FC<IRangeTime4LgPrmtProps> = ({ fullDate }) => {
 			<Flex vertical gap={10} align="center" className={styles.container}>
 				<Flex gap={10}>
 					<Flex vertical justify="center" align="center" gap={10}>
-						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+						<DateWithTimeBlockPrmt fullDate={fullDate} />
 						<Flex wrap align="center" gap={10}>
 							<Flex wrap gap={10}>
-								<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+								<DateWithTimeBlockPrmt fullDate={fullDate} />
 							</Flex>
 						</Flex>
 					</Flex>
 					<Flex vertical gap={10}>
-						<TimeWidgetsCustomClock />
-						<TimeWidgetsCustomClock />
+						<CustomClockPrmt />
+						<CustomClockPrmt />
 					</Flex>
 				</Flex>
 				<Flex className={styles.progress}>
-					<TimeWidgetsDaysPanel />
+					<DaysPanelPrmt />
 				</Flex>
 			</Flex>
 		</MediaQuery>

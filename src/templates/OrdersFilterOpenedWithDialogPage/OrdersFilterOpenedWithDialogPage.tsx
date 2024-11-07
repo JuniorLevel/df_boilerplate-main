@@ -2,26 +2,27 @@ import React from 'react';
 import { Outlet, createRootRoute, createRoute, createRouter, createMemoryHistory, RouterProvider } from '@tanstack/react-router';
 import { useMediaQuery } from 'react-responsive';
 import { sidebarButtons, filters } from './data';
-import { Layout } from '@/primitives/Layout/Layout';
-import { OrdersFilterProvider } from '@/tmp/OrdersFilter/OrdersFilterContext';
-import { OrdersFilterOpened } from '@/tmp/OrdersFilter/OrdersFilterOpened/OrdersFilterOpened';
-import { OrdersFilterMobileDialog } from '@/tmp/OrdersFilter/OrdersFilterDialogs/OrdersFilterMobileDialog/OrdersFilterMobileDialog';
-import { OrdersFilterDesktopDialog } from '@/tmp/OrdersFilter/OrdersFilterDialogs/OrdersFilterDesktopDialog/OrdersFilterDesktopDialog';
+import { LayoutPrmt } from '@/primitives/LayoutPrmt/LayoutPrmt';
+import { OrdersFilterProviderPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterContextPrmt';
+import { OrdersFilterOpenedPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedPrmt';
+import { screenSMMax } from '@/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterDesktopDialogPrmt/OrdersFilterDesktopDialogPrmt.styles';
+import { OrdersFilterMobileDialogPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterMobileDialogPrmt/OrdersFilterMobileDialogPrmt';
+import { OrdersFilterDesktopDialogPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterDesktopDialogPrmt/OrdersFilterDesktopDialogPrmt';
 
 const rootRoute = createRootRoute({
 	component: function RootComponent() {
-		const mobileView = useMediaQuery({ maxWidth: 360 });
+		const mobileView = useMediaQuery({ maxWidth: screenSMMax });
 		return mobileView ? (
-			<OrdersFilterProvider>
+			<OrdersFilterProviderPrmt>
 				<Outlet />
-			</OrdersFilterProvider>
+			</OrdersFilterProviderPrmt>
 		) : (
-			<OrdersFilterProvider>
-				<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
-					<OrdersFilterOpened open dialog filters={filters} />
-				</Layout>
+			<OrdersFilterProviderPrmt>
+				<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
+					<OrdersFilterOpenedPrmt open dialog filters={filters} />
+				</LayoutPrmt>
 				<Outlet />
-			</OrdersFilterProvider>
+			</OrdersFilterProviderPrmt>
 		);
 	},
 });
@@ -30,12 +31,12 @@ const IndexRoute = createRoute({
 	getParentRoute: () => rootRoute,
 	path: '/',
 	component: function IndexComponent() {
-		const mobileView = useMediaQuery({ maxWidth: 360 });
+		const mobileView = useMediaQuery({ maxWidth: screenSMMax });
 		return (
 			mobileView && (
-				<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
-					<OrdersFilterOpened open dialog filters={filters} />
-				</Layout>
+				<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
+					<OrdersFilterOpenedPrmt open dialog filters={filters} />
+				</LayoutPrmt>
 			)
 		);
 	},
@@ -45,13 +46,13 @@ const DialogRoute = createRoute({
 	getParentRoute: () => rootRoute,
 	path: '/dialog',
 	component: function DialogComponent() {
-		const mobileView = useMediaQuery({ maxWidth: 360 });
+		const mobileView = useMediaQuery({ maxWidth: screenSMMax });
 		return mobileView ? (
-			<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
-				<OrdersFilterMobileDialog />
-			</Layout>
+			<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
+				<OrdersFilterMobileDialogPrmt />
+			</LayoutPrmt>
 		) : (
-			<OrdersFilterDesktopDialog />
+			<OrdersFilterDesktopDialogPrmt />
 		);
 	},
 });

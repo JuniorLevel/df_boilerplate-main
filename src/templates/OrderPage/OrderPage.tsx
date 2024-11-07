@@ -1,54 +1,57 @@
 import React, { FC } from 'react';
-import { Flex, Badge, Row, Col } from 'antd';
 import { filters, items, sidebarButtons } from './data';
-import { Layout } from '@/primitives/Layout/Layout';
-import { OrderTabs } from '@/primitives/OrderTabs/OrderTabs';
-import { OrderContainer } from '@/primitives/OrderTabs/OrderContainer/OrderContainer';
-import { OrderVersion } from '@/primitives/OrderTabs/OrderVersion/OrdersVersion';
-import { OrderPreview } from '@/primitives/OrderTabs/OrderPreview/OrderPreview';
+import { OrderTabsPrmt } from '@/primitives/OrderTabsPrmt/OrderTabsPrmt';
+import { LayoutPrmt } from '@/primitives/LayoutPrmt/LayoutPrmt';
+import { OrderContainerPrmt } from '@/primitives/OrderTabsPrmt/OrderContainerPrmt/OrderContainerPrmt';
+import { OrderVersionPrmt } from '@/primitives/OrderTabsPrmt/OrderVersionPrmt/OrderVersionPrmt';
+import { OrderPreviewPrmt } from '@/primitives/OrderTabsPrmt/OrderPreviewPrmt/OrderPreviewPrmt';
+import { BagdePrmt } from '@/primitives/BagdePrmt/BagdePrmt';
+import { RowPrmt } from '@/primitives/RowPrmt/RowPrmt';
+import { ColPrmt } from '@/primitives/ColPrmt/ColPrmt';
+import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 export const OrderPage: FC = () => (
-	<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
-		<OrderTabs
+	<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
+		<OrderTabsPrmt
 			items={[
 				...items,
 				{
 					key: 5,
 					label: (
-						<Flex gap={10} align="center">
+						<FlexPrmt gap={10} align="center">
 							<div>History</div>
-							<Badge count={3} />
-						</Flex>
+							<BagdePrmt count={3} />
+						</FlexPrmt>
 					),
 					children: (
-						<OrderContainer>
-							<Row gutter={[16, 16]}>
-								<Col xs={12}>
-									<Row gutter={[16, 16]}>
-										<Col xs={12}>
-											<OrderVersion filters={filters} />
-										</Col>
-										<Col xs={12}>
-											<OrderPreview />
-										</Col>
-									</Row>
-								</Col>
+						<OrderContainerPrmt>
+							<RowPrmt gutter={[16, 16]}>
+								<ColPrmt xs={12}>
+									<RowPrmt gutter={[16, 16]}>
+										<ColPrmt xs={12}>
+											<OrderVersionPrmt filters={filters} />
+										</ColPrmt>
+										<ColPrmt xs={12}>
+											<OrderPreviewPrmt />
+										</ColPrmt>
+									</RowPrmt>
+								</ColPrmt>
 
-								<Col xs={12}>
-									<Row gutter={[16, 16]}>
-										<Col xs={12}>
-											<OrderPreview />
-										</Col>
-										<Col xs={12}>
-											<OrderVersion filters={filters} />
-										</Col>
-									</Row>
-								</Col>
-							</Row>
-						</OrderContainer>
+								<ColPrmt xs={12}>
+									<RowPrmt gutter={[16, 16]}>
+										<ColPrmt xs={12}>
+											<OrderPreviewPrmt />
+										</ColPrmt>
+										<ColPrmt xs={12}>
+											<OrderVersionPrmt filters={filters} />
+										</ColPrmt>
+									</RowPrmt>
+								</ColPrmt>
+							</RowPrmt>
+						</OrderContainerPrmt>
 					),
 				},
 			]}
 		/>
-	</Layout>
+	</LayoutPrmt>
 );

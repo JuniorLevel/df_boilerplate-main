@@ -1,4 +1,4 @@
-import { createStyles } from 'antd-style';
+import { createStyles } from '@/primitives/createStyles';
 
 export const screenLGMax = '991px';
 export const screenMDMin = '768px';

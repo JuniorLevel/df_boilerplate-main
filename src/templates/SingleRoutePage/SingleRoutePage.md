@@ -5,4 +5,4 @@ import { CommonRoutingComponent, ParentComponent } from '../SingleRoutePage/Sing
 <CommonRoutingComponent viewMode="mobile">
 	<ParentComponent>This is parent component with</ParentComponent>
 </CommonRoutingComponent>;
-```
+```;

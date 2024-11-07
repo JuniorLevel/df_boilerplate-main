@@ -1,11 +1,11 @@
 import React, { FC } from 'react';
-import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { TextPrmt } from '../../../primitives/TextPrmt/TextPrmt';
 import { useStyles, screenSMMax } from './TextTime2SmCnstr.styles';
-import { TimeWidgetsDateWithTimeBlock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import { TimeWidgetsWeeksAndYearsPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import { TimeWidgetsCustomClock } from '@/primitives/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
+import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
+import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITextTime2SmCnstrProps {
 	text: string;
@@ -17,20 +17,20 @@ export const TextTime2SmCnstr: FC<ITextTime2SmCnstrProps> = ({ text, fullDate })
 
 	return (
 		<MediaQuery maxWidth={screenSMMax}>
-			<Flex gap={10} align="center" vertical className={styles.container}>
-				<Flex className={styles.content}>
+			<FlexPrmt gap={10} align="center" vertical className={styles.container}>
+				<FlexPrmt className={styles.content}>
 					<TextPrmt text={text} />
-				</Flex>
-				<Flex gap={10} vertical align="center">
-					<Flex gap={10} vertical className={styles.timeBlock}>
-						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-					</Flex>
-					<Flex gap={10} vertical align="center" className={styles.weeksAndYearsBlock}>
-						<TimeWidgetsWeeksAndYearsPanel />
-						<TimeWidgetsCustomClock />
-					</Flex>
-				</Flex>
-			</Flex>
+				</FlexPrmt>
+				<FlexPrmt gap={10} vertical align="center">
+					<FlexPrmt gap={10} vertical className={styles.timeBlock}>
+						<DateWithTimeBlockPrmt fullDate={fullDate} />
+					</FlexPrmt>
+					<FlexPrmt gap={10} vertical align="center" className={styles.weeksAndYearsBlock}>
+						<WeeksAndYearsPanelPrmt />
+						<CustomClockPrmt />
+					</FlexPrmt>
+				</FlexPrmt>
+			</FlexPrmt>
 		</MediaQuery>
 	);
 };

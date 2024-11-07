@@ -3,7 +3,7 @@ import { Flex, Typography } from 'antd';
 import MediaQuery from 'react-responsive';
 import { Time1MdPrmt } from './Time1MdPrmt/Time1MdPrmt';
 import { useStyles, screenMDMin } from './Time1Prmt.styles';
-import { TimeWidgetsDaysPanel } from '@/primitives/TimeWidgetsPanel/TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
+import { DaysPanelPrmt } from '../DaysPanelPrmt/DaysPanelPrmt';
 
 interface ITime1PrmtProps {
 	date: string;
@@ -24,7 +24,7 @@ export const Time1Prmt: FC<ITime1PrmtProps> = ({ date }) => {
 					</Flex>
 					<Flex className={styles.block}>
 						<Flex className={styles.block}>
-							<TimeWidgetsDaysPanel />
+							<DaysPanelPrmt />
 						</Flex>
 					</Flex>
 				</Flex>

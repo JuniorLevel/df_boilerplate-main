@@ -1,4 +1,4 @@
-import { createStyles } from 'antd-style';
+import { createStyles } from '@/primitives/createStyles';
 
 export const screenMDMax = '767px';
 
@@ -9,6 +9,5 @@ export const useStyles = createStyles(({ token, css }) => ({
 	`,
 	selectAndPerson: css`
 		width: 100%;
-		/* flex: 1 0 50%; */
 	`,
 }));

@@ -1,4 +1,4 @@
-import { createStyles } from 'antd-style';
+import { createStyles } from '@/primitives/createStyles';
 
 export const screenXLMin = '1200px';
 

@@ -1,5 +1,3 @@
-// @flow
-
 import Image1 from '../pictures/Image1.jpg';
 import Image2 from '../pictures/Image2.jpg';
 import Image3 from '../pictures/Image3.jpg';

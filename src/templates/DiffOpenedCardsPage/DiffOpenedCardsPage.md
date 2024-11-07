@@ -1,8 +1,6 @@
 ```jsx { "file": "./DiffOpenedCardsPage.jsx" }
 
-```
-
-```jsx noeditor
+``````jsx noeditor
 import Image1 from './filters-dif.png';
 <img src={Image1} />;
-```
+```;

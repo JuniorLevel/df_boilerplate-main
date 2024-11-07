@@ -1,8 +1,6 @@
 ```jsx { "file": "./WelcomePage1.jsx" }
 
-```
-
-```jsx noeditor
+``````jsx noeditor
 import Image1 from '../welcome-img1.png';
 import Image3 from '../welcome-img3.png';
 <div>
@@ -13,4 +11,4 @@ import Image3 from '../welcome-img3.png';
 		<img src={Image3} />
 	</div>
 </div>;
-```
+```;
