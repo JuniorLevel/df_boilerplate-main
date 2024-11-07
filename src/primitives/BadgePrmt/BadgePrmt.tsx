@@ -5,6 +5,6 @@ interface IBadgePrmtProps {
 	count: number;
 }
 
-export const BagdePrmt: FC<IBadgePrmtProps> = ({ count }) => {
+export const BadgePrmt: FC<IBadgePrmtProps> = ({ count }) => {
 	return <Badge count={count} />;
 };

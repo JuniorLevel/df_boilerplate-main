@@ -26,12 +26,12 @@ export const RangeTime4LgPrmt: FC<IRangeTime4LgPrmtProps> = ({ fullDate }) => {
 						</Flex>
 					</Flex>
 					<Flex vertical gap={10}>
-						<CustomClockPrmt />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</Flex>
 				</Flex>
 				<Flex className={styles.progress}>
-					<DaysPanelPrmt />
+					<DaysPanelPrmt size={{ width: 8, height: 40 }} percent={100} steps={31} showInfo={false} />
 				</Flex>
 			</Flex>
 		</MediaQuery>

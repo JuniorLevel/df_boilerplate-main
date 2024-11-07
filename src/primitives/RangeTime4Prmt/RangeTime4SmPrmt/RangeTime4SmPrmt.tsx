@@ -18,11 +18,11 @@ export const RangeTime4SmPrmt: FC<IRangeTime4SmPrmtProps> = ({ fullDate }) => {
 			<Flex vertical gap={10} className={styles.container}>
 				<Flex vertical align="center" gap={10}>
 					<DateWithTimeBlockPrmt fullDate={fullDate} />
-					<CustomClockPrmt />
+					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 				</Flex>
 				<Flex vertical align="center" gap={10}>
 					<DateWithTimeBlockPrmt fullDate={fullDate} />
-					<CustomClockPrmt />
+					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 				</Flex>
 				<Flex justify="center">
 					<WeeksAndYearsPanelPrmt />

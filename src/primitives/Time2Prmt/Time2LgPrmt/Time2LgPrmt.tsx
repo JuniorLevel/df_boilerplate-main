@@ -24,8 +24,10 @@ export const Time2LgPrmt: FC<ITime2LgPrmtProps> = ({ fullDate }) => {
 				</div>
 				<Flex justify="center" align="center">
 					<Flex vertical align="center" gap={10}>
-						<div className={styles.panel}>{isShowWeeksPanel ? <WeeksAndYearsPanelPrmt /> : <DaysPanelPrmt />}</div>
-						<CustomClockPrmt />
+						<div className={styles.panel}>
+							{isShowWeeksPanel ? <WeeksAndYearsPanelPrmt /> : <DaysPanelPrmt size={{ width: 8, height: 40 }} percent={100} steps={31} showInfo={false} />}
+						</div>
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</Flex>
 				</Flex>
 			</Flex>

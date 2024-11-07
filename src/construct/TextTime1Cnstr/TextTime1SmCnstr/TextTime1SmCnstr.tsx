@@ -24,7 +24,7 @@ export const TextTime1SmCnstr: FC<ITextTime1SmCnstrProps> = ({ text, fullDate })
 				<DateWithTimeBlockPrmt fullDate={fullDate} />
 				<FlexPrmt gap={10} vertical align="center">
 					<WeeksAndYearsPanelPrmt />
-					<CustomClockPrmt />
+					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 				</FlexPrmt>
 			</FlexPrmt>
 		</MediaQuery>

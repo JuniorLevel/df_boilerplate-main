@@ -21,9 +21,9 @@ export const TimeWidgetMdCnstr: FC<ITimeWidgetMdCnstrProps> = ({ fullDate, child
 				<FlexPrmt vertical align="center" gap={10}>
 					<DateWithTimeBlockPrmt fullDate={fullDate} />
 					<FlexPrmt gap={50} align="center">
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 						<WeeksAndYearsPanelPrmt />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 					<DateWithTimeBlockPrmt fullDate={fullDate} />
 				</FlexPrmt>

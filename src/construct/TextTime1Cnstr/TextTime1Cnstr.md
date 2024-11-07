@@ -1,5 +1,7 @@
-```jsx
-import { TextTimeRange1 } from './TextTimeRange1';
+```tsx
+import { TextTime1Cnstr } from './TextTime1Cnstr';
 
-<TextTimeRange1 fullDate={{ date: '13.08.99', time: '20:55:55' }} />;
-```;
+<TextTime1Cnstr
+			text="Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf. Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf"
+			fullDate={{ date: '13.08.99', time: '20:55:55' }}
+		/>

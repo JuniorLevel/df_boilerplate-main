@@ -1,6 +1,6 @@
-```jsx { "file": "./DiffOpenedCardsPage.jsx" }
+```tsx { "file": "./DiffOpenedCardsPage.tsx" }
 
-``````jsx noeditor
-import Image1 from './filters-dif.png';
-<img src={Image1} />;
-```;
+// ``````tsx noeditor
+// import Image1 from './filters-dif.png';
+// <img src={Image1} />;
+// ```;

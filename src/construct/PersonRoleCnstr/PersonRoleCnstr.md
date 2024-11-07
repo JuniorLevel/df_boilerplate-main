@@ -1,5 +1,4 @@
-```jsx
-import { SelectAndPerson } from './SelectAndPerson';
+```tsx
+import { PersonRoleCnstr } from './PersonRoleCnstr';
 
-<SelectAndPerson userRole="Assigned" fio="FIO FIO FIO FIO" />;
-```;
+<PersonRoleCnstr userRole="Assigned" fio="FIO FIO FIO FIO" />

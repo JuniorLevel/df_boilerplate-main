@@ -24,7 +24,7 @@ export const Time1Prmt: FC<ITime1PrmtProps> = ({ date }) => {
 					</Flex>
 					<Flex className={styles.block}>
 						<Flex className={styles.block}>
-							<DaysPanelPrmt />
+							<DaysPanelPrmt size={{ width: 8, height: 40 }} percent={100} steps={31} showInfo={false} />
 						</Flex>
 					</Flex>
 				</Flex>

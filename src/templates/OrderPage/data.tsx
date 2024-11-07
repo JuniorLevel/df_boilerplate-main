@@ -1,6 +1,6 @@
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 import React, { ReactNode } from 'react';
-import { BagdePrmt } from '@/primitives/BagdePrmt/BagdePrmt';
+import { BadgePrmt } from '@/primitives/BadgePrmt/BadgePrmt';
 
 export const sidebarButtons = [
 	{
@@ -53,9 +53,9 @@ export const items = [
 		label: (
 			<FlexPrmt gap={10} align="center">
 				<div>Main info</div>
-				<BagdePrmt count={3} />
+				<BadgePrmt count={3} />
 			</FlexPrmt>
-		) as React.ReactNode,
+		) as ReactNode,
 		children: (<div>Content of Tab Pane 1</div>) as ReactNode,
 	},
 	{
@@ -63,9 +63,9 @@ export const items = [
 		label: (
 			<FlexPrmt gap={10} align="center">
 				<div>Chat</div>
-				<BagdePrmt count={3} />
+				<BadgePrmt count={3} />
 			</FlexPrmt>
-		) as React.ReactNode,
+		) as ReactNode,
 		children: (<div>Content of Tab Pane 2</div>) as ReactNode,
 	},
 	{
@@ -73,9 +73,9 @@ export const items = [
 		label: (
 			<FlexPrmt gap={10} align="center">
 				<div>Dashboard</div>
-				<BagdePrmt count={3} />
+				<BadgePrmt count={3} />
 			</FlexPrmt>
-		) as React.ReactNode,
+		) as ReactNode,
 		children: (<div>Content of Tab Pane 3</div>) as ReactNode,
 	},
 	{
@@ -83,9 +83,9 @@ export const items = [
 		label: (
 			<FlexPrmt gap={10} align="center">
 				<div>Documents</div>
-				<BagdePrmt count={3} />
+				<BadgePrmt count={3} />
 			</FlexPrmt>
-		) as React.ReactNode,
+		) as ReactNode,
 		children: (<div>Content of Tab Pane 4</div>) as ReactNode,
 	},
 ];

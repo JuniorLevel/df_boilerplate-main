@@ -26,7 +26,7 @@ export const Time2MdPrmt: FC<ITime2MdPrmtProps> = ({ fullDate }) => {
 						<div className={styles.panel}>
 							{isShowWeeksPanel ? <WeeksAndYearsPanelPrmt /> : <Progress size={{ width: 6, height: 50 }} percent={100} steps={31} showInfo={false} />}
 						</div>
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</Flex>
 				</Flex>
 			</Flex>

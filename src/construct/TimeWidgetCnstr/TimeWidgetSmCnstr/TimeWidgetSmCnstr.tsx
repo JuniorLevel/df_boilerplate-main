@@ -21,11 +21,11 @@ export const TimeWidgetSmCnstr: FC<ITimeWidgetSmCnstrProps> = ({ fullDate, child
 				<FlexPrmt vertical gap={10}>
 					<FlexPrmt vertical align="center" gap={10}>
 						<DateWithTimeBlockPrmt fullDate={fullDate} />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 					<FlexPrmt vertical align="center" gap={10}>
 						<DateWithTimeBlockPrmt fullDate={fullDate} />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 					<FlexPrmt justify="center">
 						<WeeksAndYearsPanelPrmt />

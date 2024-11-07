@@ -1,5 +1,4 @@
-```jsx
-import { TimeWidgets3 } from './TimeWidgets3';
+```tsx
+import { Time3Prmt } from './Time3Prmt';
 
-<TimeWidgets3 fullDate={{ date: '13.08.99', time: '20:55:55' }} />;
-```;
+<Time3Prmt fullDate={{ date: '13.08.99', time: '20:55:55' }}/>

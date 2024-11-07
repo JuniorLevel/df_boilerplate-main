@@ -5,7 +5,7 @@ import { LayoutPrmt } from '@/primitives/LayoutPrmt/LayoutPrmt';
 import { OrderContainerPrmt } from '@/primitives/OrderTabsPrmt/OrderContainerPrmt/OrderContainerPrmt';
 import { OrderVersionPrmt } from '@/primitives/OrderTabsPrmt/OrderVersionPrmt/OrderVersionPrmt';
 import { OrderPreviewPrmt } from '@/primitives/OrderTabsPrmt/OrderPreviewPrmt/OrderPreviewPrmt';
-import { BagdePrmt } from '@/primitives/BagdePrmt/BagdePrmt';
+import { BadgePrmt } from '@/primitives/BadgePrmt/BadgePrmt';
 import { RowPrmt } from '@/primitives/RowPrmt/RowPrmt';
 import { ColPrmt } from '@/primitives/ColPrmt/ColPrmt';
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
@@ -20,7 +20,7 @@ export const OrderPage: FC = () => (
 					label: (
 						<FlexPrmt gap={10} align="center">
 							<div>History</div>
-							<BagdePrmt count={3} />
+							<BadgePrmt count={3} />
 						</FlexPrmt>
 					),
 					children: (

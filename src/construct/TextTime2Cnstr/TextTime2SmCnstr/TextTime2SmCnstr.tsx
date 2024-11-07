@@ -27,7 +27,7 @@ export const TextTime2SmCnstr: FC<ITextTime2SmCnstrProps> = ({ text, fullDate })
 					</FlexPrmt>
 					<FlexPrmt gap={10} vertical align="center" className={styles.weeksAndYearsBlock}>
 						<WeeksAndYearsPanelPrmt />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 				</FlexPrmt>
 			</FlexPrmt>

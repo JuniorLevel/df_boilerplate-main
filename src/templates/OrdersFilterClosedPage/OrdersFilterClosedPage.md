@@ -1,6 +1,6 @@
-```jsx { "file": "./OrdersFilterClosedPage.jsx" }
+```tsx { "file": "./OrdersFilterClosedPage.tsx" }
 
-``````jsx noeditor
+``````tsx noeditor
 import Image1 from './ordersFilter-closed1.png';
 import Image2 from './ordersFilter-closed2.png';
 <div>

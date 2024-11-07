@@ -4,7 +4,7 @@ import React, { FC } from 'react';
 
 interface IAvatarPrmtProps {
 	children: ReactNode;
-	className: string;
+	className?: string;
 }
 
 export const AvatarPrmt: FC<IAvatarPrmtProps> = ({ children, className }) => {

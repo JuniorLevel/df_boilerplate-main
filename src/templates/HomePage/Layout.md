@@ -1,6 +1,6 @@
-```jsx { "file": "./HomePage.jsx" }
+```tsx { "file": "./HomePage.tsx" }
 
-``````jsx noeditor
+``````tsx noeditor
 import Image1 from './layout.png';
 <img src={Image1} />;
 ```;

@@ -1,5 +1,4 @@
-```jsx
-import { TimeWidgets1 } from './TimeWidgets1.jsx';
+```tsx
+import { Time1Prmt } from './Time1Prmt';
 
-<TimeWidgets1 date="13 августа 1999" />;
-```;
+<Time1Prmt date="13 августа 1999"/>

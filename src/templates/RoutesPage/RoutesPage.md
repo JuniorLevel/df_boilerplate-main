@@ -1,7 +1,7 @@
-```jsx
+```tsx
 import { useNavigate, createRootRoute, createRoute, createRouter, createMemoryHistory, RouterProvider } from '@tanstack/react-router';
 import React from 'react';
-import { RouterWrapper } from '../Wrapper';
+import { StyleguidistRouterWrapper } from '@/StyleguidistWrapper';
 import { RoutesPage } from './RoutesPage';
 
 const NavigationButtons = ({ navigate }) => (
@@ -52,5 +52,4 @@ const memoryHistory = createMemoryHistory({
 
 const router = createRouter({ routeTree, history: memoryHistory });
 
-<RouterWrapper router={router} />;
-```;
+<StyleguidistRouterWrapper router={router} />;

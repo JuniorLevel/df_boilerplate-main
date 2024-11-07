@@ -1,4 +1,4 @@
-```jsx { "file": "./WelcomePage5.jsx" }
+```tsx { "file": "./WelcomePage5.tsx" }
 
 ``````jsx noeditor
 import Image2 from '../welcome-img2.png';

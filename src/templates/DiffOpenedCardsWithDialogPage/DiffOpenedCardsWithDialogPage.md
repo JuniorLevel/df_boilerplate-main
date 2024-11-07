@@ -1,71 +1,71 @@
-```jsx
+```tsx
 import React from 'react';
 import { Outlet, createRootRoute, createRoute, createRouter, createMemoryHistory, RouterProvider } from '@tanstack/react-router';
-import { Row, Col, Pagination as OrdersPagination } from 'antd';
-import {
-	OrdersFilterDesktopDialog,
-	Footer,
-	OrderListItem,
-	OrderListDiffContainer,
-	Order,
-	Layout,
-	OrdersFilterOpened,
-	OrderListPreviewContainer,
-	OrdersFilterProvider,
-} from '@/components';
+import { OrdersFilterProviderPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterContextPrmt';
+import { LayoutPrmt } from '@/primitives/LayoutPrmt/LayoutPrmt';
+import { FooterPrmt } from '@/primitives/FooterPrmt/FooterPrmt';
+import { OrdersFilterOpenedPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedPrmt';
+import { OrderListPreviewContainerPrmt } from '@/primitives/OrderListPreviewPrmt/OrderListPreviewContainerPrmt/OrderListPreviewContainerPrmt';
+import { OrderListDiffContainerPrmt } from '@/primitives/OrderListPreviewPrmt/OrderListDiffContainerPrmt/OrderListDiffContainerPrmt';
+import { OrderListItemPrmt } from '@/primitives/OrderListPreviewPrmt/OrderListContainerPrmt/OrderListItemPrmt/OrderListItemPrmt';
+import { OrderPrmt } from '@/primitives/OrderListPreviewPrmt/OrderPrmt/OrderPrmt';
+import { OrdersFilterDesktopDialogPrmt } from '@/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterDesktopDialogPrmt/OrdersFilterDesktopDialogPrmt';
+import { RowPrmt } from '@/primitives/RowPrmt/RowPrmt';
+import { ColPrmt } from '@/primitives/ColPrmt/ColPrmt';
+import { PaginationPrmt as OrdersPaginationPrmt } from '@/primitives/PaginationPrmt/PaginationPrmt';
 import { sidebarButtons, data, filters } from './data';
-import { RouterWrapper, OutletComponent } from '../Wrapper';
+import { StyleguidistRouterWrapper, OutletComponent } from '@/StyleguidistWrapper';
 
 const rootRoute = createRootRoute({
 	component: function RootComponent() {
 		return (
-			<OrdersFilterProvider>
-				<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }} footer={<Footer />}>
-					<Row gutter={[16, 16]}>
-						<Col span={12}>
-							<OrdersFilterOpened open dialog filters={filters} />
-							<OrderListPreviewContainer>
-								<Col span={12}>
-									<OrderListDiffContainer>
-										<OrderListItem key={data[0].id} data={data[0]} />
-										<OrderListItem key={data[1].id} data={data[1]} />
-										<OrderListItem key={data[2].id} data={data[2]} />
-										<OrderListItem key={data[3].id} data={data[3]} />
-										<OrderListItem key={data[4].id} data={data[4]} />
-										<OrderListItem key={data[5].id} data={data[5]} />
-										<OrderListItem key={data[6].id} data={null} />
-									</OrderListDiffContainer>
-									<OrdersPagination defaultCurrent={1} total={50} />
-								</Col>
-								<Col span={12}>
-									<Order />
-								</Col>
-							</OrderListPreviewContainer>
-						</Col>
-						<Col span={12}>
-							<OrdersFilterOpened open dialog filters={filters} />
-							<OrderListPreviewContainer>
-								<Col span={12}>
-									<OrderListDiffContainer>
-										<OrderListItem key={data[0].id} data={data[0]} />
-										<OrderListItem key={data[1].id} data={data[1]} />
-										<OrderListItem key={data[2].id} data={data[2]} />
-										<OrderListItem key={data[3].id} data={data[3]} />
-										<OrderListItem key={data[4].id} data={data[4]} />
-										<OrderListItem key={data[5].id} data={data[5]} />
-										<OrderListItem key={data[6].id} data={null} />
-									</OrderListDiffContainer>
-									<OrdersPagination defaultCurrent={1} total={50} />
-								</Col>
-								<Col span={12}>
-									<Order />
-								</Col>
-							</OrderListPreviewContainer>
-						</Col>
-					</Row>
-				</Layout>
+			<OrdersFilterProviderPrmt>
+				<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }} footer={<FooterPrmt />}>
+					<RowPrmt gutter={[16, 16]}>
+						<ColPrmt span={12}>
+							<OrdersFilterOpenedPrmt open dialog filters={filters} />
+							<OrderListPreviewContainerPrmt>
+								<ColPrmt span={12}>
+									<OrderListDiffContainerPrmt>
+										<OrderListItemPrmt key={data[0].id} data={data[0]} />
+										<OrderListItemPrmt key={data[1].id} data={data[1]} />
+										<OrderListItemPrmt key={data[2].id} data={data[2]} />
+										<OrderListItemPrmt key={data[3].id} data={data[3]} />
+										<OrderListItemPrmt key={data[4].id} data={data[4]} />
+										<OrderListItemPrmt key={data[5].id} data={data[5]} />
+										<OrderListItemPrmt key={data[6].id} data={null} />
+									</OrderListDiffContainerPrmt>
+									<OrdersPaginationPrmt defaultCurrent={1} total={50} />
+								</ColPrmt>
+								<ColPrmt span={12}>
+									<OrderPrmt />
+								</ColPrmt>
+							</OrderListPreviewContainerPrmt>
+						</ColPrmt>
+						<ColPrmt span={12}>
+							<OrdersFilterOpenedPrmt open dialog filters={filters} />
+							<OrderListPreviewContainerPrmt>
+								<ColPrmt span={12}>
+									<OrderListDiffContainerPrmt>
+										<OrderListItemPrmt key={data[0].id} data={data[0]} />
+										<OrderListItemPrmt key={data[1].id} data={data[1]} />
+										<OrderListItemPrmt key={data[2].id} data={data[2]} />
+										<OrderListItemPrmt key={data[3].id} data={data[3]} />
+										<OrderListItemPrmt key={data[4].id} data={data[4]} />
+										<OrderListItemPrmt key={data[5].id} data={data[5]} />
+										<OrderListItemPrmt key={data[6].id} data={null} />
+									</OrderListDiffContainerPrmt>
+									<OrdersPaginationPrmt defaultCurrent={1} total={50} />
+								</ColPrmt>
+								<ColPrmt span={12}>
+									<OrderPrmt />
+								</ColPrmt>
+							</OrderListPreviewContainerPrmt>
+						</ColPrmt>
+					</RowPrmt>
+				</LayoutPrmt>
 				<OutletComponent />
-			</OrdersFilterProvider>
+			</OrdersFilterProviderPrmt>
 		);
 	},
 });
@@ -82,7 +82,7 @@ const DialogRoute = createRoute({
 	getParentRoute: () => rootRoute,
 	path: '/dialog',
 	component: function DialogComponent() {
-		return <OrdersFilterDesktopDialog />;
+		return <OrdersFilterDesktopDialogPrmt />;
 	},
 });
 
@@ -94,8 +94,8 @@ const memoryHistory = createMemoryHistory({
 
 const router = createRouter({ routeTree, history: memoryHistory });
 
-<RouterWrapper router={router} />;
-``````jsx noeditor
-import Image1 from './DiffOpenedCardsWithDialogPage.png';
-<img src={Image1} />;
-```;
+<StyleguidistRouterWrapper router={router} />;
+// ``````jsx noeditor
+// import Image1 from './DiffOpenedCardsWithDialogPage.png';
+// <img src={Image1} />;
+// ```;

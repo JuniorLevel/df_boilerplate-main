@@ -20,16 +20,16 @@ export const RangeTime5Prmt: FC<IRangeTime5PrmtProps> = ({ fullDate }) => {
 		<>
 			<MediaQuery minWidth={screenXLMin}>
 				<Flex gap={10} justify="space-between" align="center" className={styles.container}>
-					<Flex align="center" gap={25}>
+					<Flex align="center" gap={35}>
 						<DateWithTimeBlockPrmt fullDate={fullDate} />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</Flex>
 					<Flex className={styles.progress}>
-						<DaysPanelPrmt />
+						<DaysPanelPrmt size={{ width: 8, height: 40 }} percent={100} steps={31} showInfo={false} />
 					</Flex>
-					<Flex align="center" gap={25} className={styles.dateWithTimeBlock}>
+					<Flex align="center" gap={35} className={styles.dateWithTimeBlock}>
 						<DateWithTimeBlockPrmt fullDate={fullDate} />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</Flex>
 				</Flex>
 			</MediaQuery>

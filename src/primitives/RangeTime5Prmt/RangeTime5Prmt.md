@@ -1,5 +1,4 @@
-```jsx
-import { TimeWidgets8 } from './TimeWidgets8';
+```tsx
+import { RangeTime5Prmt } from './RangeTime5Prmt';
 
-<TimeWidgets8 fullDate={{ date: '13.08.99', time: '20:55:55' }} />;
-```;
+<RangeTime5Prmt fullDate={{ date: '13.08.99', time: '20:55:55' }}/>;

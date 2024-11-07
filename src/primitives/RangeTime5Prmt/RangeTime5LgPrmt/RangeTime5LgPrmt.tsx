@@ -19,8 +19,8 @@ export const RangeTime5LgPrmt: FC<IRangeTime5LgPrmtProps> = ({ fullDate }) => {
 					<DateWithTimeBlockPrmt fullDate={fullDate} />
 				</Flex>
 				<Flex vertical gap={10}>
-					<CustomClockPrmt />
-					<CustomClockPrmt />
+					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
+					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 				</Flex>
 				<Flex>
 					<WeeksAndYearsPanelPrmt />

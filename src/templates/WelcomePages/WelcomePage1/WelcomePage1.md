@@ -1,6 +1,6 @@
-```jsx { "file": "./WelcomePage1.jsx" }
+```tsx { "file": "./WelcomePage1.tsx" }
 
-``````jsx noeditor
+``````tsx noeditor
 import Image1 from '../welcome-img1.png';
 import Image3 from '../welcome-img3.png';
 <div>

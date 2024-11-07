@@ -1,6 +1,6 @@
-```jsx { "file": "./OrderPage.jsx" }
+```tsx { "file": "./OrderPage.tsx" }
 
-``````jsx noeditor
+``````tsx noeditor
 import Image1 from './order.png';
 <img src={Image1} />;
 ```;

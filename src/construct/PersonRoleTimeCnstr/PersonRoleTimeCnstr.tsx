@@ -28,7 +28,7 @@ export const PersonRoleTimeCnstr: FC<IPersonRoleTimeCnstrProps> = ({ fullDate, u
 					<DateWithTimeBlockPrmt fullDate={fullDate} />
 					<FlexPrmt gap={10} align="center">
 						<WeeksAndYearsPanelPrmt />
-						<CustomClockPrmt />
+						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 				</FlexPrmt>
 			</MediaQuery>
