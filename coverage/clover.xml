@@ -1,0 +1,2419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1731182162276" clover="3.2.0">
+  <project timestamp="1731182162277" name="All files">
+    <metrics statements="1432" coveredstatements="1294" conditionals="417" coveredconditionals="386" methods="373" coveredmethods="219" elements="2222" coveredelements="1899" complexity="0" loc="1432" ncloc="1432" packages="125" files="202" classes="202"/>
+    <package name="construct.PersonRoleCnstr">
+      <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+      </file>
+      <file name="PersonRoleCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleCnstr.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleCnstr.PersonRoleMdCnstr">
+      <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleMdCnstr/PersonRoleMdCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+      </file>
+      <file name="PersonRoleMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleMdCnstr/PersonRoleMdCnstr.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleTimeCnstr">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleTimeCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="PersonRoleTimeCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeCnstr.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleTimeCnstr.PersonRoleTimeMdCnstr">
+      <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleTimeMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeMdCnstr/PersonRoleTimeMdCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="PersonRoleTimeMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeMdCnstr/PersonRoleTimeMdCnstr.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleTimeCnstr.PersonRoleTimeSmCnstr">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleTimeSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeSmCnstr/PersonRoleTimeSmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="PersonRoleTimeSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeSmCnstr/PersonRoleTimeSmCnstr.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleTimeRangeCnstr">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PersonRoleTimeRangeCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeRangeCnstr/PersonRoleTimeRangeCnstr.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextRangeTimeCnstr">
+      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="TextRangeTimeCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TextRangeTimeCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeCnstr.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextRangeTimeCnstr.TextRangeTimeLgCnstr">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TextRangeTimeLgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeLgCnstr/TextRangeTimeLgCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="TextRangeTimeLgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeLgCnstr/TextRangeTimeLgCnstr.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextRangeTimeCnstr.TextRangeTimeMdCnstr">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TextRangeTimeMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeMdCnstr/TextRangeTimeMdCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="TextRangeTimeMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeMdCnstr/TextRangeTimeMdCnstr.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextRangeTimeCnstr.TextRangeTimeSmCnstr">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="TextRangeTimeSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeSmCnstr/TextRangeTimeSmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TextRangeTimeSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeSmCnstr/TextRangeTimeSmCnstr.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextTime1Cnstr">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TextTime1Cnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1Cnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TextTime1Cnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1Cnstr.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextTime1Cnstr.TextTime1LgCnstr">
+      <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TextTime1LgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1LgCnstr/TextTime1LgCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="TextTime1LgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1LgCnstr/TextTime1LgCnstr.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextTime1Cnstr.TextTime1SmCnstr">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TextTime1SmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1SmCnstr/TextTime1SmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TextTime1SmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1SmCnstr/TextTime1SmCnstr.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextTime2Cnstr">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TextTime2Cnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime2Cnstr/TextTime2Cnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TextTime2Cnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime2Cnstr/TextTime2Cnstr.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextTime2Cnstr.TextTime2LgCnstr">
+      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="TextTime2LgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime2Cnstr/TextTime2LgCnstr/TextTime2LgCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="TextTime2LgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime2Cnstr/TextTime2LgCnstr/TextTime2LgCnstr.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TextTime2Cnstr.TextTime2SmCnstr">
+      <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="TextTime2SmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime2Cnstr/TextTime2SmCnstr/TextTime2SmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TextTime2SmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime2Cnstr/TextTime2SmCnstr/TextTime2SmCnstr.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeRangeWidgetCnstr">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="TimeRangeWidgetCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TimeRangeWidgetCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetCnstr.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeRangeWidgetCnstr.TimeRangeWidgetLgCnstr">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TimeRangeWidgetLgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetLgCnstr/TimeRangeWidgetLgCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="TimeRangeWidgetLgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetLgCnstr/TimeRangeWidgetLgCnstr.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeRangeWidgetCnstr.TimeRangeWidgetMdCnstr">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="TimeRangeWidgetMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetMdCnstr/TimeRangeWidgetMdCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="TimeRangeWidgetMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetMdCnstr/TimeRangeWidgetMdCnstr.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeRangeWidgetCnstr.TimeRangeWidgetSmCnstr">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="TimeRangeWidgetSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetSmCnstr/TimeRangeWidgetSmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="TimeRangeWidgetSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetSmCnstr/TimeRangeWidgetSmCnstr.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="createStyles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/createStyles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.AvatarPrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="AvatarPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/AvatarPrmt/AvatarPrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.BadgePrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BadgePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/BadgePrmt/BadgePrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="20" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.ColPrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ColPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/ColPrmt/ColPrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="15" count="112" type="stmt"/>
+        <line num="16" count="112" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.CustomClockPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="CustomClockPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/CustomClockPrmt/CustomClockPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="30" type="stmt"/>
+      </file>
+      <file name="CustomClockPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/CustomClockPrmt/CustomClockPrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="15" count="30" type="stmt"/>
+        <line num="16" count="30" type="stmt"/>
+        <line num="18" count="30" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.DateWithTimeBlockPrmt">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="DateWithTimeBlockPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="48" type="stmt"/>
+      </file>
+      <file name="DateWithTimeBlockPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="48" type="stmt"/>
+        <line num="10" count="48" type="stmt"/>
+        <line num="11" count="96" type="stmt"/>
+        <line num="13" count="48" type="stmt"/>
+        <line num="15" count="48" type="stmt"/>
+        <line num="18" count="144" type="stmt"/>
+        <line num="25" count="144" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.DaysPanelPrmt">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="DaysPanelPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/DaysPanelPrmt/DaysPanelPrmt.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt">
+      <metrics statements="12" coveredstatements="12" conditionals="26" coveredconditionals="26" methods="2" coveredmethods="2"/>
+      <file name="FiltersSearchListPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+      <file name="filtersSearchListPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/filtersSearchListPrmt.styles.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="26" coveredconditionals="26" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="1872" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListContainerPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="FiltersSearchListContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListContainerPrmt/FiltersSearchListContainerPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListItemPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="FiltersSearchListItemPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListItemPrmt/FiltersSearchListItemPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="17" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListItemPrmt.FiltersSearchListItemGridsPrmt">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FiltersSearchListItemGridsPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListItemPrmt/FiltersSearchListItemGridsPrmt/FiltersSearchListItemGridsPrmt.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="13" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListItemPrmt.FiltersSearchListItemMobilePrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="FiltersSearchListItemMobilePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListItemPrmt/FiltersSearchListItemMobilePrmt/FiltersSearchListItemMobilePrmt.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="15" type="stmt"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="16" count="15" type="stmt"/>
+        <line num="20" count="10" type="cond" truecount="3" falsecount="1"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListItemPrmt.FiltersSearchListItemMobilePrmt.FiltersSearchListItemMobileInfoStatusPrmt">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="FiltersSearchListItemMobileInfoStatusPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListItemPrmt/FiltersSearchListItemMobilePrmt/FiltersSearchListItemMobileInfoStatusPrmt/FiltersSearchListItemMobileInfoStatusPrmt.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="9" count="756" type="stmt"/>
+        <line num="10" count="756" type="stmt"/>
+        <line num="12" count="756" type="stmt"/>
+        <line num="13" count="666" type="stmt"/>
+        <line num="14" count="666" type="stmt"/>
+        <line num="15" count="666" type="stmt"/>
+        <line num="18" count="756" type="stmt"/>
+        <line num="20" count="756" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListItemPrmt.FiltersSearchListItemUsersInfoPrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="FiltersSearchListItemUsersInfoPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListItemPrmt/FiltersSearchListItemUsersInfoPrmt/FiltersSearchListItemUsersInfoPrmt.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="13" count="201" type="stmt"/>
+        <line num="14" count="201" type="stmt"/>
+        <line num="16" count="201" type="stmt"/>
+        <line num="20" count="597" type="cond" truecount="4" falsecount="0"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListItemPrmt.FiltersSearchListItemUsersInfoPrmt.FiltersSearchListItemUsersInfoMobilePrmt">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="FiltersSearchListItemUsersInfoMobilePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListItemPrmt/FiltersSearchListItemUsersInfoPrmt/FiltersSearchListItemUsersInfoMobilePrmt/FiltersSearchListItemUsersInfoMobilePrmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="12" count="201" type="stmt"/>
+        <line num="13" count="201" type="stmt"/>
+        <line num="15" count="201" type="stmt"/>
+        <line num="18" count="597" type="cond" truecount="4" falsecount="0"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListItemPrmt.FiltersSearchListItemUsersInfoPrmt.FiltersSearchListItemUsersInfoStatusPrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="FiltersSearchListItemUsersInfoStatusPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListItemPrmt/FiltersSearchListItemUsersInfoPrmt/FiltersSearchListItemUsersInfoStatusPrmt/FiltersSearchListItemUsersInfoStatusPrmt.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="10" count="765" type="stmt"/>
+        <line num="11" count="765" type="stmt"/>
+        <line num="13" count="765" type="stmt"/>
+        <line num="14" count="765" type="stmt"/>
+        <line num="17" count="765" type="stmt"/>
+        <line num="19" count="765" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FiltersSearchListPrmt.FiltersSearchListMobilePrmt">
+      <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="FiltersSearchListMobilePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListMobilePrmt/FiltersSearchListMobilePrmt.tsx">
+        <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="22" count="20" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FiltersSearchListPrmt/FiltersSearchListMobilePrmt/data.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FlexPrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FlexPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FlexPrmt/FlexPrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="15" count="79" type="stmt"/>
+        <line num="16" count="79" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.FooterPrmt">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FooterPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/FooterPrmt/FooterPrmt.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.LayoutPrmt">
+      <metrics statements="19" coveredstatements="19" conditionals="17" coveredconditionals="17" methods="4" coveredmethods="4"/>
+      <file name="LayoutPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/LayoutPrmt.styles.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="7" count="198" type="stmt"/>
+      </file>
+      <file name="LayoutPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/LayoutPrmt.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="17" count="44" type="stmt"/>
+        <line num="18" count="88" type="stmt"/>
+        <line num="19" count="44" type="stmt"/>
+        <line num="21" count="44" type="stmt"/>
+        <line num="23" count="44" type="stmt"/>
+        <line num="24" count="44" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="44" type="stmt"/>
+        <line num="28" count="44" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.LayoutPrmt.HomeHeaderPrmt">
+      <metrics statements="19" coveredstatements="17" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="HomeHeaderPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/HomeHeaderPrmt/HomeHeaderPrmt.tsx">
+        <metrics statements="19" coveredstatements="17" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="16" count="44" type="stmt"/>
+        <line num="17" count="44" type="stmt"/>
+        <line num="19" count="44" type="stmt"/>
+        <line num="20" count="44" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="25" count="44" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="44" type="stmt"/>
+        <line num="31" count="44" type="stmt"/>
+        <line num="33" count="44" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.LayoutPrmt.HomeHeaderPrmt.BurgerMenuPrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BurgerMenuPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/HomeHeaderPrmt/BurgerMenuPrmt/BurgerMenuPrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.LayoutPrmt.HomeHeaderPrmt.HomeHeaderMobilePrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="HomeHeaderMobilePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/HomeHeaderPrmt/HomeHeaderMobilePrmt/HomeHeaderMobilePrmt.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="13" count="44" type="stmt"/>
+        <line num="14" count="44" type="stmt"/>
+        <line num="15" count="44" type="stmt"/>
+        <line num="17" count="44" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.LayoutPrmt.HomeHeaderPrmt.LogoPrmt">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="LogoPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/HomeHeaderPrmt/LogoPrmt/LogoPrmt.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="8" count="33" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.LayoutPrmt.HomeSidebarPrmt">
+      <metrics statements="23" coveredstatements="21" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="3"/>
+      <file name="HomeSidebarPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/HomeSidebarPrmt/HomeSidebarPrmt.tsx">
+        <metrics statements="23" coveredstatements="21" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="3"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="11" count="44" type="stmt"/>
+        <line num="12" count="44" type="stmt"/>
+        <line num="13" count="44" type="stmt"/>
+        <line num="15" count="44" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="44" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="44" type="stmt"/>
+        <line num="24" count="44" type="stmt"/>
+        <line num="25" count="44" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="22" type="stmt"/>
+        <line num="27" count="22" type="stmt"/>
+        <line num="28" count="22" type="stmt"/>
+        <line num="29" count="22" type="stmt"/>
+        <line num="30" count="22" type="stmt"/>
+        <line num="35" count="44" type="stmt"/>
+        <line num="36" count="44" type="stmt"/>
+        <line num="38" count="44" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.LayoutPrmt.HomeSidebarPrmt.HomeSidebarNavigationPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="HomeSidebarNavigationPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/LayoutPrmt/HomeSidebarPrmt/HomeSidebarNavigationPrmt/HomeSidebarNavigationPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+        <line num="12" count="22" type="stmt"/>
+        <line num="14" count="22" type="stmt"/>
+        <line num="16" count="66" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderListPreviewPrmt">
+      <metrics statements="5" coveredstatements="5" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+      <file name="OrdersListPreviewPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderListPreviewPrmt/OrdersListPreviewPrmt.styles.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="276" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderListPreviewPrmt.OrderListContainerPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="OrderListContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderListPreviewPrmt/OrderListContainerPrmt/OrderListContainerPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="8" count="16" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="12" count="16" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="primitives.OrderListPreviewPrmt.OrderListContainerPrmt.OrderListItemPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="OrderListItemPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderListPreviewPrmt/OrderListContainerPrmt/OrderListItemPrmt/OrderListItemPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="11" count="212" type="stmt"/>
+        <line num="12" count="212" type="stmt"/>
+        <line num="13" count="212" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderListPreviewPrmt.OrderListDiffContainerPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="OrderListDiffContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderListPreviewPrmt/OrderListDiffContainerPrmt/OrderListDiffContainerPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="13" count="16" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="primitives.OrderListPreviewPrmt.OrderListPreviewContainerPrmt">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderListPreviewContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderListPreviewPrmt/OrderListPreviewContainerPrmt/OrderListPreviewContainerPrmt.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="8" count="32" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderListPreviewPrmt.OrderListPreviewGridsPrmt">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrderListPreviewGridsPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderListPreviewPrmt/OrderListPreviewGridsPrmt/OrderListPreviewGridsPrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="10" count="184" type="stmt"/>
+        <line num="12" count="368" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderListPreviewPrmt.OrderPrmt">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderListPreviewPrmt/OrderPrmt/OrderPrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="32" type="stmt"/>
+        <line num="8" count="32" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderTabsPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="OrderTabsPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderTabsPrmt/OrderTabsPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+      </file>
+      <file name="OrderTabsPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderTabsPrmt/OrderTabsPrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderTabsPrmt.OrderContainerPrmt">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderTabsPrmt/OrderContainerPrmt/OrderContainerPrmt.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderTabsPrmt.OrderPreviewPrmt">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderPreviewPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderTabsPrmt/OrderPreviewPrmt/OrderPreviewPrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrderTabsPrmt.OrderVersionPrmt">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderVersionPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrderTabsPrmt/OrderVersionPrmt/OrderVersionPrmt.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="OrdersFilterContextPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterContextPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="21" count="28" type="stmt"/>
+        <line num="22" count="28" type="stmt"/>
+        <line num="23" count="28" type="stmt"/>
+        <line num="25" count="28" type="stmt"/>
+        <line num="26" count="28" type="stmt"/>
+        <line num="35" count="28" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/data.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterCardsContainerPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterCardsContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterCardsContainerPrmt/OrdersFilterCardsContainerPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterCardsContainerPrmt.OrdersFilterCardsContainerMobilePrmt">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterCardsContainerMobilePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterCardsContainerPrmt/OrdersFilterCardsContainerMobilePrmt/OrdersFilterCardsContainerMobilePrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterClosedPrmt">
+      <metrics statements="23" coveredstatements="20" conditionals="20" coveredconditionals="18" methods="7" coveredmethods="4"/>
+      <file name="OrdersFilterClosedPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterClosedPrmt/OrdersFilterClosedPrmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="6" count="50" type="stmt"/>
+      </file>
+      <file name="OrdersFilterClosedPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterClosedPrmt/OrdersFilterClosedPrmt.tsx">
+        <metrics statements="19" coveredstatements="16" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="3"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="17" count="20" type="stmt"/>
+        <line num="18" count="20" type="stmt"/>
+        <line num="20" count="20" type="stmt"/>
+        <line num="21" count="20" type="stmt"/>
+        <line num="24" count="20" type="stmt"/>
+        <line num="26" count="20" type="stmt"/>
+        <line num="30" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="0" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="0" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="0" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterClosedPrmt.OrdersFilterClosedCardsPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrdersFilterClosedCardsPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterClosedPrmt/OrdersFilterClosedCardsPrmt/OrdersFilterClosedCardsPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="11" count="30" type="stmt"/>
+        <line num="12" count="30" type="stmt"/>
+        <line num="14" count="30" type="stmt"/>
+        <line num="19" count="60" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterDialogsPrmt.OrdersFilterDesktopDialogPrmt">
+      <metrics statements="28" coveredstatements="13" conditionals="7" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="OrdersFilterDesktopDialogPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterDesktopDialogPrmt/OrdersFilterDesktopDialogPrmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="OrdersFilterDesktopDialogPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterDesktopDialogPrmt/OrdersFilterDesktopDialogPrmt.tsx">
+        <metrics statements="24" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterDialogsPrmt.OrdersFilterMobileDialogPrmt">
+      <metrics statements="26" coveredstatements="11" conditionals="5" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="OrdersFilterMobileDialogPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterMobileDialogPrmt/OrdersFilterMobileDialogPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="OrdersFilterMobileDialogPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterDialogsPrmt/OrdersFilterMobileDialogPrmt/OrdersFilterMobileDialogPrmt.tsx">
+        <metrics statements="24" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterOpenedPrmt">
+      <metrics statements="22" coveredstatements="20" conditionals="18" coveredconditionals="17" methods="4" coveredmethods="3"/>
+      <file name="OrdersFilterOpened.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpened.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="6" count="130" type="stmt"/>
+      </file>
+      <file name="OrdersFilterOpenedPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedPrmt.tsx">
+        <metrics statements="18" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="18" count="36" type="stmt"/>
+        <line num="19" count="36" type="stmt"/>
+        <line num="21" count="36" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="36" type="stmt"/>
+        <line num="31" count="36" type="stmt"/>
+        <line num="37" count="72" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterOpenedPrmt.OrdersFilterOpenedCardsPrmt">
+      <metrics statements="15" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+      <file name="OrdersFilterOpenedCardsPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedCardsPrmt/OrdersFilterOpenedCardsPrmt.tsx">
+        <metrics statements="15" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="14" count="72" type="stmt"/>
+        <line num="15" count="72" type="stmt"/>
+        <line num="17" count="72" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="72" type="stmt"/>
+        <line num="28" count="72" type="stmt"/>
+        <line num="32" count="144" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterOpenedPrmt.OrdersFilterOpenedCardsPrmt.OrdersFilterCardAddItemButtonPrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterCardAddItemButtonPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedCardsPrmt/OrdersFilterCardAddItemButtonPrmt/OrdersFilterCardAddItemButtonPrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="9" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterOpenedPrmt.OrdersFilterOpenedCardsPrmt.OrdersFilterCardAddItemDialogButtonPrmt">
+      <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="OrdersFilterCardAddItemDialogButtonPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedCardsPrmt/OrdersFilterCardAddItemDialogButtonPrmt/OrdersFilterCardAddItemDialogButtonPrmt.tsx">
+        <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="12" count="36" type="stmt"/>
+        <line num="14" count="36" type="stmt"/>
+        <line num="16" count="36" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterOpenedPrmt.OrdersFilterOpenedCardsPrmt.OrdersFilterOpenedCardItemPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrdersFilterOpenedCardItemPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedCardsPrmt/OrdersFilterOpenedCardItemPrmt/OrdersFilterOpenedCardItemPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="8" count="144" type="stmt"/>
+        <line num="9" count="144" type="stmt"/>
+        <line num="11" count="144" type="stmt"/>
+        <line num="12" count="108" type="stmt"/>
+        <line num="15" count="144" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterOpenedPrmt.OrdersFilterOpenedCardsPrmt.OrdersFilterOpenedCardsAddButtonPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterOpenedCardsAddButtonPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedCardsPrmt/OrdersFilterOpenedCardsAddButtonPrmt/OrdersFilterOpenedCardsAddButtonPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="12" count="36" type="stmt"/>
+        <line num="14" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.OrdersFilterOpenedPrmt.OrdersFilterOpenedMobilePrmt">
+      <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="OrdersFilterOpenedMobilePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/OrdersFilterOpenedPrmt/OrdersFilterOpenedMobilePrmt/OrdersFilterOpenedMobilePrmt.tsx">
+        <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="15" count="42" type="stmt"/>
+        <line num="16" count="42" type="stmt"/>
+        <line num="18" count="42" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="42" type="stmt"/>
+        <line num="28" count="42" type="stmt"/>
+        <line num="33" count="84" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.StatusContainerPrmt">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="4"/>
+      <file name="StatusContainerContextPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusContainerContextPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="25" count="2391" type="stmt"/>
+        <line num="26" count="2391" type="stmt"/>
+        <line num="27" count="2391" type="stmt"/>
+        <line num="28" count="2391" type="stmt"/>
+        <line num="30" count="2391" type="stmt"/>
+        <line num="32" count="2391" type="stmt"/>
+      </file>
+      <file name="StatusContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusContainerPrmt.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="11" count="1077" type="stmt"/>
+        <line num="14" count="1761" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.StatusContainerPrmt.StatusChangedPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <file name="StatusChangedPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusChangedPrmt/StatusChangedPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="288" type="stmt"/>
+      </file>
+      <file name="StatusChangedPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusChangedPrmt/StatusChangedPrmt.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="11" count="288" type="stmt"/>
+        <line num="12" count="288" type="stmt"/>
+        <line num="14" count="288" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.StatusContainerPrmt.StatusUnmodifiedPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="StatusUnmodifiedPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusUnmodifiedPrmt/StatusUnmodifiedPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="342" type="stmt"/>
+      </file>
+      <file name="StatusUnmodifiedPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusUnmodifiedPrmt/StatusUnmodifiedPrmt.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="11" count="342" type="stmt"/>
+        <line num="12" count="342" type="stmt"/>
+        <line num="14" count="342" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.OrdersFilterPrmt.StatusContainerPrmt.StatusUpdatedPrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+      <file name="StatusUpdatedPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusUpdatedPrmt/StatusUpdatedPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="1005" type="stmt"/>
+      </file>
+      <file name="StatusUpdatedPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusUpdatedPrmt/StatusUpdatedPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="13" count="1131" type="stmt"/>
+        <line num="14" count="1131" type="stmt"/>
+        <line num="16" count="1131" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.PaginationPrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PaginationPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/PaginationPrmt/PaginationPrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="9" count="32" type="stmt"/>
+        <line num="10" count="32" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime1Prmt">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="RangeTime1Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime1Prmt/RangeTime1Prmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime1Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime1Prmt/RangeTime1Prmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime1Prmt.RangeTime1LgPrmt">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="RangeTime1LgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime1Prmt/RangeTime1LgPrmt/RangeTime1LgPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime1LgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime1Prmt/RangeTime1LgPrmt/RangeTime1LgPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime2Prmt">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="RangeTime2Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime2Prmt/RangeTime2Prmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime2Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime2Prmt/RangeTime2Prmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime2Prmt.RangeTime2LgPrmt">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="RangeTime2LgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime2Prmt/RangeTime2LgPrmt/RangeTime2LgPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime2LgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime2Prmt/RangeTime2LgPrmt/RangeTime2LgPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime3Prmt">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="RangeTime3Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime3Prmt/RangeTime3Prmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime3Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime3Prmt/RangeTime3Prmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime3Prmt.RangeTime3LgPrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="RangeTime3LgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime3Prmt/RangeTime3LgPrmt/RangeTime3LgPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime3LgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime3Prmt/RangeTime3LgPrmt/RangeTime3LgPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime4Prmt">
+      <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="RangeTime4Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4Prmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime4Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4Prmt.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime4Prmt.RangeTime4LgPrmt">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="RangeTime4LgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4LgPrmt/RangeTime4LgPrmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime4LgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4LgPrmt/RangeTime4LgPrmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime4Prmt.RangeTime4MdPrmt">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="RangeTime4MdPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4MdPrmt/RangeTime4MdPrmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime4MdPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4MdPrmt/RangeTime4MdPrmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime4Prmt.RangeTime4SmPrmt">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="RangeTime4SmPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4SmPrmt/RangeTime4SmPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime4SmPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4SmPrmt/RangeTime4SmPrmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime4Prmt.RangeTime4XlPrmt">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="RangeTime4XlPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4XlPrmt/RangeTime4XlPrmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="RangeTime4XlPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime4Prmt/RangeTime4XlPrmt/RangeTime4XlPrmt.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime5Prmt">
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="RangeTime5Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5Prmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+      </file>
+      <file name="RangeTime5Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5Prmt.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime5Prmt.RangeTime5LgPrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RangeTime5LgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5LgPrmt/RangeTime5LgPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="RangeTime5LgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5LgPrmt/RangeTime5LgPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime5Prmt.RangeTime5MdPrmt">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RangeTime5MdPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5MdPrmt/RangeTime5MdPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="RangeTime5MdPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5MdPrmt/RangeTime5MdPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RangeTime5Prmt.RangeTime5SmPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RangeTime5SmPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5SmPrmt/RangeTime5SmPrmt.styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="RangeTime5SmPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5SmPrmt/RangeTime5SmPrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.RowPrmt">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RowPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RowPrmt/RowPrmt.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="9" count="24" type="stmt"/>
+        <line num="10" count="24" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.TextPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="TextPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/TextPrmt/TextPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+      </file>
+      <file name="TextPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/TextPrmt/TextPrmt.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="14" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.TextTypographyPrmt">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="TextTypographyPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/TextTypographyPrmt/TextTypographyPrmt.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="27" type="stmt"/>
+        <line num="10" count="27" type="stmt"/>
+        <line num="12" count="27" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.ThemeWrapperPrmt">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <file name="ThemeContextPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/ThemeWrapperPrmt/ThemeContextPrmt.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.Time1Prmt">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="Time1Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time1Prmt/Time1Prmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+      </file>
+      <file name="Time1Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time1Prmt/Time1Prmt.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.Time1Prmt.Time1MdPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Time1MdPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time1Prmt/Time1MdPrmt/Time1MdPrmt.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.Time2Prmt">
+      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="Time2Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time2Prmt/Time2Prmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="Time2Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time2Prmt/Time2Prmt.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.Time2Prmt.Time2LgPrmt">
+      <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="Time2LgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time2Prmt/Time2LgPrmt/Time2LgPrmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+      <file name="Time2LgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time2Prmt/Time2LgPrmt/Time2LgPrmt.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.Time2Prmt.Time2MdPrmt">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="Time2MdPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time2Prmt/Time2MdPrmt/Time2MdPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="Time2MdPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/Time2Prmt/Time2MdPrmt/Time2MdPrmt.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.WeeksAndYearsPanelPrmt">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="WeeksAndYearsPanelPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="32" type="stmt"/>
+      </file>
+      <file name="WeeksAndYearsPanelPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="32" type="stmt"/>
+        <line num="8" count="32" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.WelcomePrmt">
+      <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <file name="WelcomePrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/WelcomePrmt.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="6" count="32" type="stmt"/>
+      </file>
+      <file name="WelcomePrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/WelcomePrmt.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="12" count="32" type="stmt"/>
+        <line num="13" count="32" type="stmt"/>
+        <line num="15" count="32" type="stmt"/>
+        <line num="21" count="96" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.WelcomePrmt.FourImagesBgPrmt">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <file name="FourImagesBgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/FourImagesBgPrmt/FourImagesBgPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+      </file>
+      <file name="FourImagesBgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/FourImagesBgPrmt/FourImagesBgPrmt.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
+        <line num="15" count="64" type="cond" truecount="3" falsecount="1"/>
+      </file>
+    </package>
+    <package name="primitives.WelcomePrmt.SingleImageBgPrmt">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="SingleImageBgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/SingleImageBgPrmt/SingleImageBgPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+      </file>
+      <file name="SingleImageBgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/SingleImageBgPrmt/SingleImageBgPrmt.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.WelcomePrmt.WelcomeAuthButtonsPrmt">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="WelcomeAuthButtonsPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/WelcomeAuthButtonsPrmt/WelcomeAuthButtonsPrmt.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="8" count="27" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.WelcomePrmt.WelcomeAuthButtonsPrmt.WelcomeButtonPrmt">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="WelcomeButtonPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WelcomePrmt/WelcomeAuthButtonsPrmt/WelcomeButtonPrmt/WelcomeButtonPrmt.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="9" count="166" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.DiffClosedCardsPage">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="DiffClosedCardsPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/DiffClosedCardsPage/DiffClosedCardsPage.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/DiffClosedCardsPage/data.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.DiffOpenedCardsPage">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="DiffOpenedCardsPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/DiffOpenedCardsPage/DiffOpenedCardsPage.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/DiffOpenedCardsPage/data.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.DiffOpenedCardsWithDialogPage">
+      <metrics statements="29" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="5"/>
+      <file name="DiffOpenedCardsWithDialogPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/DiffOpenedCardsWithDialogPage/DiffOpenedCardsWithDialogPage.tsx">
+        <metrics statements="26" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="75" count="4" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="95" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/DiffOpenedCardsWithDialogPage/data.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.HomePage">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="HomePage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/HomePage/HomePage.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/HomePage/data.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.OrderListPreviewPage">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="OrderListPreviewPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrderListPreviewPage/OrderListPreviewPage.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrderListPreviewPage/data.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.OrderPage">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="OrderPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrderPage/OrderPage.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+      <file name="data.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrderPage/data.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.OrdersFilterClosedPage">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="OrdersFilterClosedPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterClosedPage/OrdersFilterClosedPage.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterClosedPage/data.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="166" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.OrdersFilterClosedWithDialogPage">
+      <metrics statements="27" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="5"/>
+      <file name="OrdersFilterClosedWithDialogPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterClosedWithDialogPage/OrdersFilterClosedWithDialogPage.tsx">
+        <metrics statements="24" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterClosedWithDialogPage/data.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.OrdersFilterOpenedPage">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="OrdersFilterOpenedPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterOpenedPage/OrdersFilterOpenedPage.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterOpenedPage/data.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.OrdersFilterOpenedWithDialogPage">
+      <metrics statements="26" coveredstatements="24" conditionals="6" coveredconditionals="4" methods="9" coveredmethods="5"/>
+      <file name="OrdersFilterOpenedWithDialogPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterOpenedWithDialogPage/OrdersFilterOpenedWithDialogPage.tsx">
+        <metrics statements="24" coveredstatements="22" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="74" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrdersFilterOpenedWithDialogPage/data.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.TimeWidgetsPage">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="TimeWidgetsPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/TimeWidgetsPage/TimeWidgetsPage.tsx">
+        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/TimeWidgetsPage/data.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage1">
+      <metrics statements="18" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
+      <file name="WelcomePage1.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage1/WelcomePage1.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage1/data.ts">
+        <metrics statements="12" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage2">
+      <metrics statements="28" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="1"/>
+      <file name="WelcomePage2.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage2/WelcomePage2.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage2/data.ts">
+        <metrics statements="20" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage3">
+      <metrics statements="28" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="1"/>
+      <file name="WelcomePage3.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage3/WelcomePage3.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage3/data.ts">
+        <metrics statements="20" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage4">
+      <metrics statements="26" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="1"/>
+      <file name="WelcomePage4.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage4/WelcomePage4.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage4/data.ts">
+        <metrics statements="20" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage5">
+      <metrics statements="16" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
+      <file name="WelcomePage5.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage5/WelcomePage5.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage5/data.ts">
+        <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage6">
+      <metrics statements="24" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="1"/>
+      <file name="WelcomePage6.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage6/WelcomePage6.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage6/data.ts">
+        <metrics statements="15" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage7">
+      <metrics statements="24" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="1"/>
+      <file name="WelcomePage7.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage7/WelcomePage7.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage7/data.ts">
+        <metrics statements="15" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="templates.WelcomePages.WelcomePage8">
+      <metrics statements="22" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="1"/>
+      <file name="WelcomePage8.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage8/WelcomePage8.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/WelcomePages/WelcomePage8/data.ts">
+        <metrics statements="15" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
