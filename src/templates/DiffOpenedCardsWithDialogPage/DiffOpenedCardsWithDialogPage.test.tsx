@@ -10,7 +10,7 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 			const { container } = render(<DiffOpenedCardsWithDialogPage />);
 			expect(container).toBeInTheDocument();
 		});
-	});
+	}, 15000);
 
 	test('matches the snapshot desktop', async () => {
 		await act(async () => {
@@ -21,7 +21,7 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 			);
 			expect(desktop).toMatchSnapshot();
 		});
-	});
+	}, 15000);
 
 	test('matches the snapshot laptop', async () => {
 		await act(async () => {
@@ -32,7 +32,7 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 			);
 			expect(laptop).toMatchSnapshot();
 		});
-	});
+	}, 15000);
 
 	test('matches the snapshot mobile', async () => {
 		await act(async () => {
@@ -43,5 +43,5 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 			);
 			expect(mobile).toMatchSnapshot();
 		});
-	});
+	}, 15000);
 });

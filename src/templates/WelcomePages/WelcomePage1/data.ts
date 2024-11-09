@@ -1,36 +1,45 @@
-// @flow
-
 import Image1 from '../pictures/Image1.jpg';
 import Image2 from '../pictures/Image2.jpg';
 import Image3 from '../pictures/Image3.jpg';
 import Image4 from '../pictures/Image4.jpg';
 
-export const images = [
+interface IWelcomeButtons {
+	id: number;
+	title: string;
+	onClick: () => void;
+}
+
+interface IImages {
+	id: number;
+	url: string;
+}
+
+export const images: IImages[] = [
 	{ id: 1, url: Image1 },
 	{ id: 2, url: Image2 },
 	{ id: 3, url: Image3 },
 	{ id: 4, url: Image4 },
 ];
 
-export const welcomeButtons = [
+export const welcomeButtons: IWelcomeButtons[] = [
 	{
 		id: 1,
 		title: 'email',
-		onClick: (): void => alert('email'),
+		onClick: () => {},
 	},
 	{
 		id: 2,
 		title: 'LogIn',
-		onClick: (): void => alert('LogIn'),
+		onClick: () => {},
 	},
 	{
 		id: 3,
 		title: 'CreateAccount',
-		onClick: (): void => alert('CreateAccount'),
+		onClick: () => {},
 	},
 ];
 
 export const authButtons = [
-	{ id: 1, title: 'G', onClick: (): void => alert('click1') },
-	{ id: 2, title: 'VK', onClick: (): void => alert('click2') },
+	{ id: 1, title: 'G', onClick: () => {} },
+	{ id: 2, title: 'VK', onClick: () => {} },
 ];

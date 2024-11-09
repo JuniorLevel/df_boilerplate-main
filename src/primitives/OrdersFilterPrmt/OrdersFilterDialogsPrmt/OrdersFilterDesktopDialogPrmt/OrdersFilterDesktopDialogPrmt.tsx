@@ -7,6 +7,14 @@ import { OrdersFilterCardAddItemButtonPrmt } from '../../OrdersFilterOpenedPrmt/
 import { useStyles } from './OrdersFilterDesktopDialogPrmt.styles';
 import { StatusContainerPrmt } from '@/primitives/OrdersFilterPrmt/StatusContainerPrmt/StatusContainerPrmt';
 
+type THandleClick = (e: MouseEvent) => void;
+type TAddFilterItem = () => void;
+interface INewItem {
+	id: number;
+	status: string;
+	text: string;
+}
+
 export const OrdersFilterDesktopDialogPrmt: FC = () => {
 	const { history } = useRouter();
 	const modalRef = useRef<HTMLDivElement | null>(null);
@@ -15,8 +23,8 @@ export const OrdersFilterDesktopDialogPrmt: FC = () => {
 	const { styles } = useStyles();
 
 	useEffect(() => {
-		const handleClick = (e: any) => {
-			if (e.target.classList.contains(styles.dialog)) history.go(-1);
+		const handleClick: THandleClick = (e) => {
+			if ((e.target as HTMLElement).classList.contains(styles.dialog)) history.go(-1);
 		};
 		document.addEventListener('mousedown', handleClick);
 		return () => {
@@ -24,8 +32,8 @@ export const OrdersFilterDesktopDialogPrmt: FC = () => {
 		};
 	}, [history, styles.dialog]);
 
-	const addFilterItem = () => {
-		const newItem = {
+	const addFilterItem: TAddFilterItem = () => {
+		const newItem: INewItem = {
 			id: Date.now(),
 			status: 'updated',
 			text: `project-${Date.now().toString().slice(-2)}`,
