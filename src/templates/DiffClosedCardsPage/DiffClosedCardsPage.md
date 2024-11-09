@@ -1,6 +1,2 @@
-```tsx { "file": "./DiffClosedCardsPage.tsx" }
-
-``````tsx noeditor
-import Image1 from './filters-dif.png';
-<img src={Image1} />;
-```;
+![My image](./filters-dif.png)
+```tsx { "file": "./DiffClosedCardsPage.tsx" } 

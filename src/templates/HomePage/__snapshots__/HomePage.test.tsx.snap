@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage matches the snapshot desktop 1`] = `
+<div>
+  <div
+    class="ant-layout acss-sdwng8 css-dev-only-do-not-override-apn68"
+  >
+    <header
+      class="ant-layout-header acss-1km91wk css-dev-only-do-not-override-apn68"
+    >
+      <div
+        class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-justify-space-between"
+      >
+        <div>
+          <span>
+            <span
+              aria-label="open-a-i"
+              class="anticon anticon-open-a-i"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="open-a-i"
+                fill="currentColor"
+                fill-rule="evenodd"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M482.88 128c-84.35 0-156.58 52.8-185.68 126.98-60.89 8.13-115.3 43.63-146.6 97.84-42.16 73-32.55 161.88 17.14 224.16-23.38 56.75-19.85 121.6 11.42 175.78 42.18 73.02 124.1 109.15 202.94 97.23C419.58 898.63 477.51 928 540.12 928c84.35 0 156.58-52.8 185.68-126.98 60.89-8.13 115.3-43.62 146.6-97.84 42.16-73 32.55-161.88-17.14-224.16 23.38-56.75 19.85-121.6-11.42-175.78-42.18-73.02-124.1-109.15-202.94-97.23C603.42 157.38 545.49 128 482.88 128m0 61.54c35.6 0 68.97 13.99 94.22 37.74-1.93 1.03-3.92 1.84-5.83 2.94l-136.68 78.91a46.11 46.11 0 00-23.09 39.78l-.84 183.6-65.72-38.34V327.4c0-76 61.9-137.86 137.94-137.86m197.7 75.9c44.19 3.14 86.16 27.44 109.92 68.57 17.8 30.8 22.38 66.7 14.43 100.42-1.88-1.17-3.6-2.49-5.53-3.6l-136.73-78.91a46.23 46.23 0 00-46-.06l-159.47 91.1.36-76.02 144.5-83.41a137.19 137.19 0 0178.53-18.09m-396.92 55.4c-.07 2.2-.3 4.35-.3 6.56v157.75a46.19 46.19 0 0022.91 39.9l158.68 92.5-66.02 37.67-144.55-83.35c-65.86-38-88.47-122.53-50.45-188.34 17.78-30.78 46.55-52.69 79.73-62.68m340.4 79.93l144.54 83.35c65.86 38 88.47 122.53 50.45 188.34-17.78 30.78-46.55 52.69-79.73 62.68.07-2.19.3-4.34.3-6.55V570.85a46.19 46.19 0 00-22.9-39.9l-158.69-92.5zM511.8 464.84l54.54 31.79-.3 63.22-54.84 31.31-54.54-31.85.3-63.16zm100.54 58.65l65.72 38.35V728.6c0 76-61.9 137.86-137.94 137.86-35.6 0-68.97-13.99-94.22-37.74 1.93-1.03 3.92-1.84 5.83-2.94l136.68-78.9a46.11 46.11 0 0023.09-39.8zm-46.54 89.55l-.36 76.02-144.5 83.41c-65.85 38-150.42 15.34-188.44-50.48-17.8-30.8-22.38-66.7-14.43-100.42 1.88 1.17 3.6 2.5 5.53 3.6l136.74 78.91a46.23 46.23 0 0046 .06z"
+                />
+              </svg>
+            </span>
+          </span>
+          <span>
+            Caption
+          </span>
+        </div>
+        <div
+          class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-align-center"
+        >
+          <div
+            class="ant-space css-dev-only-do-not-override-apn68 ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small"
+          >
+            <div
+              class="ant-space-item"
+            >
+              <button
+                aria-checked="false"
+                class="ant-switch css-dev-only-do-not-override-apn68"
+                role="switch"
+                type="button"
+              >
+                <div
+                  class="ant-switch-handle"
+                />
+                <span
+                  class="ant-switch-inner"
+                >
+                  <span
+                    class="ant-switch-inner-checked"
+                  >
+                    <span
+                      aria-label="sun"
+                      class="anticon anticon-sun"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="sun"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M548 818v126a16 16 0 01-16 16h-40a16 16 0 01-16-16V818c15.85 1.64 27.84 2.46 36 2.46 8.15 0 20.16-.82 36-2.46m205.25-115.66l89.1 89.1a16 16 0 010 22.62l-28.29 28.29a16 16 0 01-22.62 0l-89.1-89.1c12.37-10.04 21.43-17.95 27.2-23.71 5.76-5.77 13.67-14.84 23.71-27.2m-482.5 0c10.04 12.36 17.95 21.43 23.71 27.2 5.77 5.76 14.84 13.67 27.2 23.71l-89.1 89.1a16 16 0 01-22.62 0l-28.29-28.29a16 16 0 010-22.63zM512 278c129.24 0 234 104.77 234 234S641.24 746 512 746 278 641.24 278 512s104.77-234 234-234m0 72c-89.47 0-162 72.53-162 162s72.53 162 162 162 162-72.53 162-162-72.53-162-162-162M206 476c-1.64 15.85-2.46 27.84-2.46 36 0 8.15.82 20.16 2.46 36H80a16 16 0 01-16-16v-40a16 16 0 0116-16zm738 0a16 16 0 0116 16v40a16 16 0 01-16 16H818c1.64-15.85 2.46-27.84 2.46-36 0-8.15-.82-20.16-2.46-36zM814.06 180.65l28.29 28.29a16 16 0 010 22.63l-89.1 89.09c-10.04-12.37-17.95-21.43-23.71-27.2-5.77-5.76-14.84-13.67-27.2-23.71l89.1-89.1a16 16 0 0122.62 0m-581.5 0l89.1 89.1c-12.37 10.04-21.43 17.95-27.2 23.71-5.76 5.77-13.67 14.84-23.71 27.2l-89.1-89.1a16 16 0 010-22.62l28.29-28.29a16 16 0 0122.62 0M532 64a16 16 0 0116 16v126c-15.85-1.64-27.84-2.46-36-2.46-8.15 0-20.16.82-36 2.46V80a16 16 0 0116-16z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span
+                    class="ant-switch-inner-unchecked"
+                  >
+                    <span
+                      aria-label="moon"
+                      class="anticon anticon-moon"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="moon"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M489.5 111.66c30.65-1.8 45.98 36.44 22.58 56.33A243.35 243.35 0 00426 354c0 134.76 109.24 244 244 244 72.58 0 139.9-31.83 186.01-86.08 19.87-23.38 58.07-8.1 56.34 22.53C900.4 745.82 725.15 912 512.5 912 291.31 912 112 732.69 112 511.5c0-211.39 164.29-386.02 374.2-399.65l.2-.01zm-81.15 79.75l-4.11 1.36C271.1 237.94 176 364.09 176 511.5 176 697.34 326.66 848 512.5 848c148.28 0 274.94-96.2 319.45-230.41l.63-1.93-.11.07a307.06 307.06 0 01-159.73 46.26L670 662c-170.1 0-308-137.9-308-308 0-58.6 16.48-114.54 46.27-162.47z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </span>
+              </button>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              <span
+                class="ant-avatar ant-avatar-lg ant-avatar-circle css-dev-only-do-not-override-apn68"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="transform: scale(1);"
+                >
+                  AV
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-apn68"
+    >
+      <aside
+        class="ant-layout-sider ant-layout-sider-dark acss-19nad52 css-dev-only-do-not-override-apn68"
+        style="flex: 0 0 65px; max-width: 65px; min-width: 65px; width: 65px;"
+      >
+        <div
+          class="ant-layout-sider-children"
+        >
+          <nav>
+            <div
+              class="acss-b2fmse ant-flex css-dev-only-do-not-override-apn68"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-link ant-btn-color-primary ant-btn-variant-link"
+                type="button"
+              />
+            </div>
+            <div
+              class="acss-b2fmse ant-flex css-dev-only-do-not-override-apn68"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-link ant-btn-color-primary ant-btn-variant-link"
+                type="button"
+              />
+            </div>
+            <div
+              class="acss-b2fmse ant-flex css-dev-only-do-not-override-apn68"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-link ant-btn-color-primary ant-btn-variant-link"
+                type="button"
+              />
+            </div>
+          </nav>
+        </div>
+      </aside>
+      <main
+        class="ant-layout-content acss-97cbot css-dev-only-do-not-override-apn68"
+      >
+        <div />
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HomePage matches the snapshot laptop 1`] = `
+<div>
+  <div
+    class="ant-layout acss-sdwng8 css-dev-only-do-not-override-apn68"
+  >
+    <header
+      class="ant-layout-header acss-1km91wk css-dev-only-do-not-override-apn68"
+    >
+      <div
+        class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-justify-space-between"
+      >
+        <div>
+          <span>
+            <span
+              aria-label="open-a-i"
+              class="anticon anticon-open-a-i"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="open-a-i"
+                fill="currentColor"
+                fill-rule="evenodd"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M482.88 128c-84.35 0-156.58 52.8-185.68 126.98-60.89 8.13-115.3 43.63-146.6 97.84-42.16 73-32.55 161.88 17.14 224.16-23.38 56.75-19.85 121.6 11.42 175.78 42.18 73.02 124.1 109.15 202.94 97.23C419.58 898.63 477.51 928 540.12 928c84.35 0 156.58-52.8 185.68-126.98 60.89-8.13 115.3-43.62 146.6-97.84 42.16-73 32.55-161.88-17.14-224.16 23.38-56.75 19.85-121.6-11.42-175.78-42.18-73.02-124.1-109.15-202.94-97.23C603.42 157.38 545.49 128 482.88 128m0 61.54c35.6 0 68.97 13.99 94.22 37.74-1.93 1.03-3.92 1.84-5.83 2.94l-136.68 78.91a46.11 46.11 0 00-23.09 39.78l-.84 183.6-65.72-38.34V327.4c0-76 61.9-137.86 137.94-137.86m197.7 75.9c44.19 3.14 86.16 27.44 109.92 68.57 17.8 30.8 22.38 66.7 14.43 100.42-1.88-1.17-3.6-2.49-5.53-3.6l-136.73-78.91a46.23 46.23 0 00-46-.06l-159.47 91.1.36-76.02 144.5-83.41a137.19 137.19 0 0178.53-18.09m-396.92 55.4c-.07 2.2-.3 4.35-.3 6.56v157.75a46.19 46.19 0 0022.91 39.9l158.68 92.5-66.02 37.67-144.55-83.35c-65.86-38-88.47-122.53-50.45-188.34 17.78-30.78 46.55-52.69 79.73-62.68m340.4 79.93l144.54 83.35c65.86 38 88.47 122.53 50.45 188.34-17.78 30.78-46.55 52.69-79.73 62.68.07-2.19.3-4.34.3-6.55V570.85a46.19 46.19 0 00-22.9-39.9l-158.69-92.5zM511.8 464.84l54.54 31.79-.3 63.22-54.84 31.31-54.54-31.85.3-63.16zm100.54 58.65l65.72 38.35V728.6c0 76-61.9 137.86-137.94 137.86-35.6 0-68.97-13.99-94.22-37.74 1.93-1.03 3.92-1.84 5.83-2.94l136.68-78.9a46.11 46.11 0 0023.09-39.8zm-46.54 89.55l-.36 76.02-144.5 83.41c-65.85 38-150.42 15.34-188.44-50.48-17.8-30.8-22.38-66.7-14.43-100.42 1.88 1.17 3.6 2.5 5.53 3.6l136.74 78.91a46.23 46.23 0 0046 .06z"
+                />
+              </svg>
+            </span>
+          </span>
+          <span>
+            Caption
+          </span>
+        </div>
+        <div
+          class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-align-center"
+        >
+          <div
+            class="ant-space css-dev-only-do-not-override-apn68 ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small"
+          >
+            <div
+              class="ant-space-item"
+            >
+              <button
+                aria-checked="false"
+                class="ant-switch css-dev-only-do-not-override-apn68"
+                role="switch"
+                type="button"
+              >
+                <div
+                  class="ant-switch-handle"
+                />
+                <span
+                  class="ant-switch-inner"
+                >
+                  <span
+                    class="ant-switch-inner-checked"
+                  >
+                    <span
+                      aria-label="sun"
+                      class="anticon anticon-sun"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="sun"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M548 818v126a16 16 0 01-16 16h-40a16 16 0 01-16-16V818c15.85 1.64 27.84 2.46 36 2.46 8.15 0 20.16-.82 36-2.46m205.25-115.66l89.1 89.1a16 16 0 010 22.62l-28.29 28.29a16 16 0 01-22.62 0l-89.1-89.1c12.37-10.04 21.43-17.95 27.2-23.71 5.76-5.77 13.67-14.84 23.71-27.2m-482.5 0c10.04 12.36 17.95 21.43 23.71 27.2 5.77 5.76 14.84 13.67 27.2 23.71l-89.1 89.1a16 16 0 01-22.62 0l-28.29-28.29a16 16 0 010-22.63zM512 278c129.24 0 234 104.77 234 234S641.24 746 512 746 278 641.24 278 512s104.77-234 234-234m0 72c-89.47 0-162 72.53-162 162s72.53 162 162 162 162-72.53 162-162-72.53-162-162-162M206 476c-1.64 15.85-2.46 27.84-2.46 36 0 8.15.82 20.16 2.46 36H80a16 16 0 01-16-16v-40a16 16 0 0116-16zm738 0a16 16 0 0116 16v40a16 16 0 01-16 16H818c1.64-15.85 2.46-27.84 2.46-36 0-8.15-.82-20.16-2.46-36zM814.06 180.65l28.29 28.29a16 16 0 010 22.63l-89.1 89.09c-10.04-12.37-17.95-21.43-23.71-27.2-5.77-5.76-14.84-13.67-27.2-23.71l89.1-89.1a16 16 0 0122.62 0m-581.5 0l89.1 89.1c-12.37 10.04-21.43 17.95-27.2 23.71-5.76 5.77-13.67 14.84-23.71 27.2l-89.1-89.1a16 16 0 010-22.62l28.29-28.29a16 16 0 0122.62 0M532 64a16 16 0 0116 16v126c-15.85-1.64-27.84-2.46-36-2.46-8.15 0-20.16.82-36 2.46V80a16 16 0 0116-16z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span
+                    class="ant-switch-inner-unchecked"
+                  >
+                    <span
+                      aria-label="moon"
+                      class="anticon anticon-moon"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="moon"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M489.5 111.66c30.65-1.8 45.98 36.44 22.58 56.33A243.35 243.35 0 00426 354c0 134.76 109.24 244 244 244 72.58 0 139.9-31.83 186.01-86.08 19.87-23.38 58.07-8.1 56.34 22.53C900.4 745.82 725.15 912 512.5 912 291.31 912 112 732.69 112 511.5c0-211.39 164.29-386.02 374.2-399.65l.2-.01zm-81.15 79.75l-4.11 1.36C271.1 237.94 176 364.09 176 511.5 176 697.34 326.66 848 512.5 848c148.28 0 274.94-96.2 319.45-230.41l.63-1.93-.11.07a307.06 307.06 0 01-159.73 46.26L670 662c-170.1 0-308-137.9-308-308 0-58.6 16.48-114.54 46.27-162.47z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </span>
+              </button>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              <span
+                class="ant-avatar ant-avatar-lg ant-avatar-circle css-dev-only-do-not-override-apn68"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="transform: scale(1);"
+                >
+                  AV
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-apn68"
+    >
+      <aside
+        class="ant-layout-sider ant-layout-sider-dark acss-19nad52 css-dev-only-do-not-override-apn68"
+        style="flex: 0 0 65px; max-width: 65px; min-width: 65px; width: 65px;"
+      >
+        <div
+          class="ant-layout-sider-children"
+        >
+          <nav>
+            <div
+              class="acss-b2fmse ant-flex css-dev-only-do-not-override-apn68"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-link ant-btn-color-primary ant-btn-variant-link"
+                type="button"
+              />
+            </div>
+            <div
+              class="acss-b2fmse ant-flex css-dev-only-do-not-override-apn68"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-link ant-btn-color-primary ant-btn-variant-link"
+                type="button"
+              />
+            </div>
+            <div
+              class="acss-b2fmse ant-flex css-dev-only-do-not-override-apn68"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-link ant-btn-color-primary ant-btn-variant-link"
+                type="button"
+              />
+            </div>
+          </nav>
+        </div>
+      </aside>
+      <main
+        class="ant-layout-content acss-97cbot css-dev-only-do-not-override-apn68"
+      >
+        <div />
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HomePage matches the snapshot mobile 1`] = `
+<div>
+  <div
+    class="ant-layout acss-sdwng8 css-dev-only-do-not-override-apn68"
+  >
+    <header
+      class="ant-layout-header acss-1km91wk css-dev-only-do-not-override-apn68"
+    >
+      <div
+        class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-align-center ant-flex-justify-space-between"
+      >
+        <button
+          class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <span
+              aria-label="menu"
+              class="anticon anticon-menu"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="menu"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+                />
+              </svg>
+            </span>
+          </span>
+        </button>
+        <div>
+          <span>
+            <span
+              aria-label="open-a-i"
+              class="anticon anticon-open-a-i"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="open-a-i"
+                fill="currentColor"
+                fill-rule="evenodd"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M482.88 128c-84.35 0-156.58 52.8-185.68 126.98-60.89 8.13-115.3 43.63-146.6 97.84-42.16 73-32.55 161.88 17.14 224.16-23.38 56.75-19.85 121.6 11.42 175.78 42.18 73.02 124.1 109.15 202.94 97.23C419.58 898.63 477.51 928 540.12 928c84.35 0 156.58-52.8 185.68-126.98 60.89-8.13 115.3-43.62 146.6-97.84 42.16-73 32.55-161.88-17.14-224.16 23.38-56.75 19.85-121.6-11.42-175.78-42.18-73.02-124.1-109.15-202.94-97.23C603.42 157.38 545.49 128 482.88 128m0 61.54c35.6 0 68.97 13.99 94.22 37.74-1.93 1.03-3.92 1.84-5.83 2.94l-136.68 78.91a46.11 46.11 0 00-23.09 39.78l-.84 183.6-65.72-38.34V327.4c0-76 61.9-137.86 137.94-137.86m197.7 75.9c44.19 3.14 86.16 27.44 109.92 68.57 17.8 30.8 22.38 66.7 14.43 100.42-1.88-1.17-3.6-2.49-5.53-3.6l-136.73-78.91a46.23 46.23 0 00-46-.06l-159.47 91.1.36-76.02 144.5-83.41a137.19 137.19 0 0178.53-18.09m-396.92 55.4c-.07 2.2-.3 4.35-.3 6.56v157.75a46.19 46.19 0 0022.91 39.9l158.68 92.5-66.02 37.67-144.55-83.35c-65.86-38-88.47-122.53-50.45-188.34 17.78-30.78 46.55-52.69 79.73-62.68m340.4 79.93l144.54 83.35c65.86 38 88.47 122.53 50.45 188.34-17.78 30.78-46.55 52.69-79.73 62.68.07-2.19.3-4.34.3-6.55V570.85a46.19 46.19 0 00-22.9-39.9l-158.69-92.5zM511.8 464.84l54.54 31.79-.3 63.22-54.84 31.31-54.54-31.85.3-63.16zm100.54 58.65l65.72 38.35V728.6c0 76-61.9 137.86-137.94 137.86-35.6 0-68.97-13.99-94.22-37.74 1.93-1.03 3.92-1.84 5.83-2.94l136.68-78.9a46.11 46.11 0 0023.09-39.8zm-46.54 89.55l-.36 76.02-144.5 83.41c-65.85 38-150.42 15.34-188.44-50.48-17.8-30.8-22.38-66.7-14.43-100.42 1.88 1.17 3.6 2.5 5.53 3.6l136.74 78.91a46.23 46.23 0 0046 .06z"
+                />
+              </svg>
+            </span>
+          </span>
+          <span>
+            Caption
+          </span>
+        </div>
+        <div
+          class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-align-center"
+        >
+          <span
+            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-apn68"
+          >
+            <span
+              aria-label="user"
+              class="anticon anticon-user"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="user"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+    </header>
+    <div
+      class="ant-layout css-dev-only-do-not-override-apn68"
+    >
+      <main
+        class="ant-layout-content acss-97cbot css-dev-only-do-not-override-apn68"
+      >
+        <div />
+      </main>
+    </div>
+  </div>
+</div>
+`;

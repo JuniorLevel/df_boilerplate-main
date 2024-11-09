@@ -11,6 +11,8 @@ import eslintPluginImport from 'eslint-plugin-import';
 import eslintPluginNoInlineStyles from 'eslint-plugin-no-inline-styles';
 import eslintPluginRestrictImports from 'eslint-plugin-restrict-imports';
 import * as eslintImportResolverTypescript from 'eslint-import-resolver-typescript';
+import eslintPluginJest from 'eslint-plugin-jest';
+
 /** @type {import('eslint').Linter.Config} */
 
 export default tseslint.config(
@@ -31,19 +33,20 @@ export default tseslint.config(
 			'eslint-no-inline-styles': eslintPluginNoInlineStyles,
 			'eslint-restrict-imports': eslintPluginRestrictImports,
 			'eslint-resolver-typescript': eslintImportResolverTypescript,
+			jest: eslintPluginJest,
 		},
 	},
-	{ ignores: ['node_modules', 'dist', '__mocks__', '.husky'] },
+	{ ignores: ['node_modules', 'dist', '__mocks__', '.husky', 'github-pages', 'coverage', 'styleguide'] },
 	{
 		languageOptions: {
-			globals: { ...globals.node, ...globals.browser, ...globals.es2021 },
+			globals: { ...globals.node, ...globals.browser, ...globals.es2021, ...eslintPluginJest.environments.globals.globals },
 			parserOptions: {
 				project: ['./tsconfig.json'],
 			},
 		},
 	},
 	{
-		files: ['**/*.{js,ts,tsx}'],
+		files: ['**/*.{js,ts,tsx}', '**/*.spec.tsx', '**/*.test.tsx'],
 		rules: {
 			...prettierPlugin.configs.recommended.rules,
 			...eslintConfigPrettier.rules,
@@ -62,6 +65,11 @@ export default tseslint.config(
 			'no-alert': 'off',
 			'eslint-no-inline-styles/no-inline-styles': 'error',
 			'@typescript-eslint/no-explicit-any': 'off',
+			'jest/no-disabled-tests': 'warn',
+			'jest/no-focused-tests': 'error',
+			'jest/no-identical-title': 'error',
+			'jest/prefer-to-have-length': 'warn',
+			'jest/valid-expect': 'error',
 			'eslint-restrict-imports/restrict-imports': [
 				'error',
 				{
