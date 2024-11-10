@@ -95,7 +95,5 @@ const memoryHistory = createMemoryHistory({
 const router = createRouter({ routeTree, history: memoryHistory });
 
 <StyleguidistRouterWrapper router={router} />;
-// ``````jsx noeditor
-// import Image1 from './DiffOpenedCardsWithDialogPage.png';
-// <img src={Image1} />;
-// ```;
+```
+![Image](../../templates/DiffOpenedCardsWithDialogPage/DiffOpenedCardsWithDialogPage.png)

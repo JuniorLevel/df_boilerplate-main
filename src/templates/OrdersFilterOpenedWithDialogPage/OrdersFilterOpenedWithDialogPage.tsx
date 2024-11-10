@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Outlet, createRootRoute, createRoute, createRouter, createMemoryHistory, RouterProvider } from '@tanstack/react-router';
 import { useMediaQuery } from 'react-responsive';
 import { sidebarButtons, filters } from './data';
@@ -71,4 +71,4 @@ const memoryHistory = createMemoryHistory({
 
 const router = createRouter({ routeTree, history: memoryHistory });
 
-export const OrdersFilterOpenedWithDialogPage = (): React.ReactNode => <RouterProvider router={router} />;
+export const OrdersFilterOpenedWithDialogPage: FC = () => <RouterProvider router={router} />;

@@ -1,2 +1,3 @@
-![My image](./filters-dif.png)
-```tsx { "file": "./DiffClosedCardsPage.tsx" } 
+```tsx { "file": "./DiffClosedCardsPage.tsx" }
+```
+![Image](../../templates/DiffClosedCardsPage/filters-dif.png)

@@ -13,7 +13,7 @@ import { StyleguidistRouterWrapper, OutletComponent } from '@/StyleguidistWrappe
 
 const rootRoute = createRootRoute({
 	component: function RootComponent() {
-		const mobileView = useMediaQuery({ maxWidth: 360 });
+		const mobileView = useMediaQuery({ maxWidth: screenSMMax });
 		return mobileView ? (
 			<OrdersFilterProviderPrmt>
 				<OutletComponent />
@@ -33,7 +33,7 @@ const IndexRoute = createRoute({
 	getParentRoute: () => rootRoute,
 	path: '/',
 	component: function IndexComponent() {
-		const mobileView = useMediaQuery({ maxWidth: 360 });
+		const mobileView = useMediaQuery({ maxWidth: screenSMMax });
 		return (
 			mobileView && (
 				<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
@@ -48,7 +48,7 @@ const DialogRoute = createRoute({
 	getParentRoute: () => rootRoute,
 	path: '/dialog',
 	component: function DialogComponent() {
-		const mobileView = useMediaQuery({ maxWidth: 360 });
+		const mobileView = useMediaQuery({ maxWidth: screenSMMax });
 		return mobileView ? (
 			<LayoutPrmt buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
 				<OrdersFilterMobileDialogPrmt />
@@ -68,7 +68,5 @@ const memoryHistory = createMemoryHistory({
 const router = createRouter({ routeTree, history: memoryHistory });
 
 <StyleguidistRouterWrapper router={router} />;
-// ``````jsx noeditor
-// import Image1 from './OrdersFilterOpenedWithDialogPage.png';
-// <img src={Image1} />;
-// ```;
+```
+![Image](../../templates/OrdersFilterOpenedWithDialogPage/OrdersFilterOpenedWithDialogPage.png)

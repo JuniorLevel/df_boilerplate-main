@@ -69,6 +69,5 @@ const memoryHistory = createMemoryHistory({
 const router = createRouter({ routeTree, history: memoryHistory });
 
 <StyleguidistRouterWrapper router={router} />;
-// ``````tsx noeditor
-// import Image1 from './OrdersFilterClosedWithDialogPage.png';
-// <img src={Image1} />;
+```
+![Image](../../templates/OrdersFilterClosedWithDialogPage/OrdersFilterClosedWithDialogPage.png)

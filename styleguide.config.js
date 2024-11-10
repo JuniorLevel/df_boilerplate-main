@@ -29,6 +29,7 @@ module.exports = {
 		}
 		return props;
 	},
+	assetsDir: 'src',
 	sections: [
 		{
 			name: 'Templates',
