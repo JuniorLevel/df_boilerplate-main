@@ -70,4 +70,10 @@ const router = createRouter({ routeTree, history: memoryHistory });
 
 <StyleguidistRouterWrapper router={router} />;
 ```
-![Image](../../templates/OrdersFilterClosedWithDialogPage/OrdersFilterClosedWithDialogPage.png)
+Design view of component
+
+```tsx
+import Image from './OrdersFilterClosedWithDialogPage.png';
+
+<img src={Image} alt="image"/>
+```

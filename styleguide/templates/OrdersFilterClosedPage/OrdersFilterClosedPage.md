@@ -1,5 +1,11 @@
 ```tsx { "file": "./OrdersFilterClosedPage.tsx" }
 ```
-![Image](../../templates/OrdersFilterClosedPage/ordersFilter-closed2.png)
+Design view of component
+
+```tsx
+import Image from './ordersFilter-closed2.png';
+
+<img src={Image} alt="image"/>
+```
 
 
