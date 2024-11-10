@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomePage8 matches the snapshot desktop 1`] = `
+<div>
+  <div
+    class="acss-gv1vu0"
+  >
+    <img
+      alt="background"
+      src="test-file-stub"
+    />
+    <div
+      class="acss-sdwng8 ant-flex css-dev-only-do-not-override-apn68 ant-flex-align-center ant-flex-justify-center"
+    >
+      <div
+        class="ant-layout acss-18z7dro css-dev-only-do-not-override-apn68"
+      >
+        <h1
+          class="ant-typography acss-jvlg32 css-dev-only-do-not-override-apn68"
+        >
+          Welcome
+        </h1>
+        <input
+          class="ant-input css-dev-only-do-not-override-apn68 ant-input-outlined acss-1ghgz8q"
+          placeholder="email"
+          type="text"
+          value=""
+        />
+        <div
+          class="acss-u29sg6"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              email
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              LogIn
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              CreateAccount
+            </span>
+          </button>
+        </div>
+        <div
+          class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WelcomePage8 matches the snapshot laptop 1`] = `
+<div>
+  <div
+    class="acss-gv1vu0"
+  >
+    <img
+      alt="background"
+      src="test-file-stub"
+    />
+    <div
+      class="acss-sdwng8 ant-flex css-dev-only-do-not-override-apn68 ant-flex-align-center ant-flex-justify-center"
+    >
+      <div
+        class="ant-layout acss-18z7dro css-dev-only-do-not-override-apn68"
+      >
+        <h1
+          class="ant-typography acss-jvlg32 css-dev-only-do-not-override-apn68"
+        >
+          Welcome
+        </h1>
+        <input
+          class="ant-input css-dev-only-do-not-override-apn68 ant-input-outlined acss-1ghgz8q"
+          placeholder="email"
+          type="text"
+          value=""
+        />
+        <div
+          class="acss-u29sg6"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              email
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              LogIn
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              CreateAccount
+            </span>
+          </button>
+        </div>
+        <div
+          class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WelcomePage8 matches the snapshot mobile 1`] = `
+<div>
+  <div
+    class="acss-gv1vu0"
+  >
+    <div
+      class="acss-sdwng8 ant-flex css-dev-only-do-not-override-apn68 ant-flex-align-center ant-flex-justify-center"
+    >
+      <div
+        class="ant-layout acss-18z7dro css-dev-only-do-not-override-apn68"
+      >
+        <h1
+          class="ant-typography acss-jvlg32 css-dev-only-do-not-override-apn68"
+        >
+          Welcome
+        </h1>
+        <input
+          class="ant-input css-dev-only-do-not-override-apn68 ant-input-outlined acss-1ghgz8q"
+          placeholder="email"
+          type="text"
+          value=""
+        />
+        <div
+          class="acss-u29sg6"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              email
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              LogIn
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+            type="button"
+          >
+            <span>
+              CreateAccount
+            </span>
+          </button>
+        </div>
+        <div
+          class="ant-flex css-dev-only-do-not-override-apn68 ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              G
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-apn68 ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            type="button"
+          >
+            <span>
+              VK
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
