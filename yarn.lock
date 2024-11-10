@@ -1120,10 +1120,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.61.1.tgz#ab284ebad15bdcf639a6ffbf4fb6e436b4315989"
   integrity sha512-2CqERleeqO3hkhJmyJm37tiL3LYgeOpmo8szqdjgtnnG0z7ZpvzkZz6HkfOr9Ca/ha7mhAiouSvLYuLkM37AMg==
 
-"@tanstack/react-router@^1.79.0":
-  version "1.79.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.79.0.tgz#1dbe77a2ddef93cd8d56aa13f2c791464f79e4da"
-  integrity sha512-v+0+Y3mCsd6waphnG0dloU9cDtSbB5k/LwbkhqXd2uGhwZyI1/nvvOcSOnuTB8CDEvC6WFNBt+fKOPVqNZ3ezw==
+"@tanstack/react-router@^1.81.0":
+  version "1.81.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.81.0.tgz#f1191c5e67d7dfd26daacd7f60f87265001b4381"
+  integrity sha512-995G4lT9V2nhnFsXc7qaQYKwpzKwXI00v/ApQlMRAtxvaZSh/+spd4OyR/z9AFlSyGJUniVV+QrZbm6roC+DQg==
   dependencies:
     "@tanstack/history" "1.61.1"
     "@tanstack/react-store" "^0.5.6"

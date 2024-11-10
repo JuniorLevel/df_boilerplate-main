@@ -69,7 +69,7 @@
 	},
 	"dependencies": {
 		"@ant-design/icons": "^5.5.1",
-		"@tanstack/react-router": "^1.79.0",
+		"@tanstack/react-router": "^1.81.0",
 		"antd": "^5.21.6",
 		"antd-style": "^3.7.1",
 		"react": "^18.3.1",

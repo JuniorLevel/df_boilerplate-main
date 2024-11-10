@@ -1,3 +1,9 @@
 ```tsx { "file": "./OrderPage.tsx" }
 ```
-![Image](../../templates/OrderPage/order.png)
+Design view of component
+
+```tsx
+import Image from './order.png';
+
+<img src={Image} alt="image"/>
+```

@@ -96,4 +96,10 @@ const router = createRouter({ routeTree, history: memoryHistory });
 
 <StyleguidistRouterWrapper router={router} />;
 ```
-![Image](../../templates/DiffOpenedCardsWithDialogPage/DiffOpenedCardsWithDialogPage.png)
+Design view of component
+
+```tsx
+import Image from './DiffOpenedCardsWithDialogPage.png';
+
+<img src={Image} alt="image"/>
+```

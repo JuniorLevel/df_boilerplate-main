@@ -1,3 +1,9 @@
 ```tsx { "file": "./DiffClosedCardsPage.tsx" }
 ```
-![Image](../../templates/DiffClosedCardsPage/filters-dif.png)
+Design view of component
+
+```tsx
+import Image from './filters-dif.png';
+
+<img src={Image} alt="image"/>
+```
