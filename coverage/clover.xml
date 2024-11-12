@@ -1,58 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1731255310259" clover="3.2.0">
-  <project timestamp="1731255310259" name="All files">
-    <metrics statements="1344" coveredstatements="1294" conditionals="417" coveredconditionals="386" methods="373" coveredmethods="219" elements="2134" coveredelements="1899" complexity="0" loc="1344" ncloc="1344" packages="125" files="202" classes="202"/>
-    <package name="construct.PersonRoleCnstr">
-      <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-      <file name="PersonRoleCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleCnstr.styles.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+<coverage generated="1731397999759" clover="3.2.0">
+  <project timestamp="1731397999759" name="All files">
+    <metrics statements="1530" coveredstatements="1453" conditionals="511" coveredconditionals="386" methods="399" coveredmethods="219" elements="2440" coveredelements="2058" complexity="0" loc="1530" ncloc="1530" packages="138" files="228" classes="228"/>
+    <package name="construct.FileTimeCnstr">
+      <metrics statements="16" coveredstatements="14" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FileTimeCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileTimeCnstr/FileTimeCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-      </file>
-      <file name="PersonRoleCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleCnstr.tsx">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="17" count="10" type="stmt"/>
       </file>
-    </package>
-    <package name="construct.PersonRoleCnstr.PersonRoleMdCnstr">
-      <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-      <file name="PersonRoleMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleMdCnstr/PersonRoleMdCnstr.styles.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-      </file>
-      <file name="PersonRoleMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleMdCnstr/PersonRoleMdCnstr.tsx">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="13" count="10" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
-        <line num="16" count="10" type="stmt"/>
-      </file>
-    </package>
-    <package name="construct.PersonRoleTimeCnstr">
-      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <file name="PersonRoleTimeCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeCnstr.styles.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-      </file>
-      <file name="PersonRoleTimeCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeCnstr.tsx">
-        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FileTimeCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileTimeCnstr/FileTimeCnstr.tsx">
+        <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -62,6 +21,212 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.FileTimeCnstr.FileTimeMdCnstr">
+      <metrics statements="15" coveredstatements="13" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FileTimeMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileTimeCnstr/FileTimeMdCnstr/FileTimeMdCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="FileTimeMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileTimeCnstr/FileTimeMdCnstr/FileTimeMdCnstr.tsx">
+        <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.FileTimeCnstr.FileTimeSmCnstr">
+      <metrics statements="14" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FileTimeSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileTimeCnstr/FileTimeSmCnstr/FileTimeSmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="FileTimeSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileTimeCnstr/FileTimeSmCnstr/FileTimeSmCnstr.tsx">
+        <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.FileWidgetCnstr">
+      <metrics statements="16" coveredstatements="14" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FileWidgetCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="FileWidgetCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetCnstr.tsx">
+        <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.FileWidgetCnstr.FileWidgetLgCnstr">
+      <metrics statements="14" coveredstatements="12" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FileWidgetLgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetLgCnstr/FileWidgetLgCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="FileWidgetLgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetLgCnstr/FileWidgetLgCnstr.tsx">
+        <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.FileWidgetCnstr.FileWidgetMdCnstr">
+      <metrics statements="14" coveredstatements="12" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FileWidgetMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetMdCnstr/FileWidgetMdCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="FileWidgetMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetMdCnstr/FileWidgetMdCnstr.tsx">
+        <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.FileWidgetCnstr.FileWidgetSmCnstr">
+      <metrics statements="13" coveredstatements="11" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FileWidgetSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetSmCnstr/FileWidgetSmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="FileWidgetSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/FileWidgetCnstr/FileWidgetSmCnstr/FileWidgetSmCnstr.tsx">
+        <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleCnstr">
+      <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+      </file>
+      <file name="PersonRoleCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleCnstr.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleCnstr.PersonRoleMdCnstr">
+      <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleMdCnstr/PersonRoleMdCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+      </file>
+      <file name="PersonRoleMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleCnstr/PersonRoleMdCnstr/PersonRoleMdCnstr.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.PersonRoleTimeCnstr">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="PersonRoleTimeCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="PersonRoleTimeCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeCnstr.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
         <line num="19" count="4" type="stmt"/>
         <line num="21" count="4" type="stmt"/>
@@ -71,20 +236,20 @@
       <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="PersonRoleTimeMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeMdCnstr/PersonRoleTimeMdCnstr.styles.ts">
         <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
       </file>
       <file name="PersonRoleTimeMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeMdCnstr/PersonRoleTimeMdCnstr.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="17" count="4" type="stmt"/>
         <line num="19" count="4" type="stmt"/>
@@ -94,19 +259,19 @@
       <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="PersonRoleTimeSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeSmCnstr/PersonRoleTimeSmCnstr.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
       </file>
       <file name="PersonRoleTimeSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/PersonRoleTimeCnstr/PersonRoleTimeSmCnstr/PersonRoleTimeSmCnstr.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="17" count="4" type="stmt"/>
         <line num="19" count="4" type="stmt"/>
@@ -126,20 +291,20 @@
       <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="TextRangeTimeCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeCnstr.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
       </file>
       <file name="TextRangeTimeCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeCnstr.tsx">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="17" count="4" type="stmt"/>
         <line num="19" count="4" type="stmt"/>
@@ -149,18 +314,18 @@
       <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="TextRangeTimeLgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeLgCnstr/TextRangeTimeLgCnstr.styles.ts">
         <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
       </file>
       <file name="TextRangeTimeLgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeLgCnstr/TextRangeTimeLgCnstr.tsx">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
         <line num="14" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
@@ -170,18 +335,18 @@
       <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="TextRangeTimeMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeMdCnstr/TextRangeTimeMdCnstr.styles.ts">
         <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
       </file>
       <file name="TextRangeTimeMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeMdCnstr/TextRangeTimeMdCnstr.tsx">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
         <line num="14" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
@@ -191,17 +356,17 @@
       <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="TextRangeTimeSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeSmCnstr/TextRangeTimeSmCnstr.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
       </file>
       <file name="TextRangeTimeSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextRangeTimeCnstr/TextRangeTimeSmCnstr/TextRangeTimeSmCnstr.tsx">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
         <line num="14" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
@@ -211,21 +376,21 @@
       <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="TextTime1Cnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1Cnstr.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
       </file>
       <file name="TextTime1Cnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1Cnstr.tsx">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="17" count="4" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
         <line num="20" count="4" type="stmt"/>
@@ -235,20 +400,20 @@
       <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="TextTime1LgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1LgCnstr/TextTime1LgCnstr.styles.ts">
         <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
       </file>
       <file name="TextTime1LgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1LgCnstr/TextTime1LgCnstr.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
@@ -258,19 +423,19 @@
       <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="TextTime1SmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1SmCnstr/TextTime1SmCnstr.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
       </file>
       <file name="TextTime1SmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TextTime1Cnstr/TextTime1SmCnstr/TextTime1SmCnstr.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
@@ -349,19 +514,19 @@
       <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="TimeRangeWidgetCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetCnstr.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
       </file>
       <file name="TimeRangeWidgetCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetCnstr.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
@@ -371,17 +536,17 @@
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="TimeRangeWidgetLgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetLgCnstr/TimeRangeWidgetLgCnstr.styles.ts">
         <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
       </file>
       <file name="TimeRangeWidgetLgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetLgCnstr/TimeRangeWidgetLgCnstr.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="12" count="4" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
@@ -391,17 +556,17 @@
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="TimeRangeWidgetMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetMdCnstr/TimeRangeWidgetMdCnstr.styles.ts">
         <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
       </file>
       <file name="TimeRangeWidgetMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetMdCnstr/TimeRangeWidgetMdCnstr.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="12" count="4" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
@@ -411,34 +576,123 @@
       <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="TimeRangeWidgetSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetSmCnstr/TimeRangeWidgetSmCnstr.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
       </file>
       <file name="TimeRangeWidgetSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetSmCnstr/TimeRangeWidgetSmCnstr.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeWidgetCnstr">
+      <metrics statements="15" coveredstatements="13" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="TimeWidgetCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="TimeWidgetCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetCnstr.tsx">
+        <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeWidgetCnstr.TimeWidgetLgCnstr">
+      <metrics statements="13" coveredstatements="11" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="TimeWidgetLgCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetLgCnstr/TimeWidgetLgCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="TimeWidgetLgCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetLgCnstr/TimeWidgetLgCnstr.tsx">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeWidgetCnstr.TimeWidgetMdCnstr">
+      <metrics statements="13" coveredstatements="11" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="TimeWidgetMdCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetMdCnstr/TimeWidgetMdCnstr.styles.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="TimeWidgetMdCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetMdCnstr/TimeWidgetMdCnstr.tsx">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="construct.TimeWidgetCnstr.TimeWidgetSmCnstr">
+      <metrics statements="12" coveredstatements="10" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="TimeWidgetSmCnstr.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetSmCnstr/TimeWidgetSmCnstr.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="TimeWidgetSmCnstr.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/construct/TimeWidgetCnstr/TimeWidgetSmCnstr/TimeWidgetSmCnstr.tsx">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
       </file>
     </package>
     <package name="primitives">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="createStyles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/createStyles.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="20" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="48" type="stmt"/>
       </file>
     </package>
     <package name="primitives.AvatarPrmt">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="AvatarPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/AvatarPrmt/AvatarPrmt.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
         <line num="10" count="9" type="stmt"/>
         <line num="11" count="9" type="stmt"/>
       </file>
@@ -450,6 +704,23 @@
         <line num="1" count="1" type="stmt"/>
         <line num="8" count="20" type="stmt"/>
         <line num="9" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.CardPrmt">
+      <metrics statements="8" coveredstatements="6" conditionals="12" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="CardPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/CardPrmt/CardPrmt.styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="CardPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/CardPrmt/CardPrmt.tsx">
+        <metrics statements="6" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
       </file>
     </package>
     <package name="primitives.ColPrmt">
@@ -465,13 +736,13 @@
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="CustomClockPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/CustomClockPrmt/CustomClockPrmt.styles.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
         <line num="3" count="30" type="stmt"/>
       </file>
       <file name="CustomClockPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/CustomClockPrmt/CustomClockPrmt.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="15" count="30" type="stmt"/>
         <line num="16" count="30" type="stmt"/>
         <line num="18" count="30" type="stmt"/>
@@ -481,13 +752,13 @@
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
       <file name="DateWithTimeBlockPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt.styles.ts">
         <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
         <line num="3" count="48" type="stmt"/>
       </file>
       <file name="DateWithTimeBlockPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt.tsx">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="9" count="48" type="stmt"/>
         <line num="10" count="48" type="stmt"/>
         <line num="11" count="96" type="stmt"/>
@@ -501,7 +772,7 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="DaysPanelPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/DaysPanelPrmt/DaysPanelPrmt.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
         <line num="11" count="8" type="stmt"/>
       </file>
     </package>
@@ -1553,21 +1824,21 @@
       <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
       <file name="RangeTime5Prmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5Prmt.styles.ts">
         <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
       </file>
       <file name="RangeTime5Prmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5Prmt.tsx">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="16" count="6" type="stmt"/>
         <line num="17" count="6" type="stmt"/>
         <line num="19" count="6" type="stmt"/>
@@ -1577,17 +1848,17 @@
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="RangeTime5LgPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5LgPrmt/RangeTime5LgPrmt.styles.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
       </file>
       <file name="RangeTime5LgPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5LgPrmt/RangeTime5LgPrmt.tsx">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="13" count="6" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
       </file>
@@ -1596,17 +1867,17 @@
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="RangeTime5MdPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5MdPrmt/RangeTime5MdPrmt.styles.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
       </file>
       <file name="RangeTime5MdPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5MdPrmt/RangeTime5MdPrmt.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="13" count="6" type="stmt"/>
       </file>
     </package>
@@ -1614,16 +1885,16 @@
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="RangeTime5SmPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5SmPrmt/RangeTime5SmPrmt.styles.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
       <file name="RangeTime5SmPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/RangeTime5Prmt/RangeTime5SmPrmt/RangeTime5SmPrmt.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="13" count="6" type="stmt"/>
       </file>
     </package>
@@ -1640,24 +1911,24 @@
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="TextPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/TextPrmt/TextPrmt.styles.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
         <line num="3" count="13" type="stmt"/>
       </file>
       <file name="TextPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/TextPrmt/TextPrmt.tsx">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
         <line num="11" count="13" type="stmt"/>
         <line num="12" count="13" type="stmt"/>
-        <line num="14" count="13" type="stmt"/>
+        <line num="13" count="13" type="stmt"/>
       </file>
     </package>
     <package name="primitives.TextTypographyPrmt">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="TextTypographyPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/TextTypographyPrmt/TextTypographyPrmt.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
         <line num="9" count="27" type="stmt"/>
         <line num="10" count="27" type="stmt"/>
         <line num="12" count="27" type="stmt"/>
@@ -1794,14 +2065,14 @@
       <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="WeeksAndYearsPanelPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt.styles.ts">
         <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
         <line num="3" count="32" type="stmt"/>
       </file>
       <file name="WeeksAndYearsPanelPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="32" type="stmt"/>
         <line num="8" count="32" type="stmt"/>
       </file>
@@ -1875,6 +2146,27 @@
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="8" type="stmt"/>
         <line num="9" count="166" type="stmt"/>
+      </file>
+    </package>
+    <package name="primitives.WidgetContainerPrmt">
+      <metrics statements="12" coveredstatements="9" conditionals="16" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="WidgetContainerPrmt.styles.ts" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WidgetContainerPrmt/WidgetContainerPrmt.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="WidgetContainerPrmt.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/primitives/WidgetContainerPrmt/WidgetContainerPrmt.tsx">
+        <metrics statements="9" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
       </file>
     </package>
     <package name="templates.DiffClosedCardsPage">
@@ -2001,9 +2293,9 @@
       </file>
     </package>
     <package name="templates.OrderPage">
-      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
       <file name="OrderPage.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrderPage/OrderPage.tsx">
-        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -2014,7 +2306,18 @@
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
       </file>
       <file name="data.tsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate-main/src/templates/OrderPage/data.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>

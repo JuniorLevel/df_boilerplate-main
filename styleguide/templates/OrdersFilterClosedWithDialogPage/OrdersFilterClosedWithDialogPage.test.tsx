@@ -1,14 +1,20 @@
-import React, { act } from 'react';
+import React from 'react';
+import { describe, test } from '@jest/globals';
 import { Context as ResponsiveContext } from 'react-responsive';
-import { render } from '@testing-library/react';
+import { render, act, waitFor, cleanup } from '@testing-library/react';
 import '../../../__mocks__/fileMock';
 import { OrdersFilterClosedWithDialogPage } from './OrdersFilterClosedWithDialogPage';
 
-describe('OrdersFilterOpenedWithDialogPage', () => {
-	test('should render OrdersFilterOpenedWithDialogPage component without crashing', async () => {
+describe('OrdersFilterClosedWithDialogPage', () => {
+	afterEach(() => {
+		cleanup();
+	});
+	test('should render OrdersFilterClosedWithDialogPage component without crashing', async () => {
 		await act(async () => {
 			const { container } = render(<OrdersFilterClosedWithDialogPage />);
-			expect(container).toBeInTheDocument();
+			await waitFor(() => {
+				expect(container).toBeInTheDocument();
+			});
 		});
 	});
 
@@ -19,7 +25,9 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 					<OrdersFilterClosedWithDialogPage />
 				</ResponsiveContext.Provider>
 			);
-			expect(desktop).toMatchSnapshot();
+			await waitFor(() => {
+				expect(desktop).toMatchSnapshot();
+			});
 		});
 	});
 
@@ -30,7 +38,9 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 					<OrdersFilterClosedWithDialogPage />
 				</ResponsiveContext.Provider>
 			);
-			expect(laptop).toMatchSnapshot();
+			await waitFor(() => {
+				expect(laptop).toMatchSnapshot();
+			});
 		});
 	});
 
@@ -41,7 +51,9 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 					<OrdersFilterClosedWithDialogPage />
 				</ResponsiveContext.Provider>
 			);
-			expect(mobile).toMatchSnapshot();
+			await waitFor(() => {
+				expect(mobile).toMatchSnapshot();
+			});
 		});
 	});
 });

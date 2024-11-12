@@ -1,16 +1,20 @@
 import React from 'react';
+import { describe, test } from '@jest/globals';
 import { Context as ResponsiveContext } from 'react-responsive';
-import { render, act } from '@testing-library/react'; // Импортируем act
+import { render, act, waitFor, cleanup } from '@testing-library/react';
 import '../../../__mocks__/fileMock';
 import { OrdersFilterOpenedWithDialogPage } from './OrdersFilterOpenedWithDialogPage';
 
 describe('OrdersFilterOpenedWithDialogPage', () => {
+	afterEach(() => {
+		cleanup();
+	});
 	test('should render OrdersFilterOpenedWithDialogPage component without crashing', async () => {
-		await act(async () => {
-			const { container } = render(<OrdersFilterOpenedWithDialogPage />);
+		const { container } = render(<OrdersFilterOpenedWithDialogPage />);
+		await waitFor(() => {
 			expect(container).toBeInTheDocument();
 		});
-	}, 15000);
+	});
 
 	test('matches the snapshot desktop', async () => {
 		await act(async () => {
@@ -19,9 +23,11 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 					<OrdersFilterOpenedWithDialogPage />
 				</ResponsiveContext.Provider>
 			);
-			expect(desktop).toMatchSnapshot();
+			await waitFor(() => {
+				expect(desktop).toMatchSnapshot();
+			});
 		});
-	}, 15000);
+	});
 
 	test('matches the snapshot laptop', async () => {
 		await act(async () => {
@@ -30,9 +36,11 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 					<OrdersFilterOpenedWithDialogPage />
 				</ResponsiveContext.Provider>
 			);
-			expect(laptop).toMatchSnapshot();
+			await waitFor(() => {
+				expect(laptop).toMatchSnapshot();
+			});
 		});
-	}, 15000);
+	});
 
 	test('matches the snapshot mobile', async () => {
 		await act(async () => {
@@ -41,7 +49,9 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 					<OrdersFilterOpenedWithDialogPage />
 				</ResponsiveContext.Provider>
 			);
-			expect(mobile).toMatchSnapshot();
+			await waitFor(() => {
+				expect(mobile).toMatchSnapshot();
+			});
 		});
-	}, 15000);
+	});
 });

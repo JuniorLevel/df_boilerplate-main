@@ -10,10 +10,5 @@ const { Paragraph } = Typography;
 
 export const TextPrmt: FC<ITextPrmtProps> = ({ text }) => {
 	const { styles } = useStyles();
-
-	return (
-		<div>
-			<Paragraph className={styles.paragraph}>{text}</Paragraph>
-		</div>
-	);
+	return <Paragraph className={styles.paragraph}>{text}</Paragraph>;
 };

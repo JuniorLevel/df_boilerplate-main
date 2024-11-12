@@ -1,3 +1,4 @@
+/* eslint-disable eslint-restrict-imports/restrict-imports */
 import React, { FC } from 'react';
 import { styled } from 'styled-components';
 import { HomePage } from '../templates/HomePage/HomePage';
@@ -20,6 +21,7 @@ import { OrdersFilterOpenedWithDialogPage } from '../templates/OrdersFilterOpene
 import { OrdersFilterClosedWithDialogPage } from '../templates/OrdersFilterClosedWithDialogPage/OrdersFilterClosedWithDialogPage';
 import { DiffOpenedCardsWithDialogPage } from '../templates/DiffOpenedCardsWithDialogPage/DiffOpenedCardsWithDialogPage';
 import { Outlet, createRootRoute, Link, createRoute, createRouter, RouterProvider } from '@tanstack/react-router';
+import { TaskPage } from '@/pages/TaskPage';
 
 const routes = [
 	{ id: 1, name: 'HomePage', component: HomePage, path: '/homePage' },
@@ -125,6 +127,12 @@ const routes = [
 		name: 'DiffOpenedCardsWithDialogPage',
 		component: DiffOpenedCardsWithDialogPage,
 		path: '/diffOpenedCardsWithDialogPage',
+	},
+	{
+		id: 20,
+		name: 'TaskPage',
+		component: TaskPage,
+		path: '/task',
 	},
 ];
 

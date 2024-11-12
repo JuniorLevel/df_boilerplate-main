@@ -49,16 +49,6 @@ export const filters = [
 
 export const items = [
 	{
-		key: 1,
-		label: (
-			<FlexPrmt gap={10} align="center">
-				<div>Main info</div>
-				<BadgePrmt count={3} />
-			</FlexPrmt>
-		) as ReactNode,
-		children: (<div>Content of Tab Pane 1</div>) as ReactNode,
-	},
-	{
 		key: 2,
 		label: (
 			<FlexPrmt gap={10} align="center">

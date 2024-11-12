@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`OrdersFilterOpenedWithDialogPage matches the snapshot desktop 1`] = `<div />`;
+exports[`DiffOpenedCardsWithDialogPage matches the snapshot desktop 1`] = `<div />`;
 
-exports[`OrdersFilterOpenedWithDialogPage matches the snapshot laptop 1`] = `<div />`;
+exports[`DiffOpenedCardsWithDialogPage matches the snapshot laptop 1`] = `<div />`;
 
-exports[`OrdersFilterOpenedWithDialogPage matches the snapshot mobile 1`] = `<div />`;
+exports[`DiffOpenedCardsWithDialogPage matches the snapshot mobile 1`] = `<div />`;

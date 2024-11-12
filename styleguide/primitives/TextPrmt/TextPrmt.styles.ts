@@ -5,7 +5,7 @@ export const useStyles = createStyles(({ token, css }) => ({
 		border: 1px solid ${token.colorPrimaryBorder};
 		padding: ${token.paddingXS}px;
 		width: 100%;
-		min-height: 40px;
+		min-height: 60px;
 		height: 100%;
 		margin: 0 !important;
 	`,
