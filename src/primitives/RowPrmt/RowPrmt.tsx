@@ -2,7 +2,7 @@ import { Row } from 'antd';
 import React, { FC, ReactNode } from 'react';
 
 interface IRowPrmt {
-	gutter: [number, number];
+	gutter?: [number, number];
 	children: ReactNode;
 }
 

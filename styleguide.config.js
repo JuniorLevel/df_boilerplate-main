@@ -130,10 +130,12 @@ module.exports = {
 				},
 				{ name: 'TextTime1Cnstr', content: 'src/construct/TextTime1Cnstr/TextTime1Cnstr.md' },
 				{ name: 'TextTime2Cnstr', content: 'src/construct/TextTime2Cnstr/TextTime2Cnstr.md' },
+				{ name: 'FileTimeCnstr', content: 'src/construct/FileTimeCnstr/FileTimeCnstr.md' },
 				{ name: 'TimeRangeWidgetCnstr', content: 'src/construct/TimeRangeWidgetCnstr/TimeRangeWidgetCnstr.md' },
 				{ name: 'TimeWidgetCnstr', content: 'src/construct/TimeWidgetCnstr/TimeWidgetCnstr.md' },
+				{ name: 'FileWidgetCnstr', content: 'src/construct/FileWidgetCnstr/FileWidgetCnstr.md' },
 			],
-			sectionDepth: 8,
+			sectionDepth: 10,
 		},
 		{
 			name: 'Primitives',

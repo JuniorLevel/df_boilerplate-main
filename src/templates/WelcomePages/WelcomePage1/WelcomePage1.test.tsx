@@ -1,4 +1,5 @@
 import React from 'react';
+import { describe, test } from '@jest/globals';
 import { Context as ResponsiveContext } from 'react-responsive';
 import { render } from '@testing-library/react';
 import { WelcomePage1 } from './WelcomePage1';

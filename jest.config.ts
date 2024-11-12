@@ -4,12 +4,12 @@ module.exports = {
 	transform: {
 		'^.+.tsx?$': ['ts-jest', {}],
 	},
+	testMatch: ['<rootDir>/src/**/*.test.(ts|tsx)'],
 	setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
-	transformIgnorePatterns: ['<rootDir>/node_modules/'],
+	testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/github-pages/'],
 	moduleNameMapper: {
 		'^.+\\.(jpg|jpeg|png|gif|webp|avif|svg)$': '<rootDir>/__mocks__/fileMock.ts',
 		'^@/(.*)$': '<rootDir>/src/$1',
 	},
-	coverageDirectory: 'coverage',
-	coveragePathIgnorePatterns: ['/node_modules/'],
+	coveragePathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/github-pages/'],
 };
