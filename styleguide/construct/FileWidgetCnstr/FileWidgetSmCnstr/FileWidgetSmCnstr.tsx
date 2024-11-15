@@ -3,18 +3,18 @@ import React, { FC } from 'react';
 import MediaQuery from 'react-responsive';
 import { screenMDMax, useStyles } from './FileWidgetSmCnstr.styles';
 import { ReactNode } from '@tanstack/react-router';
-import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
 import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
 import { AvatarPrmt } from '@/primitives/AvatarPrmt/AvatarPrmt';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface IFileWidgetSmCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	fio: string;
 	children: ReactNode;
 }
 
-export const FileWidgetSmCnstr: FC<IFileWidgetSmCnstrProps> = ({ fullDate, fio, children }) => {
+export const FileWidgetSmCnstr: FC<IFileWidgetSmCnstrProps> = ({ durationStart, fio, children }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -26,11 +26,11 @@ export const FileWidgetSmCnstr: FC<IFileWidgetSmCnstrProps> = ({ fullDate, fio, 
 				</FlexPrmt>
 				<FlexPrmt vertical gap={10}>
 					<FlexPrmt vertical align="center" gap={10}>
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<DateWithTimeBlockPrmt durationTime={durationStart} />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 					<FlexPrmt vertical align="center" gap={10}>
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<DateWithTimeBlockPrmt durationTime={durationStart} />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 					<FlexPrmt justify="center">

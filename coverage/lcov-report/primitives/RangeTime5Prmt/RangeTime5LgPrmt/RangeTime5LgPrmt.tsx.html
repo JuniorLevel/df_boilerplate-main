@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">80% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>10/10</span>
+                <span class='fraction'>8/10</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>0/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>0/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">87.5% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>7/8</span>
             </div>
         
             
@@ -94,20 +94,22 @@
 <a name='L29'></a><a href='#L29'>29</a>
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -129,21 +131,22 @@
 import MediaQuery from 'react-responsive';
 import { Flex } from 'antd';
 import { screenLGMin, screenXLMax } from './RangeTime5LgPrmt.styles';
-import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
 import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
+import { IDuration } from '@/construct/TaskCnstr/interfaces/interfaces';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 &nbsp;
 interface IRangeTime5LgPrmtProps {
-	fullDate: { date: string; time: string };
+	duration?: IDuration;
 }
 &nbsp;
-export const RangeTime5LgPrmt: FC&lt;IRangeTime5LgPrmtProps&gt; = ({ fullDate }) =&gt; {
-	return (
+export const RangeTime5LgPrmt: FC&lt;IRangeTime5LgPrmtProps&gt; = <span class="fstat-no" title="function not covered" >({</span> duration<span class="cstat-no" title="statement not covered" > })</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >	return (</span>
 		&lt;MediaQuery minWidth={screenLGMin} maxWidth={screenXLMax}&gt;
 			&lt;Flex gap={10} justify="space-between" align="center"&gt;
 				&lt;Flex gap={10} vertical&gt;
-					&lt;DateWithTimeBlockPrmt fullDate={fullDate} /&gt;
-					&lt;DateWithTimeBlockPrmt fullDate={fullDate} /&gt;
+					&lt;DateWithTimeBlockPrmt durationTime={duration?.start} /&gt;
+					&lt;DateWithTimeBlockPrmt durationTime={duration?.end} /&gt;
 				&lt;/Flex&gt;
 				&lt;Flex vertical gap={10}&gt;
 					&lt;CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} /&gt;
@@ -163,7 +166,7 @@ export const RangeTime5LgPrmt: FC&lt;IRangeTime5LgPrmtProps&gt; = ({ fullDate })
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-11-12T07:58:22.200Z
+                at 2024-11-15T06:56:37.563Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>

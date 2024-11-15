@@ -4,12 +4,13 @@ import MediaQuery from 'react-responsive';
 import { useStyles, screenSMMax } from './RangeTime4SmPrmt.styles';
 import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
 import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
-import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+// import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface IRangeTime4SmPrmtProps {
 	fullDate: { date: string; time: string };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const RangeTime4SmPrmt: FC<IRangeTime4SmPrmtProps> = ({ fullDate }) => {
 	const { styles } = useStyles();
 
@@ -17,11 +18,11 @@ export const RangeTime4SmPrmt: FC<IRangeTime4SmPrmtProps> = ({ fullDate }) => {
 		<MediaQuery maxWidth={screenSMMax}>
 			<Flex vertical gap={10} className={styles.container}>
 				<Flex vertical align="center" gap={10}>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					{/* <DateWithTimeBlockPrmt fullDate={fullDate} /> */}
 					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 				</Flex>
 				<Flex vertical align="center" gap={10}>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					{/* <DateWithTimeBlockPrmt fullDate={fullDate} /> */}
 					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 				</Flex>
 				<Flex justify="center">

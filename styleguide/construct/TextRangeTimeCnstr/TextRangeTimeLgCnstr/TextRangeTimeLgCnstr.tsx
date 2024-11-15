@@ -4,13 +4,14 @@ import { TextPrmt } from '@/primitives/TextPrmt/TextPrmt';
 import { screenLGMin, screenXLMax, useStyles } from './TextRangeTimeLgCnstr.styles';
 import { RangeTime5Prmt } from '@/primitives/RangeTime5Prmt/RangeTime5Prmt';
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
+import { IDuration } from '@/construct/TaskCnstr/interfaces/interfaces';
 
 interface ITextRangeTimeLgCnstrProps {
 	text: string;
-	fullDate: { date: string; time: string };
+	duration?: IDuration;
 }
 
-export const TextRangeTimeLgCnstr: FC<ITextRangeTimeLgCnstrProps> = ({ text, fullDate }) => {
+export const TextRangeTimeLgCnstr: FC<ITextRangeTimeLgCnstrProps> = ({ text, duration }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -19,7 +20,7 @@ export const TextRangeTimeLgCnstr: FC<ITextRangeTimeLgCnstrProps> = ({ text, ful
 				<div className={styles.content}>
 					<TextPrmt text={text} />
 				</div>
-				<RangeTime5Prmt fullDate={fullDate} />
+				<RangeTime5Prmt duration={duration} />
 			</FlexPrmt>
 		</MediaQuery>
 	);

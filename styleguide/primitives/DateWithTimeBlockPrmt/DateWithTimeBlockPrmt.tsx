@@ -3,31 +3,43 @@ import { Flex, Typography } from 'antd';
 import { useStyles } from './DateWithTimeBlockPrmt.styles';
 
 interface IDateWithTimeBlockPrmtProps {
-	fullDate: { date: string; time: string };
+	durationTime?: string;
 }
 
-export const DateWithTimeBlockPrmt: FC<IDateWithTimeBlockPrmtProps> = ({ fullDate }) => {
+export const DateWithTimeBlockPrmt: FC<IDateWithTimeBlockPrmtProps> = ({ durationTime }) => {
 	const { Text } = Typography;
-	const { date, time } = fullDate;
 
 	const { styles } = useStyles();
 
+	const date = durationTime ? durationTime?.split('-')[0] : '';
+	const time = durationTime ? durationTime?.split('-')[1] : '';
+
 	return (
 		<Flex wrap gap={10} align="center" justify="center">
-			<Flex gap={10}>
-				{date.split('.').map((item, idx) => (
-					<Text key={idx} className={styles.dateBlock}>
-						{item}
-					</Text>
-				))}
-			</Flex>
-			<Flex gap={10}>
-				{time.split(':').map((item, idx) => (
-					<Text key={idx} className={styles.timeBlock}>
-						{item}
-					</Text>
-				))}
-			</Flex>
+			{durationTime ? (
+				<>
+					<Flex gap={10}>
+						{date.split('.').map((item, idx) => (
+							<Text key={idx} className={styles.block}>
+								{item}
+							</Text>
+						))}
+					</Flex>
+					<Flex gap={10}>
+						{time.split(':').map((item, idx) => (
+							<Text key={idx} className={styles.block}>
+								{item}
+							</Text>
+						))}
+					</Flex>
+				</>
+			) : (
+				<Flex gap={10}>
+					{[0, 2, 3, 4, 5, 5].map((item, idx) => (
+						<Text key={idx} className={styles.block} />
+					))}
+				</Flex>
+			)}
 		</Flex>
 	);
 };

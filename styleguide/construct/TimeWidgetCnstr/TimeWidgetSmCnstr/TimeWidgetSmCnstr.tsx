@@ -7,11 +7,11 @@ import { useStyles, screenMDMax } from './TimeWidgetSmCnstr.styles';
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITimeWidgetSmCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	children: ReactNode;
 }
 
-export const TimeWidgetSmCnstr: FC<ITimeWidgetSmCnstrProps> = ({ fullDate, children }) => {
+export const TimeWidgetSmCnstr: FC<ITimeWidgetSmCnstrProps> = ({ durationStart, children }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -20,11 +20,11 @@ export const TimeWidgetSmCnstr: FC<ITimeWidgetSmCnstrProps> = ({ fullDate, child
 				<div className={styles.content}>{children}</div>
 				<FlexPrmt vertical gap={10}>
 					<FlexPrmt vertical align="center" gap={10}>
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<DateWithTimeBlockPrmt durationTime={durationStart} />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 					<FlexPrmt vertical align="center" gap={10}>
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<DateWithTimeBlockPrmt durationTime={durationStart} />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 					<FlexPrmt justify="center">

@@ -9,22 +9,22 @@ import { TextPrmt } from '@/primitives/TextPrmt/TextPrmt';
 import { AvatarPrmt } from '@/primitives/AvatarPrmt/AvatarPrmt';
 
 interface IFileTimeSmCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	fio: string;
-	text: string;
+	fileName: string;
 }
 
-export const FileTimeSmCnstr: FC<IFileTimeSmCnstrProps> = ({ fullDate, fio, text }) => {
+export const FileTimeSmCnstr: FC<IFileTimeSmCnstrProps> = ({ fio, fileName, durationStart }) => {
 	const { styles } = useStyles();
 
 	return (
 		<MediaQuery maxWidth={screenMDMax}>
 			<FlexPrmt gap={10} align="center" vertical className={styles.container}>
 				<FlexPrmt gap={10} align="center" className={styles.content}>
-					<TextPrmt text={text} />
+					<TextPrmt text={fileName} />
 					<AvatarPrmt className={styles.avatar}>{fio}</AvatarPrmt>
 				</FlexPrmt>
-				<DateWithTimeBlockPrmt fullDate={fullDate} />
+				<DateWithTimeBlockPrmt durationTime={durationStart} />
 				<FlexPrmt gap={10} vertical align="center">
 					<WeeksAndYearsPanelPrmt />
 					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />

@@ -2,16 +2,16 @@ import React, { FC, useState } from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { screenMDMin, screenLGMax, useStyles } from './Time2LgPrmt.styles';
-import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
 import { DaysPanelPrmt } from '@/primitives/DaysPanelPrmt/DaysPanelPrmt';
 import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface ITime2LgPrmtProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 }
 
-export const Time2LgPrmt: FC<ITime2LgPrmtProps> = ({ fullDate }) => {
+export const Time2LgPrmt: FC<ITime2LgPrmtProps> = ({ durationStart }) => {
 	const [isShowWeeksPanel] = useState(false);
 
 	const { styles } = useStyles();
@@ -20,7 +20,7 @@ export const Time2LgPrmt: FC<ITime2LgPrmtProps> = ({ fullDate }) => {
 		<MediaQuery minWidth={screenMDMin} maxWidth={screenLGMax}>
 			<Flex className={styles.container} gap={5} justify="space-evenly">
 				<div>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<DateWithTimeBlockPrmt durationTime={durationStart} />
 				</div>
 				<Flex justify="center" align="center">
 					<Flex vertical align="center" gap={10}>

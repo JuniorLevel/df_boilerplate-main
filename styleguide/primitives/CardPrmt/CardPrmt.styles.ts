@@ -8,8 +8,8 @@ export const useStyles = createStyles(({ token, css }) => ({
 	`,
 	cardElementActionOnBody: css`
 		position: absolute;
-		left: 25px;
-		top: 35%;
+		top: 5px;
+		left: -5px;
 		z-index: ${token.zIndexPopupBase};
 	`,
 	cardElement: css`
@@ -18,7 +18,11 @@ export const useStyles = createStyles(({ token, css }) => ({
 		position: relative;
 		align-items: center;
 		/* border: 1px solid ${token.colorPrimaryBorder}; */
-		/* padding: ${token.paddingXS}px; */
+		padding: ${token.paddingXS}px;
+		.ant-select {
+			opacity: 0;
+			width: 0;
+		}
 	`,
 	moreBtn: css`
 		border-radius: 0;

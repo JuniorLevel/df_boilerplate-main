@@ -11,10 +11,10 @@ import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITextTime2CnstrProps {
 	text: string;
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 }
 
-export const TextTime2Cnstr: FC<ITextTime2CnstrProps> = ({ text, fullDate }) => {
+export const TextTime2Cnstr: FC<ITextTime2CnstrProps> = ({ text, durationStart }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -24,15 +24,15 @@ export const TextTime2Cnstr: FC<ITextTime2CnstrProps> = ({ text, fullDate }) => 
 					<div className={styles.content}>
 						<TextPrmt text={text} />
 					</div>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<DateWithTimeBlockPrmt durationTime={durationStart} />
 					<FlexPrmt wrap gap={10} justify="center" align="center">
 						<WeeksAndYearsPanelPrmt />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 				</FlexPrmt>
 			</MediaQuery>
-			<TextTime2LgCnstr text={text} fullDate={fullDate} />
-			<TextTime2SmCnstr text={text} fullDate={fullDate} />
+			<TextTime2LgCnstr text={text} durationStart={durationStart} />
+			<TextTime2SmCnstr text={text} durationStart={durationStart} />
 		</>
 	);
 };

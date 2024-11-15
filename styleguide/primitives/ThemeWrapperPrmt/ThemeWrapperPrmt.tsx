@@ -3,6 +3,7 @@ import { ConfigProvider, theme } from 'antd';
 import { Reset } from 'styled-reset';
 import { ThemeProviderPrmt, ThemeContextPrmt } from './ThemeContextPrmt';
 import { GlobalStyle } from '@/global.styles';
+import { TaskProviderCnstr } from '@/construct/TaskCnstr/TaskContextCnstr';
 
 interface IThemeWrapperPrmtProps {
 	children: ReactNode;
@@ -17,7 +18,7 @@ export const ThemeWrapperPrmt: FC<IThemeWrapperPrmtProps> = ({ children }) => (
 						algorithm: currentTheme === 'light' ? theme.defaultAlgorithm : theme.darkAlgorithm,
 					}}
 				>
-					{children}
+					<TaskProviderCnstr>{children}</TaskProviderCnstr>
 					<GlobalStyle />
 					<Reset />
 				</ConfigProvider>

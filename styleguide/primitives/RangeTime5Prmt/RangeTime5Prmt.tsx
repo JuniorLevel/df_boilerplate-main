@@ -8,12 +8,13 @@ import { useStyles, screenXLMin } from './RangeTime5Prmt.styles';
 import { DateWithTimeBlockPrmt } from '../DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 import { CustomClockPrmt } from '../CustomClockPrmt/CustomClockPrmt';
 import { DaysPanelPrmt } from '../DaysPanelPrmt/DaysPanelPrmt';
+import { IDuration } from '@/construct/TaskCnstr/interfaces/interfaces';
 
 interface IRangeTime5PrmtProps {
-	fullDate: { date: string; time: string };
+	duration?: IDuration;
 }
 
-export const RangeTime5Prmt: FC<IRangeTime5PrmtProps> = ({ fullDate }) => {
+export const RangeTime5Prmt: FC<IRangeTime5PrmtProps> = ({ duration }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -21,21 +22,21 @@ export const RangeTime5Prmt: FC<IRangeTime5PrmtProps> = ({ fullDate }) => {
 			<MediaQuery minWidth={screenXLMin}>
 				<Flex gap={10} justify="space-between" align="center" className={styles.container}>
 					<Flex align="center" gap={35}>
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<DateWithTimeBlockPrmt durationTime={duration?.start} />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</Flex>
 					<Flex className={styles.progress}>
 						<DaysPanelPrmt size={{ width: 8, height: 40 }} percent={100} steps={31} showInfo={false} />
 					</Flex>
 					<Flex align="center" gap={35} className={styles.dateWithTimeBlock}>
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<DateWithTimeBlockPrmt durationTime={duration?.end} />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</Flex>
 				</Flex>
 			</MediaQuery>
-			<RangeTime5LgPrmt fullDate={fullDate} />
-			<RangeTime5MdPrmt fullDate={fullDate} />
-			<RangeTime5SmPrmt fullDate={fullDate} />
+			<RangeTime5LgPrmt duration={duration} />
+			<RangeTime5MdPrmt duration={duration} />
+			<RangeTime5SmPrmt duration={duration} />
 		</>
 	);
 };

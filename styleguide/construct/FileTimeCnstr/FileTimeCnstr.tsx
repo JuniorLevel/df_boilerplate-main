@@ -11,12 +11,12 @@ import { FileTimeMdCnstr } from './FileTimeMdCnstr/FileTimeMdCnstr';
 import { FileTimeSmCnstr } from './FileTimeSmCnstr/FileTimeSmCnstr';
 
 interface IFileTimeCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	fio: string;
-	text: string;
+	fileName: string;
 }
 
-export const FileTimeCnstr: FC<IFileTimeCnstrProps> = ({ fullDate, fio, text }) => {
+export const FileTimeCnstr: FC<IFileTimeCnstrProps> = ({ fio, fileName, durationStart }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -24,18 +24,18 @@ export const FileTimeCnstr: FC<IFileTimeCnstrProps> = ({ fullDate, fio, text }) 
 			<MediaQuery minWidth={screenXLMin}>
 				<FlexPrmt gap={10} align="center" className={styles.container}>
 					<FlexPrmt gap={10} align="center" className={styles.content}>
-						<TextPrmt text={text} />
+						<TextPrmt text={fileName} />
 						<AvatarPrmt className={styles.avatar}>{fio}</AvatarPrmt>
 					</FlexPrmt>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<DateWithTimeBlockPrmt durationTime={durationStart} />
 					<FlexPrmt gap={10} align="center">
 						<WeeksAndYearsPanelPrmt />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 				</FlexPrmt>
 			</MediaQuery>
-			<FileTimeMdCnstr fullDate={fullDate} fio={fio} text={text} />
-			<FileTimeSmCnstr fullDate={fullDate} fio={fio} text={text} />
+			<FileTimeMdCnstr durationStart={durationStart} fio={fio} fileName={fileName} />
+			<FileTimeSmCnstr durationStart={durationStart} fio={fio} fileName={fileName} />
 		</>
 	);
 };

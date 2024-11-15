@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">68.75% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>16/16</span>
+                <span class='fraction'>11/16</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>0/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>12/12</span>
+                <span class='fraction'>10/12</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -103,15 +103,15 @@
 <a name='L38'></a><a href='#L38'>38</a>
 <a name='L39'></a><a href='#L39'>39</a>
 <a name='L40'></a><a href='#L40'>40</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -119,10 +119,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -143,40 +143,40 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { FC } from 'react';
 import MediaQuery from 'react-responsive';
-import { PersonRoleTimeMdCnstr } from './PersonRoleTimeMdCnstr/PersonRoleTimeMdCnstr';
-import { PersonRoleTimeSmCnstr } from './PersonRoleTimeSmCnstr/PersonRoleTimeSmCnstr';
 import { CustomClockPrmt } from '../../primitives/CustomClockPrmt/CustomClockPrmt';
 import { WeeksAndYearsPanelPrmt } from '../../primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
-import { DateWithTimeBlockPrmt } from '../../primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 import { useStyles, screenXLMin } from './PersonRoleTimeCnstr.styles';
 import { PersonRoleCnstr } from '@/construct/PersonRoleCnstr/PersonRoleCnstr';
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+import { PersonRoleTimeMdCnstr } from './PersonRoleTimeMdCnstr/PersonRoleTimeMdCnstr';
+import { PersonRoleTimeSmCnstr } from './PersonRoleTimeSmCnstr/PersonRoleTimeSmCnstr';
 &nbsp;
 interface IPersonRoleTimeCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	userRole: string;
 	fio: string;
 }
 &nbsp;
-export const PersonRoleTimeCnstr: FC&lt;IPersonRoleTimeCnstrProps&gt; = ({ fullDate, userRole, fio }) =&gt; {
-	const { styles } = useStyles();
+export const PersonRoleTimeCnstr: FC&lt;IPersonRoleTimeCnstrProps&gt; = <span class="fstat-no" title="function not covered" >({</span> durationStart<span class="cstat-no" title="statement not covered" >, u</span>serRole<span class="cstat-no" title="statement not covered" >, f</span>io<span class="cstat-no" title="statement not covered" > })</span> =&gt; {
+	const { styles } = <span class="cstat-no" title="statement not covered" >useStyles();</span>
 &nbsp;
-	return (
+<span class="cstat-no" title="statement not covered" >	return (</span>
 		&lt;&gt;
 			&lt;MediaQuery minWidth={screenXLMin}&gt;
 				&lt;FlexPrmt gap={10} align="center" className={styles.container}&gt;
 					&lt;div className={styles.selectAndPerson}&gt;
 						&lt;PersonRoleCnstr userRole={userRole} fio={fio} /&gt;
 					&lt;/div&gt;
-					&lt;DateWithTimeBlockPrmt fullDate={fullDate} /&gt;
+					&lt;DateWithTimeBlockPrmt durationTime={durationStart} /&gt;
 					&lt;FlexPrmt gap={10} align="center"&gt;
 						&lt;WeeksAndYearsPanelPrmt /&gt;
 						&lt;CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} /&gt;
 					&lt;/FlexPrmt&gt;
 				&lt;/FlexPrmt&gt;
 			&lt;/MediaQuery&gt;
-			&lt;PersonRoleTimeMdCnstr fullDate={fullDate} userRole={userRole} fio={fio} /&gt;
-			&lt;PersonRoleTimeSmCnstr fullDate={fullDate} userRole={userRole} fio={fio} /&gt;
+			&lt;PersonRoleTimeMdCnstr durationStart={durationStart} userRole={userRole} fio={fio} /&gt;
+			&lt;PersonRoleTimeSmCnstr durationStart={durationStart} userRole={userRole} fio={fio} /&gt;
 		&lt;/&gt;
 	);
 };
@@ -187,7 +187,7 @@ export const PersonRoleTimeCnstr: FC&lt;IPersonRoleTimeCnstrProps&gt; = ({ fullD
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-11-12T07:58:22.200Z
+                at 2024-11-15T06:56:37.563Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

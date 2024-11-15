@@ -2,12 +2,13 @@ import React, { FC } from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { useStyles, screenLGMax } from './RangeTime3LgPrmt.styles';
-import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
+// import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface IRangeTime3LgPrmtProps {
 	fullDate: { date: string; time: string };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const RangeTime3LgPrmt: FC<IRangeTime3LgPrmtProps> = ({ fullDate }) => {
 	const { styles } = useStyles();
 
@@ -16,7 +17,7 @@ export const RangeTime3LgPrmt: FC<IRangeTime3LgPrmtProps> = ({ fullDate }) => {
 			<Flex vertical gap={10} align="center" className={styles.container}>
 				<Flex wrap align="center">
 					<Flex wrap gap={10} justify="center">
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						s {/* <DateWithTimeBlockPrmt fullDate={fullDate} /> */}
 					</Flex>
 				</Flex>
 				<Flex className={styles.panel}>
@@ -28,7 +29,7 @@ export const RangeTime3LgPrmt: FC<IRangeTime3LgPrmtProps> = ({ fullDate }) => {
 				</Flex>
 				<Flex wrap align="center">
 					<Flex wrap gap={10} justify="center">
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						s{/* <DateWithTimeBlockPrmt fullDate={fullDate} /> */}
 					</Flex>
 				</Flex>
 			</Flex>
