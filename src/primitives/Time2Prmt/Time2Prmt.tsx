@@ -10,10 +10,10 @@ import { CustomClockPrmt } from '../CustomClockPrmt/CustomClockPrmt';
 import { DateWithTimeBlockPrmt } from '../DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface ITime2PrmtProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 }
 
-export const Time2Prmt: FC<ITime2PrmtProps> = ({ fullDate }) => {
+export const Time2Prmt: FC<ITime2PrmtProps> = ({ durationStart }) => {
 	const [isShowWeeksPanel] = useState(false);
 
 	const { styles } = useStyles();
@@ -22,7 +22,7 @@ export const Time2Prmt: FC<ITime2PrmtProps> = ({ fullDate }) => {
 		<>
 			<MediaQuery minWidth={screenLGMin}>
 				<Flex wrap gap={7} className={styles.container}>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<DateWithTimeBlockPrmt durationTime={durationStart} />
 					<Flex align="center">
 						<Flex wrap align="center" gap={7}>
 							<div className={styles.panel}>
@@ -33,8 +33,8 @@ export const Time2Prmt: FC<ITime2PrmtProps> = ({ fullDate }) => {
 					</Flex>
 				</Flex>
 			</MediaQuery>
-			<Time2LgPrmt fullDate={fullDate} />
-			<Time2MdPrmt fullDate={fullDate} />
+			<Time2LgPrmt durationStart={durationStart} />
+			<Time2MdPrmt durationStart={durationStart} />
 		</>
 	);
 };

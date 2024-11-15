@@ -1,9 +1,7 @@
-/* eslint-disable eslint-restrict-imports/restrict-imports */
 import React, { FC } from 'react';
 import { styled } from 'styled-components';
 import { HomePage } from '../templates/HomePage/HomePage';
 import { OrderPage } from '../templates/OrderPage/OrderPage';
-import { TimeWidgetsPage } from '../templates/TimeWidgetsPage/TimeWidgetsPage';
 import { OrdersFilterOpenedPage } from '../templates/OrdersFilterOpenedPage/OrdersFilterOpenedPage';
 import { OrdersFilterClosedPage } from '../templates/OrdersFilterClosedPage/OrdersFilterClosedPage';
 import { OrderListPreviewPage } from '../templates/OrderListPreviewPage/OrderListPreviewPage';
@@ -21,115 +19,109 @@ import { OrdersFilterOpenedWithDialogPage } from '../templates/OrdersFilterOpene
 import { OrdersFilterClosedWithDialogPage } from '../templates/OrdersFilterClosedWithDialogPage/OrdersFilterClosedWithDialogPage';
 import { DiffOpenedCardsWithDialogPage } from '../templates/DiffOpenedCardsWithDialogPage/DiffOpenedCardsWithDialogPage';
 import { Outlet, createRootRoute, Link, createRoute, createRouter, RouterProvider } from '@tanstack/react-router';
-import { TaskPage } from '@/pages/TaskPage';
+import { TaskPage } from '@/pages/TaskPage/TaskPage';
 
 const routes = [
 	{ id: 1, name: 'HomePage', component: HomePage, path: '/homePage' },
 	{ id: 2, name: 'OrderPage', component: OrderPage, path: '/orderPage' },
 	{
 		id: 3,
-		name: 'TimeWidgetsPage',
-		component: TimeWidgetsPage,
-		path: '/timeWidgetsPage',
-	},
-	{
-		id: 4,
 		name: 'OrdersFilterOpenedPage',
 		component: OrdersFilterOpenedPage,
 		path: '/ordersFilterOpenedPage',
 	},
 	{
-		id: 5,
+		id: 4,
 		name: 'OrdersFilterClosedPage',
 		component: OrdersFilterClosedPage,
 		path: '/ordersFilterClosedPage',
 	},
 	{
-		id: 6,
+		id: 5,
 		name: 'OrderListPreviewPage',
 		component: OrderListPreviewPage,
 		path: '/orderListPreviewPage',
 	},
 	{
-		id: 7,
+		id: 6,
 		name: 'DiffOpenedCardsPage',
 		component: DiffOpenedCardsPage,
 		path: '/diffOpenedCardsPage',
 	},
 	{
-		id: 8,
+		id: 7,
 		name: 'DiffClosedCardsPage',
 		component: DiffClosedCardsPage,
 		path: '/diffClosedCardsPage',
 	},
 	{
-		id: 9,
+		id: 8,
 		name: 'WelcomePage1',
 		component: WelcomePage1,
 		path: '/welcomePage1',
 	},
 	{
-		id: 10,
+		id: 9,
 		name: 'WelcomePage2',
 		component: WelcomePage2,
 		path: '/welcomePage2',
 	},
 	{
-		id: 11,
+		id: 10,
 		name: 'WelcomePage3',
 		component: WelcomePage3,
 		path: '/welcomePage3',
 	},
 	{
-		id: 12,
+		id: 11,
 		name: 'WelcomePage4',
 		component: WelcomePage4,
 		path: '/welcomePage4',
 	},
 	{
-		id: 13,
+		id: 12,
 		name: 'WelcomePage5',
 		component: WelcomePage5,
 		path: '/welcomePage5',
 	},
 	{
-		id: 14,
+		id: 13,
 		name: 'WelcomePage6',
 		component: WelcomePage6,
 		path: '/welcomePage6',
 	},
 	{
-		id: 15,
+		id: 14,
 		name: 'WelcomePage7',
 		component: WelcomePage7,
 		path: '/welcomePage7',
 	},
 	{
-		id: 16,
+		id: 15,
 		name: 'WelcomePage8',
 		component: WelcomePage8,
 		path: '/welcomePage8',
 	},
 	{
-		id: 17,
+		id: 16,
 		name: 'OrdersFilterOpenedWithDialogPage',
 		component: OrdersFilterOpenedWithDialogPage,
 		path: '/ordersFilterOpenedWithDialogPage',
 	},
 	{
-		id: 18,
+		id: 17,
 		name: 'OrdersFilterClosedWithDialogPage',
 		component: OrdersFilterClosedWithDialogPage,
 		path: '/ordersFilterClosedWithDialogPage',
 	},
 	{
-		id: 19,
+		id: 18,
 		name: 'DiffOpenedCardsWithDialogPage',
 		component: DiffOpenedCardsWithDialogPage,
 		path: '/diffOpenedCardsWithDialogPage',
 	},
 	{
-		id: 20,
+		id: 19,
 		name: 'TaskPage',
 		component: TaskPage,
 		path: '/task',

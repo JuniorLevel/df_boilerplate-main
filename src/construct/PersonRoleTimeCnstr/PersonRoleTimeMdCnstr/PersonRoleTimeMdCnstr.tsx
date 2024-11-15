@@ -2,18 +2,18 @@ import MediaQuery from 'react-responsive';
 import React, { FC } from 'react';
 import { CustomClockPrmt } from '../../../primitives/CustomClockPrmt/CustomClockPrmt';
 import { WeeksAndYearsPanelPrmt } from '../../../primitives/WeeksAndYearsPanelPrmt/WeeksAndYearsPanelPrmt';
-import { DateWithTimeBlockPrmt } from '../../../primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 import { useStyles, screenMDMin, screenXLMax } from './PersonRoleTimeMdCnstr.styles';
 import { PersonRoleCnstr } from '@/construct/PersonRoleCnstr/PersonRoleCnstr';
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
+import { DateWithTimeBlockPrmt } from '@/primitives/DateWithTimeBlockPrmt/DateWithTimeBlockPrmt';
 
 interface IPersonRoleTimeMdCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	userRole: string;
 	fio: string;
 }
 
-export const PersonRoleTimeMdCnstr: FC<IPersonRoleTimeMdCnstrProps> = ({ fullDate, userRole, fio }) => {
+export const PersonRoleTimeMdCnstr: FC<IPersonRoleTimeMdCnstrProps> = ({ durationStart, userRole, fio }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -22,7 +22,7 @@ export const PersonRoleTimeMdCnstr: FC<IPersonRoleTimeMdCnstrProps> = ({ fullDat
 				<div className={styles.selectAndPerson}>
 					<PersonRoleCnstr userRole={userRole} fio={fio} />
 				</div>
-				<DateWithTimeBlockPrmt fullDate={fullDate} />
+				<DateWithTimeBlockPrmt durationTime={durationStart} />
 				<FlexPrmt gap={10} align="center">
 					<WeeksAndYearsPanelPrmt />
 					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />

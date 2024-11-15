@@ -9,10 +9,10 @@ import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITextTime2SmCnstrProps {
 	text: string;
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 }
 
-export const TextTime2SmCnstr: FC<ITextTime2SmCnstrProps> = ({ text, fullDate }) => {
+export const TextTime2SmCnstr: FC<ITextTime2SmCnstrProps> = ({ text, durationStart }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -23,7 +23,7 @@ export const TextTime2SmCnstr: FC<ITextTime2SmCnstrProps> = ({ text, fullDate })
 				</FlexPrmt>
 				<FlexPrmt gap={10} vertical align="center">
 					<FlexPrmt gap={10} vertical className={styles.timeBlock}>
-						<DateWithTimeBlockPrmt fullDate={fullDate} />
+						<DateWithTimeBlockPrmt durationTime={durationStart} />
 					</FlexPrmt>
 					<FlexPrmt gap={10} vertical align="center" className={styles.weeksAndYearsBlock}>
 						<WeeksAndYearsPanelPrmt />

@@ -7,10 +7,10 @@ import { WeeksAndYearsPanelPrmt } from '@/primitives/WeeksAndYearsPanelPrmt/Week
 import { CustomClockPrmt } from '@/primitives/CustomClockPrmt/CustomClockPrmt';
 
 interface ITime2MdPrmtProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 }
 
-export const Time2MdPrmt: FC<ITime2MdPrmtProps> = ({ fullDate }) => {
+export const Time2MdPrmt: FC<ITime2MdPrmtProps> = ({ durationStart }) => {
 	const [isShowWeeksPanel] = useState(false);
 
 	const { styles } = useStyles();
@@ -19,7 +19,7 @@ export const Time2MdPrmt: FC<ITime2MdPrmtProps> = ({ fullDate }) => {
 		<MediaQuery maxWidth={screenMDMax}>
 			<Flex className={styles.container} wrap align="start" justify="center" gap={5}>
 				<div>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<DateWithTimeBlockPrmt durationTime={durationStart} />
 				</div>
 				<Flex>
 					<Flex vertical align="center" gap={10}>

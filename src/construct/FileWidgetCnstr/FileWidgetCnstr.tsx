@@ -12,12 +12,12 @@ import { FileWidgetMdCnstr } from './FileWidgetMdCnstr/FileWidgetMdCnstr';
 import { FileWidgetSmCnstr } from './FileWidgetSmCnstr/FileWidgetSmCnstr';
 
 interface IFileWidgetCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	fio: string;
 	children: ReactNode;
 }
 
-export const FileWidgetCnstr: FC<IFileWidgetCnstrProps> = ({ fullDate, fio, children }) => {
+export const FileWidgetCnstr: FC<IFileWidgetCnstrProps> = ({ durationStart, fio, children }) => {
 	const { styles } = useStyles();
 	return (
 		<>
@@ -27,20 +27,20 @@ export const FileWidgetCnstr: FC<IFileWidgetCnstrProps> = ({ fullDate, fio, chil
 						<div className={styles.children}>{children}</div>
 						<AvatarPrmt className={styles.avatar}>{fio}</AvatarPrmt>
 					</FlexPrmt>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<DateWithTimeBlockPrmt durationTime={durationStart} />
 					<FlexPrmt gap={10} align="center">
 						<WeeksAndYearsPanelPrmt />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 				</FlexPrmt>
 			</MediaQuery>
-			<FileWidgetLgCnstr fullDate={fullDate} fio={fio}>
+			<FileWidgetLgCnstr durationStart={durationStart} fio={fio}>
 				{children}
 			</FileWidgetLgCnstr>
-			<FileWidgetMdCnstr fullDate={fullDate} fio={fio}>
+			<FileWidgetMdCnstr durationStart={durationStart} fio={fio}>
 				{children}
 			</FileWidgetMdCnstr>
-			<FileWidgetSmCnstr fullDate={fullDate} fio={fio}>
+			<FileWidgetSmCnstr durationStart={durationStart} fio={fio}>
 				{children}
 			</FileWidgetSmCnstr>
 		</>

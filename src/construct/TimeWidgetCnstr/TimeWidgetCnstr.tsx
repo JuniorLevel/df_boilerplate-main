@@ -10,11 +10,11 @@ import { useStyles, screenXLMin } from './TimeWidgetCnstr.styles';
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITimeWidgetCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	children: ReactNode;
 }
 
-export const TimeWidgetCnstr: FC<ITimeWidgetCnstrProps> = ({ fullDate, children }) => {
+export const TimeWidgetCnstr: FC<ITimeWidgetCnstrProps> = ({ durationStart, children }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -22,16 +22,16 @@ export const TimeWidgetCnstr: FC<ITimeWidgetCnstrProps> = ({ fullDate, children 
 			<MediaQuery minWidth={screenXLMin}>
 				<FlexPrmt gap={10} align="center" className={styles.container}>
 					<div className={styles.content}>{children}</div>
-					<DateWithTimeBlockPrmt fullDate={fullDate} />
+					<DateWithTimeBlockPrmt durationTime={durationStart} />
 					<FlexPrmt gap={10} align="center">
 						<WeeksAndYearsPanelPrmt />
 						<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />
 					</FlexPrmt>
 				</FlexPrmt>
 			</MediaQuery>
-			<TimeWidgetLgCnstr fullDate={fullDate}>{children}</TimeWidgetLgCnstr>
-			<TimeWidgetMdCnstr fullDate={fullDate}>{children}</TimeWidgetMdCnstr>
-			<TimeWidgetSmCnstr fullDate={fullDate}>{children}</TimeWidgetSmCnstr>
+			<TimeWidgetLgCnstr durationStart={durationStart}>{children}</TimeWidgetLgCnstr>
+			<TimeWidgetMdCnstr durationStart={durationStart}>{children}</TimeWidgetMdCnstr>
+			<TimeWidgetSmCnstr durationStart={durationStart}>{children}</TimeWidgetSmCnstr>
 		</>
 	);
 };

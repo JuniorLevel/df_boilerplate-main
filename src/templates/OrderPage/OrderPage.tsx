@@ -37,7 +37,7 @@ export const OrderPage: FC = () => (
 						<CardPrmt
 							title={
 								<WidgetContainerPrmt>
-									<TextTime1Cnstr text="" fullDate={{ date: '13.08.99', time: '20:55:55' }} />
+									<TextTime1Cnstr text="" durationStart="" />
 								</WidgetContainerPrmt>
 							}
 						>
@@ -46,7 +46,7 @@ export const OrderPage: FC = () => (
 									<WidgetContainerPrmt>
 										<TextRangeTimeCnstr
 											text="Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf. Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf"
-											fullDate={{ date: '13.08.99', time: '20:55:55' }}
+											duration={{ id: String(Date.now()), start: '', end: '' }}
 										/>
 									</WidgetContainerPrmt>
 								</ColPrmt>
@@ -54,7 +54,7 @@ export const OrderPage: FC = () => (
 							<RowPrmt>
 								<ColPrmt span={24}>
 									<WidgetContainerPrmt>
-										<TimeRangeWidgetCnstr fullDate={{ date: '13.08.99', time: '20:55:55' }}>
+										<TimeRangeWidgetCnstr duration={{ id: String(Date.now()), start: '', end: '' }}>
 											<TextPrmt text="Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf. Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf" />
 										</TimeRangeWidgetCnstr>
 									</WidgetContainerPrmt>
@@ -63,14 +63,14 @@ export const OrderPage: FC = () => (
 							<RowPrmt>
 								<ColPrmt span={24}>
 									<WidgetContainerPrmt>
-										<PersonRoleTimeCnstr fullDate={{ date: '13.08.99', time: '20:55:55' }} userRole="Assigned" fio="FIO FIO FIO FIO" />
+										<PersonRoleTimeCnstr durationStart="" userRole="Assigned" fio="FIO FIO FIO FIO" />
 									</WidgetContainerPrmt>
 								</ColPrmt>
 							</RowPrmt>
 							<RowPrmt>
 								<ColPrmt span={24}>
 									<WidgetContainerPrmt>
-										<TimeWidgetCnstr fullDate={{ date: '13.08.99', time: '20:55:55' }}>
+										<TimeWidgetCnstr durationStart="">
 											<PersonRoleCnstr userRole="Assigned" fio="FIO FIO FIO FIO" />
 										</TimeWidgetCnstr>
 									</WidgetContainerPrmt>
@@ -79,14 +79,14 @@ export const OrderPage: FC = () => (
 							<RowPrmt>
 								<ColPrmt span={24}>
 									<WidgetContainerPrmt>
-										<FileTimeCnstr fullDate={{ date: '13.08.99', time: '20:55:55' }} fio="FIO" text="File.txt" />
+										<FileTimeCnstr durationStart="" fio="FIO" fileName="File.txt" />
 									</WidgetContainerPrmt>
 								</ColPrmt>
 							</RowPrmt>
 							<RowPrmt>
 								<ColPrmt span={24}>
 									<WidgetContainerPrmt>
-										<FileWidgetCnstr fullDate={{ date: '13.08.99', time: '20:55:55' }} fio="FIO">
+										<FileWidgetCnstr durationStart="" fio="FIO">
 											<TextPrmt text="File.txt" />
 										</FileWidgetCnstr>
 									</WidgetContainerPrmt>

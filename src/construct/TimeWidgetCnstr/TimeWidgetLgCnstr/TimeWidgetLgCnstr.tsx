@@ -7,18 +7,18 @@ import { useStyles, screenLGMin, screenXLMax } from './TimeWidgetLgCnstr.styles'
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
 
 interface ITimeWidgetLgCnstrProps {
-	fullDate: { date: string; time: string };
+	durationStart?: string;
 	children: ReactNode;
 }
 
-export const TimeWidgetLgCnstr: FC<ITimeWidgetLgCnstrProps> = ({ fullDate, children }) => {
+export const TimeWidgetLgCnstr: FC<ITimeWidgetLgCnstrProps> = ({ durationStart, children }) => {
 	const { styles } = useStyles();
 
 	return (
 		<MediaQuery minWidth={screenLGMin} maxWidth={screenXLMax}>
 			<FlexPrmt wrap gap={10} align="center" justify="center" className={styles.container}>
 				<div className={styles.content}>{children}</div>
-				<DateWithTimeBlockPrmt fullDate={fullDate} />
+				<DateWithTimeBlockPrmt durationTime={durationStart} />
 				<FlexPrmt gap={10} align="center">
 					<WeeksAndYearsPanelPrmt />
 					<CustomClockPrmt type="circle" strokeWidth={10} percent={60} size={60} showInfo={false} />

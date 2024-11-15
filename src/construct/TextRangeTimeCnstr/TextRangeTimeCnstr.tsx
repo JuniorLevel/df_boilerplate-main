@@ -7,13 +7,14 @@ import { TextRangeTimeSmCnstr } from './TextRangeTimeSmCnstr/TextRangeTimeSmCnst
 import { useStyles, screenXLMin } from './TextRangeTimeCnstr.styles';
 import { RangeTime5Prmt } from '@/primitives/RangeTime5Prmt/RangeTime5Prmt';
 import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
+import { IDuration } from '../TaskCnstr/interfaces/interfaces';
 
 interface ITextRangeTimeCnstrProps {
 	text: string;
-	fullDate: { date: string; time: string };
+	duration?: IDuration;
 }
 
-export const TextRangeTimeCnstr: FC<ITextRangeTimeCnstrProps> = ({ text, fullDate }) => {
+export const TextRangeTimeCnstr: FC<ITextRangeTimeCnstrProps> = ({ text, duration }) => {
 	const { styles } = useStyles();
 
 	return (
@@ -21,12 +22,12 @@ export const TextRangeTimeCnstr: FC<ITextRangeTimeCnstrProps> = ({ text, fullDat
 			<MediaQuery minWidth={screenXLMin}>
 				<FlexPrmt vertical gap={10} className={styles.container}>
 					<TextPrmt text={text} />
-					<RangeTime5Prmt fullDate={fullDate} />
+					<RangeTime5Prmt duration={duration} />
 				</FlexPrmt>
 			</MediaQuery>
-			<TextRangeTimeLgCnstr text={text} fullDate={fullDate} />
-			<TextRangeTimeMdCnstr text={text} fullDate={fullDate} />
-			<TextRangeTimeSmCnstr text={text} fullDate={fullDate} />
+			<TextRangeTimeLgCnstr text={text} duration={duration} />
+			<TextRangeTimeMdCnstr text={text} duration={duration} />
+			<TextRangeTimeSmCnstr text={text} duration={duration} />
 		</>
 	);
 };
