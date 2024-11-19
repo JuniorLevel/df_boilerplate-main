@@ -11,35 +11,35 @@ export const DateWithTimeBlockPrmt: FC<IDateWithTimeBlockPrmtProps> = ({ duratio
 
 	const { styles } = useStyles();
 
+	const pattern = /^\d{2}\.\d{2}\.\d{2}-\d{2}:\d{2}:\d{2}$/;
+
+	if (typeof durationTime === 'undefined' || !pattern.test(durationTime)) {
+		durationTime = '';
+	}
+
 	const date = durationTime ? durationTime?.split('-')[0] : '';
 	const time = durationTime ? durationTime?.split('-')[1] : '';
 
 	return (
 		<Flex wrap gap={10} align="center" justify="center">
-			{durationTime ? (
-				<>
-					<Flex gap={10}>
-						{date.split('.').map((item, idx) => (
+			<Flex gap={10}>
+				{durationTime
+					? date.split('.').map((item, idx) => (
 							<Text key={idx} className={styles.block}>
 								{item}
 							</Text>
-						))}
-					</Flex>
-					<Flex gap={10}>
-						{time.split(':').map((item, idx) => (
+						))
+					: [0, 1, 2].map((item, idx) => <Text key={idx} className={styles.block} />)}
+			</Flex>
+			<Flex gap={10}>
+				{durationTime
+					? time.split(':').map((item, idx) => (
 							<Text key={idx} className={styles.block}>
 								{item}
 							</Text>
-						))}
-					</Flex>
-				</>
-			) : (
-				<Flex gap={10}>
-					{[0, 2, 3, 4, 5, 5].map((item, idx) => (
-						<Text key={idx} className={styles.block} />
-					))}
-				</Flex>
-			)}
+						))
+					: [0, 1, 2].map((item, idx) => <Text key={idx} className={styles.block} />)}
+			</Flex>
 		</Flex>
 	);
 };

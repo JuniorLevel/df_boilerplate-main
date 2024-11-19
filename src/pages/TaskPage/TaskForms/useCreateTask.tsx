@@ -1,18 +1,26 @@
 import { useContext } from 'react';
-import { TaskContextCnstr } from '../TaskContextCnstr';
-import { ITask } from '../interfaces/interfaces';
+import { TaskContextCnstr } from '../../../construct/TaskCnstr/TaskContextCnstr';
+import { ITask } from '../../../construct/TaskCnstr/interfaces/interfaces';
 
 export const useCreateTask = () => {
+	const form = {
+		task: 'task',
+		taskWithDuration: 'taskWithDuration',
+		uploadFile: 'uploadFile',
+		addExecutor: 'addExecutor',
+	};
 	const createCurrentDate = () => {
 		const date = new Date();
-		const currentDate = `${String(date.getDate()).padStart(2, '0')}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getFullYear()).slice(-2).padStart(2, '0')}`;
-		const currentTime = `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}:${String(date.getSeconds()).padStart(2, '0')}`;
-		return `${currentDate}-${currentTime}`;
+		const currentDate = date.toLocaleDateString();
+		const currentFullYear = currentDate.slice(-4);
+		const shortedCurrentYear = currentDate.replace(new RegExp(`${currentFullYear}$`), currentFullYear.slice(-2));
+		const currentTime = date.toLocaleTimeString();
+		return `${shortedCurrentYear}-${currentTime}`;
 	};
 
 	const { currentSelectValue, tasks, setTasks } = useContext(TaskContextCnstr);
 
-	// Функция submit TaskFormCnstr
+	// Функция submit TaskForm
 	const createTask = (taskTitle: string) => {
 		const durationStart = createCurrentDate();
 		const newTask: ITask = {
@@ -25,7 +33,7 @@ export const useCreateTask = () => {
 		setTasks([newTask, ...tasks]);
 	};
 
-	// Функция submit TaskWithDurationFormCnstr
+	// Функция submit TaskWithDurationForm
 	const createTaskWithDuration = (taskTitle: string, durationEnd: string) => {
 		const durationStart = createCurrentDate();
 		const newTask: ITask = {
@@ -38,7 +46,7 @@ export const useCreateTask = () => {
 		setTasks([newTask, ...tasks]);
 	};
 
-	// Функция submit TaskUploadFileFormCnstr
+	// Функция submit TaskUploadFileForm
 	const createTaskUploadFileForm = (fileName: string) => {
 		const durationStart = createCurrentDate();
 		const newTask: ITask = {
@@ -51,7 +59,7 @@ export const useCreateTask = () => {
 		setTasks([newTask, ...tasks]);
 	};
 
-	// Функция submit TaskAddExecutorFormCnstr
+	// Функция submit TaskAddExecutorForm
 	const createTaskAddExecutorForm = (executor: string) => {
 		const durationStart = createCurrentDate();
 		const newTask: ITask = {
@@ -64,5 +72,5 @@ export const useCreateTask = () => {
 		setTasks([newTask, ...tasks]);
 	};
 
-	return { createTask, createTaskWithDuration, createTaskUploadFileForm, createTaskAddExecutorForm };
+	return { form, createTask, createTaskWithDuration, createTaskUploadFileForm, createTaskAddExecutorForm };
 };

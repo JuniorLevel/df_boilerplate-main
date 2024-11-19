@@ -2,29 +2,26 @@
 import React from 'react';
 import { Form, Input } from 'formik-antd';
 import { Formik, useFormik } from 'formik';
-import { useStyles } from '../TasksForm.styles';
 import { useCreateTask } from '../useCreateTask';
 
-export const TaskUploadFileFormCnstr = () => {
+export const TaskForm = () => {
 	const formik = useFormik({
-		initialValues: { fileName: '' },
+		initialValues: { taskTitle: '' },
 		onSubmit: (values: any) => {
 			alert(JSON.stringify(values));
 		},
 	});
-	const { styles } = useStyles();
-	const { createTaskUploadFileForm } = useCreateTask();
+	const { createTask } = useCreateTask();
 
 	return (
 		<Formik
 			initialValues={formik.initialValues}
 			onSubmit={(values) => {
-				createTaskUploadFileForm(values.fileName);
-				console.log(values, 'val');
+				createTask(values.taskTitle);
 			}}
 		>
 			<Form>
-				<Input className={styles.input} name="fileName" placeholder="Загрузить файл" onChange={formik.handleChange} />
+				<Input name="taskTitle" placeholder="Введите название задачи" onChange={formik.handleChange} />
 			</Form>
 		</Formik>
 	);
