@@ -9,5 +9,5 @@ interface IOrderTabsPrmtProps {
 export const OrderTabsPrmt: FC<IOrderTabsPrmtProps> = ({ items }) => {
 	const { styles } = useStyles();
 
-	return <Tabs className={styles.tabs} defaultActiveKey={items.length} items={items} />;
+	return <Tabs className={styles.tabs} animated items={items} />;
 };

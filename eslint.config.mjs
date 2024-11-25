@@ -95,7 +95,7 @@ export default tseslint.config(
 						message: 'Только компоненты pages может импортировать пакет formik',
 					},
 					'routes/*': {
-						locations: ['./src/primitives/*', './src/construct/*', './src/templates/*', './src/routes/*'],
+						locations: ['./src/primitives/*', './src/construct/*', './src/templates/*'],
 						message: 'Компоненты routes могут импортировать лишь компоненты pages',
 					},
 				},

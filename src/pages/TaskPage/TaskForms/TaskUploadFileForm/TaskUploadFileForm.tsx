@@ -3,21 +3,27 @@ import React from 'react';
 import { Form, Input } from 'formik-antd';
 import { Formik, useFormik } from 'formik';
 import { useCreateTask } from '../useCreateTask';
+import * as Yup from 'yup';
 
 export const TaskUploadFileForm = () => {
 	const formik = useFormik({
 		initialValues: { fileName: '' },
-		onSubmit: (values: any) => {
+		onSubmit: (values) => {
 			alert(JSON.stringify(values));
 		},
+	});
+	const validationSchema = Yup.object({
+		fileName: Yup.string().required('Required'),
 	});
 	const { createTaskUploadFileForm } = useCreateTask();
 
 	return (
 		<Formik
 			initialValues={formik.initialValues}
-			onSubmit={(values) => {
+			validationSchema={validationSchema}
+			onSubmit={(values, actions) => {
 				createTaskUploadFileForm(values.fileName);
+				actions.resetForm();
 				console.log(values, 'val');
 			}}
 		>
