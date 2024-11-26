@@ -14,7 +14,7 @@ export const OrderPage: FC = () => (
 					key: 1,
 					label: (
 						<FlexPrmt gap={10} align="center">
-							<Link to={'main' as string}>Main info</Link>
+							<Link to="/orderPage/main">Main info</Link>
 							<BadgePrmt count={3} />
 						</FlexPrmt>
 					),
@@ -24,7 +24,7 @@ export const OrderPage: FC = () => (
 					key: 2,
 					label: (
 						<FlexPrmt gap={10} align="center">
-							<Link to={'chat' as string}>Chat</Link>
+							<Link to="/orderPage/chat">Chat</Link>
 							<BadgePrmt count={3} />
 						</FlexPrmt>
 					),
@@ -34,7 +34,7 @@ export const OrderPage: FC = () => (
 					key: 3,
 					label: (
 						<FlexPrmt gap={10} align="center">
-							<Link to={'dashboard' as string}>Dashboard</Link>
+							<Link to="/orderPage/dashboard">Dashboard</Link>
 							<BadgePrmt count={3} />
 						</FlexPrmt>
 					),
@@ -44,7 +44,7 @@ export const OrderPage: FC = () => (
 					key: 4,
 					label: (
 						<FlexPrmt gap={10} align="center">
-							<Link to={'documents' as string}>Documents</Link>
+							<Link to="/orderPage/documents">Documents</Link>
 							<BadgePrmt count={3} />
 						</FlexPrmt>
 					),
@@ -54,7 +54,7 @@ export const OrderPage: FC = () => (
 					key: 5,
 					label: (
 						<FlexPrmt gap={10} align="center">
-							<Link to={'history' as string}>History</Link>
+							<Link to="/orderPage/history">History</Link>
 							<BadgePrmt count={3} />
 						</FlexPrmt>
 					),

@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoute } from '@tanstack/react-router';
-import { rootRoute } from './root';
+import { rootRoute } from './index';
 import { WelcomePage7 } from '@/templates/WelcomePages/WelcomePage7/WelcomePage7';
 
 export const welcomePage7Route = createRoute({

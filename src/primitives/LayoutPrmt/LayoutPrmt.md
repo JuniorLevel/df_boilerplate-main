@@ -4,5 +4,4 @@ import { buttons } from './buttons';
 
 <LayoutPrmt title="Title" theme="light" avatar={{ title: 'AV' }} buttons={buttons}>
 	Home
-</LayoutPrmt>;
-
+</LayoutPrmt>

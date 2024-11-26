@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoute } from '@tanstack/react-router';
-import { rootRoute } from './root';
 import { DiffClosedCardsPage } from '@/templates/DiffClosedCardsPage/DiffClosedCardsPage';
+import { rootRoute } from './index';
 
 export const diffClosedCardsRoute = createRoute({
 	getParentRoute: () => rootRoute,

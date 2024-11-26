@@ -4,13 +4,18 @@ import { Context as ResponsiveContext } from 'react-responsive';
 import { render, act, waitFor, cleanup } from '@testing-library/react';
 import '../../../__mocks__/fileMock';
 import { OrdersFilterOpenedWithDialogPage } from './OrdersFilterOpenedWithDialogPage';
+import { TestableRouterUI } from '@/TestableRouterUI';
 
 describe('OrdersFilterOpenedWithDialogPage', () => {
 	afterEach(() => {
 		cleanup();
 	});
 	test('should render OrdersFilterOpenedWithDialogPage component without crashing', async () => {
-		const { container } = render(<OrdersFilterOpenedWithDialogPage />);
+		const { container } = render(
+			<TestableRouterUI>
+				<OrdersFilterOpenedWithDialogPage />
+			</TestableRouterUI>
+		);
 		await waitFor(() => {
 			expect(container).toBeInTheDocument();
 		});
@@ -20,7 +25,9 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 		await act(async () => {
 			const { container: desktop } = render(
 				<ResponsiveContext.Provider value={{ width: 1920 }}>
-					<OrdersFilterOpenedWithDialogPage />
+					<TestableRouterUI>
+						<OrdersFilterOpenedWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {
@@ -33,7 +40,9 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 		await act(async () => {
 			const { container: laptop } = render(
 				<ResponsiveContext.Provider value={{ width: 1024 }}>
-					<OrdersFilterOpenedWithDialogPage />
+					<TestableRouterUI>
+						<OrdersFilterOpenedWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {
@@ -46,7 +55,9 @@ describe('OrdersFilterOpenedWithDialogPage', () => {
 		await act(async () => {
 			const { container: mobile } = render(
 				<ResponsiveContext.Provider value={{ width: 360 }}>
-					<OrdersFilterOpenedWithDialogPage />
+					<TestableRouterUI>
+						<OrdersFilterOpenedWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {

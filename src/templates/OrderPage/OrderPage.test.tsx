@@ -4,16 +4,23 @@ import { Context as ResponsiveContext } from 'react-responsive';
 import { render } from '@testing-library/react';
 import '../../../__mocks__/fileMock';
 import { OrderPage } from './OrderPage';
+import { TestableRouterUI } from '@/TestableRouterUI';
 
 describe('OrderPage', () => {
 	test('should render OrderPage component without crashing', () => {
-		const { container } = render(<OrderPage />);
+		const { container } = render(
+			<TestableRouterUI>
+				<OrderPage />
+			</TestableRouterUI>
+		);
 		expect(container).toBeInTheDocument();
 	});
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
-				<OrderPage />
+				<TestableRouterUI>
+					<OrderPage />
+				</TestableRouterUI>
 			</ResponsiveContext.Provider>
 		);
 		expect(desktop).toMatchSnapshot();
@@ -21,7 +28,9 @@ describe('OrderPage', () => {
 	test('matches the snapshot laptop', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
-				<OrderPage />
+				<TestableRouterUI>
+					<OrderPage />
+				</TestableRouterUI>
 			</ResponsiveContext.Provider>
 		);
 		expect(laptop).toMatchSnapshot();
@@ -29,7 +38,9 @@ describe('OrderPage', () => {
 	test('matches the snapshot mobile', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>
-				<OrderPage />
+				<TestableRouterUI>
+					<OrderPage />
+				</TestableRouterUI>
 			</ResponsiveContext.Provider>
 		);
 		expect(mobile).toMatchSnapshot();

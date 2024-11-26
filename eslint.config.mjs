@@ -12,6 +12,7 @@ import eslintPluginNoInlineStyles from 'eslint-plugin-no-inline-styles';
 import eslintPluginRestrictImports from 'eslint-plugin-restrict-imports';
 import * as eslintImportResolverTypescript from 'eslint-import-resolver-typescript';
 import eslintPluginJest from 'eslint-plugin-jest';
+import pluginRouter from '@tanstack/eslint-plugin-router';
 
 /** @type {import('eslint').Linter.Config} */
 
@@ -20,6 +21,7 @@ export default tseslint.config(
 	...tseslint.configs.recommended,
 	eslintConfigPrettier,
 	tseslint.configs.eslintRecommended,
+	...pluginRouter.configs['flat/recommended'],
 	{
 		plugins: {
 			react: eslintReact,

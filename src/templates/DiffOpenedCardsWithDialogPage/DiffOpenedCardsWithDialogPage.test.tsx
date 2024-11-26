@@ -4,6 +4,7 @@ import { Context as ResponsiveContext } from 'react-responsive';
 import { render, waitFor, act, cleanup } from '@testing-library/react';
 import '../../../__mocks__/fileMock';
 import { DiffOpenedCardsWithDialogPage } from './DiffOpenedCardsWithDialogPage';
+import { TestableRouterUI } from '@/TestableRouterUI';
 
 describe('DiffOpenedCardsWithDialogPage', () => {
 	afterEach(() => {
@@ -11,7 +12,11 @@ describe('DiffOpenedCardsWithDialogPage', () => {
 	});
 	test('should render DiffOpenedCardsWithDialogPage component without crashing', async () => {
 		await act(async () => {
-			const { container } = render(<DiffOpenedCardsWithDialogPage />);
+			const { container } = render(
+				<TestableRouterUI>
+					<DiffOpenedCardsWithDialogPage />
+				</TestableRouterUI>
+			);
 			await waitFor(() => {
 				expect(container).toBeInTheDocument();
 			});
@@ -22,7 +27,9 @@ describe('DiffOpenedCardsWithDialogPage', () => {
 		await act(async () => {
 			const { container: desktop } = render(
 				<ResponsiveContext.Provider value={{ width: 1920 }}>
-					<DiffOpenedCardsWithDialogPage />
+					<TestableRouterUI>
+						<DiffOpenedCardsWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {
@@ -35,7 +42,9 @@ describe('DiffOpenedCardsWithDialogPage', () => {
 		await act(async () => {
 			const { container: laptop } = render(
 				<ResponsiveContext.Provider value={{ width: 1024 }}>
-					<DiffOpenedCardsWithDialogPage />
+					<TestableRouterUI>
+						<DiffOpenedCardsWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {
@@ -48,7 +57,9 @@ describe('DiffOpenedCardsWithDialogPage', () => {
 		await act(async () => {
 			const { container: mobile } = render(
 				<ResponsiveContext.Provider value={{ width: 360 }}>
-					<DiffOpenedCardsWithDialogPage />
+					<TestableRouterUI>
+						<DiffOpenedCardsWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {

@@ -1,8 +1,7 @@
 import React from 'react';
 import { styled } from 'styled-components';
 import { routesData } from './routes.data';
-import { createRoute, Link } from '@tanstack/react-router';
-import { rootRoute } from './root';
+import { createRootRoute, createRoute, Link } from '@tanstack/react-router';
 
 const UlStyled = styled.ul`
 	display: flex;
@@ -10,6 +9,8 @@ const UlStyled = styled.ul`
 	gap: 20px;
 	padding: 20px;
 `;
+
+export const rootRoute = createRootRoute();
 
 export const indexRoute = createRoute({
 	getParentRoute: () => rootRoute,
