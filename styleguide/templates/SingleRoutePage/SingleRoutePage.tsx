@@ -5,7 +5,7 @@ export const NavigateButton: FC = () => {
 	const navigate = useNavigate();
 
 	return (
-		<button type="button" onClick={() => navigate({ to: '/dialog' })}>
+		<button type="button" onClick={() => navigate({ to: '/dialog' } as any)}>
 			Show mobile dialog
 		</button>
 	);
@@ -92,5 +92,5 @@ export const CommonRoutingComponent: FC<ICommonRoutingComponentProps> = ({ child
 	});
 
 	const router = createRouter({ routeTree, history: memoryHistory });
-	return <RouterProvider router={router} />;
+	return <RouterProvider router={router as any} />;
 };

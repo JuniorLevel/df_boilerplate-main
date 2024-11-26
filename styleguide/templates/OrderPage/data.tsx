@@ -1,7 +1,3 @@
-import { FlexPrmt } from '@/primitives/FlexPrmt/FlexPrmt';
-import React, { ReactNode } from 'react';
-import { BadgePrmt } from '@/primitives/BadgePrmt/BadgePrmt';
-
 export const sidebarButtons = [
 	{
 		id: 1,
@@ -44,38 +40,5 @@ export const filters = [
 	{
 		title: 'Group 6',
 		description: 'Order by Scott',
-	},
-];
-
-export const items = [
-	{
-		key: 2,
-		label: (
-			<FlexPrmt gap={10} align="center">
-				<div>Chat</div>
-				<BadgePrmt count={3} />
-			</FlexPrmt>
-		) as ReactNode,
-		children: (<div>Content of Tab Pane 2</div>) as ReactNode,
-	},
-	{
-		key: 3,
-		label: (
-			<FlexPrmt gap={10} align="center">
-				<div>Dashboard</div>
-				<BadgePrmt count={3} />
-			</FlexPrmt>
-		) as ReactNode,
-		children: (<div>Content of Tab Pane 3</div>) as ReactNode,
-	},
-	{
-		key: 4,
-		label: (
-			<FlexPrmt gap={10} align="center">
-				<div>Documents</div>
-				<BadgePrmt count={3} />
-			</FlexPrmt>
-		) as ReactNode,
-		children: (<div>Content of Tab Pane 4</div>) as ReactNode,
 	},
 ];

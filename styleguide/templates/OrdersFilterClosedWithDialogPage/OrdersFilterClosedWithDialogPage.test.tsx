@@ -4,6 +4,7 @@ import { Context as ResponsiveContext } from 'react-responsive';
 import { render, act, waitFor, cleanup } from '@testing-library/react';
 import '../../../__mocks__/fileMock';
 import { OrdersFilterClosedWithDialogPage } from './OrdersFilterClosedWithDialogPage';
+import { TestableRouterUI } from '@/TestableRouterUI';
 
 describe('OrdersFilterClosedWithDialogPage', () => {
 	afterEach(() => {
@@ -11,7 +12,11 @@ describe('OrdersFilterClosedWithDialogPage', () => {
 	});
 	test('should render OrdersFilterClosedWithDialogPage component without crashing', async () => {
 		await act(async () => {
-			const { container } = render(<OrdersFilterClosedWithDialogPage />);
+			const { container } = render(
+				<TestableRouterUI>
+					<OrdersFilterClosedWithDialogPage />
+				</TestableRouterUI>
+			);
 			await waitFor(() => {
 				expect(container).toBeInTheDocument();
 			});
@@ -22,7 +27,9 @@ describe('OrdersFilterClosedWithDialogPage', () => {
 		await act(async () => {
 			const { container: desktop } = render(
 				<ResponsiveContext.Provider value={{ width: 1920 }}>
-					<OrdersFilterClosedWithDialogPage />
+					<TestableRouterUI>
+						<OrdersFilterClosedWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {
@@ -35,7 +42,9 @@ describe('OrdersFilterClosedWithDialogPage', () => {
 		await act(async () => {
 			const { container: laptop } = render(
 				<ResponsiveContext.Provider value={{ width: 1024 }}>
-					<OrdersFilterClosedWithDialogPage />
+					<TestableRouterUI>
+						<OrdersFilterClosedWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {
@@ -48,7 +57,9 @@ describe('OrdersFilterClosedWithDialogPage', () => {
 		await act(async () => {
 			const { container: mobile } = render(
 				<ResponsiveContext.Provider value={{ width: 360 }}>
-					<OrdersFilterClosedWithDialogPage />
+					<TestableRouterUI>
+						<OrdersFilterClosedWithDialogPage />
+					</TestableRouterUI>
 				</ResponsiveContext.Provider>
 			);
 			await waitFor(() => {

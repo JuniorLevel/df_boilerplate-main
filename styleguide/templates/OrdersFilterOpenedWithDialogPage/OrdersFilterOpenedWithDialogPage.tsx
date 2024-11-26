@@ -57,12 +57,6 @@ const DialogRoute = createRoute({
 	},
 });
 
-declare module '@tanstack/react-router' {
-	interface Register {
-		router: typeof router;
-	}
-}
-
 const routeTree = rootRoute.addChildren([IndexRoute, DialogRoute]);
 
 const memoryHistory = createMemoryHistory({
@@ -71,4 +65,4 @@ const memoryHistory = createMemoryHistory({
 
 const router = createRouter({ routeTree, history: memoryHistory });
 
-export const OrdersFilterOpenedWithDialogPage: FC = () => <RouterProvider router={router} />;
+export const OrdersFilterOpenedWithDialogPage: FC = () => <RouterProvider router={router as any} />;

@@ -7,9 +7,11 @@ interface ILogoPrmtProps {
 
 export const LogoPrmt: FC<ILogoPrmtProps> = ({ title }) => (
 	<div>
-		<span>
-			<OpenAIOutlined />
-		</span>
-		<span>{title}</span>
+		<a onClick={() => (window.location.pathname = '/')}>
+			<span>
+				<OpenAIOutlined />
+			</span>
+			<span>{title}</span>
+		</a>
 	</div>
 );

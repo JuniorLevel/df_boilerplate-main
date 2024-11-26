@@ -1,7 +1,7 @@
 import React, { FC, useContext } from 'react';
 import { Button } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
-import { useNavigate } from '@tanstack/react-router';
+import { useLocation, useNavigate } from '@tanstack/react-router';
 import { OrdersFilterContextPrmt } from '../../../OrdersFilterContextPrmt';
 
 interface IOrdersFilterCardAddItemDialogButtonPrmtProps {
@@ -12,9 +12,10 @@ export const OrdersFilterCardAddItemDialogButtonPrmt: FC<IOrdersFilterCardAddIte
 	const { setOrdersFilterItems } = useContext(OrdersFilterContextPrmt);
 
 	const navigate = useNavigate();
+	const location = useLocation();
 
 	const addFilterItem = () => {
-		navigate({ to: '/dialog' });
+		navigate({ to: `${location.pathname}/dialog` });
 		setOrdersFilterItems([...cardItem]);
 	};
 
